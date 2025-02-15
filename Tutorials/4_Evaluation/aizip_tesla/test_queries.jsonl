@@ -1,0 +1,1490 @@
+{"id": "0", "text": "I have a problem with Autopilot."}
+{"id": "1", "text": "How do I use the hazard warning flashers?"}
+{"id": "2", "text": "How do I open the glovebox?"}
+{"id": "3", "text": "How can I restart the touchscreen if it becomes unresponsive?"}
+{"id": "4", "text": "Is it safe to use a screen protector on the touchscreen?"}
+{"id": "5", "text": "What can I do if the touchscreen demonstrates unusual behavior?"}
+{"id": "6", "text": "How can I customize the climate control for the driver and passenger?"}
+{"id": "7", "text": "How do I expand the visualization to see more details about the road?"}
+{"id": "8", "text": "Where can I find the app launcher on the screen?"}
+{"id": "9", "text": "How do I customize the My Apps area on the touchscreen?"}
+{"id": "10", "text": "What happens if I try to add more apps than the My Apps area can hold?"}
+{"id": "11", "text": "How can I view detailed weather information on the touchscreen?"}
+{"id": "12", "text": "Why does the touchscreen display numbers in different colors based on AQI?"}
+{"id": "13", "text": "How do I manually enable Sentry Mode when I'm parked?"}
+{"id": "14", "text": "Why might the center console USB ports only support charging devices?"}
+{"id": "15", "text": "How do I disable the vehicle's GPS location access in the Tesla mobile app?"}
+{"id": "16", "text": "What should I do if a popup message appears on the touchscreen?"}
+{"id": "17", "text": "How can I restart the touchscreen if it becomes unresponsive?"}
+{"id": "18", "text": "How can I restart the touchscreen if it's unresponsive?"}
+{"id": "19", "text": "How do I adjust the display brightness manually?"}
+{"id": "20", "text": "What settings are available to customize the language on the touchscreen?"}
+{"id": "21", "text": "How do I enable Joe Mode to reduce the volume of chimes?"}
+{"id": "22", "text": "Can I change the units of measurement for distance and temperature in my Model Y?"}
+{"id": "23", "text": "How do I perform a factory reset before transferring ownership of my Model Y?"}
+{"id": "24", "text": "Can I use the USB ports in the center console to save Dashcam videos?"}
+{"id": "25", "text": "Do the rear USB-C ports in my Model Y communicate with the vehicle?"}
+{"id": "26", "text": "Where should I plug in my device if I want to minimize power consumption while using Dashcam?"}
+{"id": "27", "text": "Why is my phone not charging on the wireless charger?"}
+{"id": "28", "text": "Can I use any USB cable to connect my phone to the car?"}
+{"id": "29", "text": "Why won't my media player recognize my device when I use a USB hub?"}
+{"id": "30", "text": "Can I charge my phone while the NFC card is inside it?"}
+{"id": "31", "text": "What happens if I plug in a non-Tesla accessory and the socket gets hot?"}
+{"id": "32", "text": "Is it okay to leave my accessories plugged into the power socket?"}
+{"id": "33", "text": "What should I do if the red brake indicator stays on while driving?"}
+{"id": "34", "text": "How do I customize the shortcut cards on the car status display?"}
+{"id": "35", "text": "What does it mean if the amber brake indicator lights up on the touchscreen?"}
+{"id": "36", "text": "What should I do if the hydraulic boost compensation warning appears?"}
+{"id": "37", "text": "Why does the ABS indicator light up after I start the car?"}
+{"id": "38", "text": "I see an amber light on the parking brake indicator, what does this mean?"}
+{"id": "39", "text": "Why is the indicator not flashing when I prepare to drive the Model Y?"}
+{"id": "40", "text": "What should I do if the high beam headlights are disabled or unavailable?"}
+{"id": "41", "text": "The electronic stability control indicator is staying on; what does that mean?"}
+{"id": "42", "text": "Why does a blue snowflake icon appear on my dashboard?"}
+{"id": "43", "text": "What should I do if regenerative braking is limited?"}
+{"id": "44", "text": "Why is my vehicle power being limited suddenly?"}
+{"id": "45", "text": "What do the different colored lines around my Model Y mean?"}
+{"id": "46", "text": "How can I change the display from driving distance to percentage of battery remaining?"}
+{"id": "47", "text": "What does it mean if there's a blue outline around the speed limit icon?"}
+{"id": "48", "text": "What types of alert messages should I look out for on the touchscreen?"}
+{"id": "49", "text": "Why might some vehicles not be displayed on the touchscreen even if they are nearby?"}
+{"id": "50", "text": "How should I check my blind spot if the touchscreen might not show all vehicles?"}
+{"id": "51", "text": "How do I change the language for voice commands?"}
+{"id": "52", "text": "Can I use voice commands to unlock the doors?"}
+{"id": "53", "text": "What voice command should I use to turn on the driver's seat heater?"}
+{"id": "54", "text": "How can I use voice commands to find the nearest Supercharger?"}
+{"id": "55", "text": "Can I stop navigation using voice commands?"}
+{"id": "56", "text": "How do I mute voice guidance with a voice command?"}
+{"id": "57", "text": "How can I make a call using voice commands?"}
+{"id": "58", "text": "Can I adjust the brightness of the screen with my voice?"}
+{"id": "59", "text": "How do I listen to a specific song using voice commands?"}
+{"id": "60", "text": "How can I check if the cameras have completed the calibration process?"}
+{"id": "61", "text": "What should I do if the cameras still haven't calibrated after 100 miles?"}
+{"id": "62", "text": "How do I clear the camera calibration if a camera has been replaced?"}
+{"id": "63", "text": "Why is my autopilot feature disabled even though I'm trying to use it?"}
+{"id": "64", "text": "What should I do if there's condensation inside the camera enclosures?"}
+{"id": "65", "text": "How can dirty cameras affect the Autopilot performance on my Model Y?"}
+{"id": "66", "text": "How does the phone key automatically lock and unlock the Model Y?"}
+{"id": "67", "text": "What should I do if my phone key battery dies?"}
+{"id": "68", "text": "Can I use the key card to automatically lock and unlock the car?"}
+{"id": "69", "text": "How can I connect my phone to Model Y for hands-free operations?"}
+{"id": "70", "text": "What should I do if my Model Y can only detect three phone keys and I need to pair another?"}
+{"id": "71", "text": "How does using a smartphone's NFC feature to lock/unlock the car work?"}
+{"id": "72", "text": "What happens if I don't press the brake pedal within two minutes of scanning the key card?"}
+{"id": "73", "text": "Where is the key card reader located in the Model Y?"}
+{"id": "74", "text": "How do I power up the Model Y?"}
+{"id": "75", "text": "Why won't my Model Y lock or unlock when I walk away with my key card?"}
+{"id": "76", "text": "What should I do if my phone key is dead or lost?"}
+{"id": "77", "text": "How do I open the charge port door using the key fob?"}
+{"id": "78", "text": "How do I use my key fob if its battery is dead?"}
+{"id": "79", "text": "Can I pair the key fob to more than one Model Y at the same time?"}
+{"id": "80", "text": "How does passive locking and unlocking work with the key fob?"}
+{"id": "81", "text": "What should I do if my key fob stops unlocking the car?"}
+{"id": "82", "text": "How do I replace the battery in the key fob?"}
+{"id": "83", "text": "Is it normal for the passive locking and unlocking to stop working after a few minutes?"}
+{"id": "84", "text": "How can I check how many keys are currently assigned to my Model Y?"}
+{"id": "85", "text": "What should I do if I reach the key limit for my Model Y?"}
+{"id": "86", "text": "Can I rename a key card for one Model Y and have it show up with the same name on another Model Y?"}
+{"id": "87", "text": "What should I do if my phone does not connect to the Model Y via Bluetooth?"}
+{"id": "88", "text": "I am trying to set up the phone key, but the app isn't recognizing my device."}
+{"id": "89", "text": "How do I add a new key if I don't have a key card or key fob?"}
+{"id": "90", "text": "How do I add a new key card using the mobile app?"}
+{"id": "91", "text": "Why won't my cold key fob pair with the mobile app?"}
+{"id": "92", "text": "How do I remove a key card from my Tesla Model Y?"}
+{"id": "93", "text": "How do I open the car door from the inside?"}
+{"id": "94", "text": "Is there a way to lock and unlock the doors using the touchscreen?"}
+{"id": "95", "text": "Can the doors automatically lock when I walk away with the key?"}
+{"id": "96", "text": "Why isn't my Model Y automatically locking when I walk away?"}
+{"id": "97", "text": "How can I make sure the driver door only unlocks when I approach the vehicle?"}
+{"id": "98", "text": "I need to set up notifications for when I leave the car unlocked. How do I do that?"}
+{"id": "99", "text": "What should I do if a window does not open or close properly?"}
+{"id": "100", "text": "How can I prevent passengers from using the rear window switches?"}
+{"id": "101", "text": "Can the car notify me if a window is left open?"}
+{"id": "102", "text": "How do I calibrate a window if it's not working properly?"}
+{"id": "103", "text": "What should I do if the window issue continues after calibration?"}
+{"id": "104", "text": "Do the windows in Model Y protect against UV rays?"}
+{"id": "105", "text": "How do I open the rear trunk using the mobile app?"}
+{"id": "106", "text": "Can I stop the liftgate while it's moving, and how?"}
+{"id": "107", "text": "How can I adjust the opening height of the liftgate?"}
+{"id": "108", "text": "How do I set the liftgate to the desired height?"}
+{"id": "109", "text": "What should I be careful of when adjusting the liftgate height?"}
+{"id": "110", "text": "Can the liftgate height be adjusted if I have low ceilings in my garage?"}
+{"id": "111", "text": "How do I close the liftgate if it senses an obstruction?"}
+{"id": "112", "text": "Can I place heavy items on the parcel shelf?"}
+{"id": "113", "text": "What is the maximum weight I can load in the upper compartment of the rear trunk?"}
+{"id": "114", "text": "How can I check if the front trunk is properly closed?"}
+{"id": "115", "text": "What should I do if the front trunk won't latch properly?"}
+{"id": "116", "text": "Is there any warning if I try to drive with the front trunk open?"}
+{"id": "117", "text": "What happens if I drive with the front trunk open?"}
+{"id": "118", "text": "How do I lock the front trunk using the mobile app?"}
+{"id": "119", "text": "Why is the front trunk locking when I walk away from the car?"}
+{"id": "120", "text": "What happens if I load more than 110 lbs in the front trunk?"}
+{"id": "121", "text": "How can someone get out if they are accidentally locked in the front trunk?"}
+{"id": "122", "text": "Can objects inside the front trunk unintentionally open the hood by pressing the release button?"}
+{"id": "123", "text": "How do I open the main storage compartment in the center console?"}
+{"id": "124", "text": "Where can I find the coat hangers in the Model Y?"}
+{"id": "125", "text": "How do I lock the glovebox for additional security?"}
+{"id": "126", "text": "How do I ensure I'm sitting far enough from the airbag while still reaching the pedals?"}
+{"id": "127", "text": "Can the head supports in the front seats be adjusted?"}
+{"id": "128", "text": "What should I be cautious of when adjusting the front seat backrest?"}
+{"id": "129", "text": "Can I calibrate the driver seat myself, and how do I do it?"}
+{"id": "130", "text": "Is it okay to drive with the second row seats folded forward?"}
+{"id": "131", "text": "How do I adjust the second row seat backs in my Model Y with 5 seats?"}
+{"id": "132", "text": "How do I fold down the second row seat backs in my Model Y?"}
+{"id": "133", "text": "What precautions should I take before folding the rear seats?"}
+{"id": "134", "text": "How can I move the second row seats forward or backward in the 7-seater Model Y?"}
+{"id": "135", "text": "How do I access the third row seats in the 7-seater model?"}
+{"id": "136", "text": "What should I check after pushing the second row seat backs upright?"}
+{"id": "137", "text": "Is there a way to fold the third row seats down?"}
+{"id": "138", "text": "How do I adjust the head support for the second row outboard seats?"}
+{"id": "139", "text": "What should I do before folding the seat backs down?"}
+{"id": "140", "text": "Why is it important to ensure the seat backrests are locked in their upright position before driving?"}
+{"id": "141", "text": "How do I correctly remove a head support from the second row?"}
+{"id": "142", "text": "Can I use a seat cover on the front seats?"}
+{"id": "143", "text": "How do I ensure the head support is securely re-installed after removal?"}
+{"id": "144", "text": "How do I disable the seat belt reminder for an unoccupied rear seat?"}
+{"id": "145", "text": "Why does the seat belt reminder stay on even though all occupants are buckled?"}
+{"id": "146", "text": "What should I do if an object in the back seat triggers the seat belt reminder?"}
+{"id": "147", "text": "How do I cancel the seat belt reminder for an unoccupied seat?"}
+{"id": "148", "text": "What should I do if the seat belt is twisted?"}
+{"id": "149", "text": "How do I adjust the shoulder anchor height for the seat belt?"}
+{"id": "150", "text": "How do I check if the shoulder anchor of the seat belt is locked?"}
+{"id": "151", "text": "What should I do if the seat belt does not fully retract?"}
+{"id": "152", "text": "How should I wear the seat belt correctly if I'm pregnant?"}
+{"id": "153", "text": "What happens if I accidentally bend the seat belt pre-tensioner assembly?"}
+{"id": "154", "text": "How can I tell if a seat belt pre-tensioner needs to be replaced after a collision?"}
+{"id": "155", "text": "How do I test if my seat belts are working correctly?"}
+{"id": "156", "text": "What should I do if my seat belt doesn't retract smoothly?"}
+{"id": "157", "text": "Is it okay for two people to use the same seat belt at the same time?"}
+{"id": "158", "text": "What are the risks of wearing a seat belt over fragile items like eyeglasses?"}
+{"id": "159", "text": "What should I do if my seat belt shows signs of wear?"}
+{"id": "160", "text": "Can I use chemicals to clean the seat belts?"}
+{"id": "161", "text": "What action should I take if my seat belt does not fully retract?"}
+{"id": "162", "text": "Can I use the Easy Entry setting if my child is sitting in the second row?"}
+{"id": "163", "text": "What should I check regarding the airbag when a child is seated in the front passenger seat?"}
+{"id": "164", "text": "Is it safe to seat my child in the front passenger seat if the airbag is active?"}
+{"id": "165", "text": "What type of safety seat should I use for a 3-year-old?"}
+{"id": "166", "text": "How should I secure a booster seat if the combined weight of the child and seat is over 65 lbs?"}
+{"id": "167", "text": "Can I use the LATCH system for an infant's safety seat?"}
+{"id": "168", "text": "Can I use the LATCH anchors if the combined weight of my child and seat is over 65 lbs?"}
+{"id": "169", "text": "What should I do if the booster seat doesn't have an integrated head support?"}
+{"id": "170", "text": "Do I need to buckle the seat belt to stop the warning chime when installing a child restraint system?"}
+{"id": "171", "text": "How can I ensure a child's legs are safe when adjusting the seat?"}
+{"id": "172", "text": "What should I be careful about to prevent dislodging a child's seat?"}
+{"id": "173", "text": "How do I use the automatic locking retractor (ALR) to install a seat belt retained child safety seat?"}
+{"id": "174", "text": "What should I avoid when dressing my child for a trip in a child safety seat?"}
+{"id": "175", "text": "Can a LATCH method be used for all types of child safety seats?"}
+{"id": "176", "text": "How do I ensure the automatic locking retractor is properly engaged when installing a child safety seat?"}
+{"id": "177", "text": "When does the automatic locking retractor disengage?"}
+{"id": "178", "text": "Is the automatic locking retractor used for booster seats?"}
+{"id": "179", "text": "How do I properly engage the ALR on the seat belt after releasing it?"}
+{"id": "180", "text": "Can I use a LATCH anchor for a child safety seat in the center position of the second row?"}
+{"id": "181", "text": "How can I locate the anchors for attaching an upper tether strap?"}
+{"id": "182", "text": "What should I do if the location of the anchor points is not visible?"}
+{"id": "183", "text": "Can I use a child safety seat with dual-strap tethers in the third row?"}
+{"id": "184", "text": "How do I correctly position the tether straps for the center seating position?"}
+{"id": "185", "text": "How do I know if the child safety seat is too loose?"}
+{"id": "186", "text": "Why shouldn't I seat a child in the front passenger seat even with a child safety seat?"}
+{"id": "187", "text": "What should I do if I can't tighten the child safety seat enough?"}
+{"id": "188", "text": "Are there specific instructions to adjust the seat belt for larger children?"}
+{"id": "189", "text": "Can I use a seat belt extender for a child safety seat?"}
+{"id": "190", "text": "Is it safe to leave a child unattended in a child safety seat for a short period?"}
+{"id": "191", "text": "Where exactly are the curtain airbags located in my Model Y?"}
+{"id": "192", "text": "Do all passengers need to wear seat belts even if there are airbags?"}
+{"id": "193", "text": "Are the airbag locations different on a right hand drive Model Y?"}
+{"id": "194", "text": "Under what circumstances will my Model Y's front airbags not deploy?"}
+{"id": "195", "text": "What should I do before modifying my vehicle for a person with disabilities regarding airbag systems?"}
+{"id": "196", "text": "Can the seat-mounted side airbags deploy even if the other side of the vehicle is not impacted?"}
+{"id": "197", "text": "What does it mean if the airbag warning indicator stays on?"}
+{"id": "198", "text": "How can I make sure the passenger front airbag is turned off when a child is seated there?"}
+{"id": "199", "text": "I saw the airbag indicator on the touchscreen at the start of my drive. Is that normal?"}
+{"id": "200", "text": "Why does the airbag status sometimes show incorrectly when I first power on my Model Y?"}
+{"id": "201", "text": "What should I do if the passenger airbag status indicator does not match the situation?"}
+{"id": "202", "text": "Can heavy objects on the seat affect the Occupant Classification System?"}
+{"id": "203", "text": "Why is my airbag status incorrect even after removing all items from the seat?"}
+{"id": "204", "text": "What should I do if the front passenger airbag isn't activating based on weight?"}
+{"id": "205", "text": "Is it safe to use seat covers on the Model Y?"}
+{"id": "206", "text": "Why is my front passenger airbag not turning on?"}
+{"id": "207", "text": "Is it safe to use seat covers on the front passenger seat?"}
+{"id": "208", "text": "What should I do if the Occupant Classification System seems to be malfunctioning?"}
+{"id": "209", "text": "Am I allowed to use seat covers in my Model Y?"}
+{"id": "210", "text": "What are the consequences of incorrect seating positions?"}
+{"id": "211", "text": "Why is it important to avoid reclining the backrest while the vehicle is moving?"}
+{"id": "212", "text": "What should I do if the airbag inflates during a collision?"}
+{"id": "213", "text": "Why are my vehicle's windows going to the vent position after a collision?"}
+{"id": "214", "text": "Can I use seat covers in my Model Y?"}
+{"id": "215", "text": "Can I use seat covers on Model Y?"}
+{"id": "216", "text": "Where is the safest place to seat children in the Model Y?"}
+{"id": "217", "text": "Is it safe to attach items to the steering wheel?"}
+{"id": "218", "text": "What should I do if the airbag inflates?"}
+{"id": "219", "text": "Is it safe to touch airbag components right after inflation?"}
+{"id": "220", "text": "How long does it take for airbag components to cool down after inflation?"}
+{"id": "221", "text": "How can I set up the Tesla mobile app for my Model Y?"}
+{"id": "222", "text": "Is it necessary to have both Bluetooth and internet service active for the mobile app to work?"}
+{"id": "223", "text": "What features can I access from the Tesla mobile app's home screen?"}
+{"id": "224", "text": "How can I open the front trunk using the mobile app?"}
+{"id": "225", "text": "Can I view and customize notifications from the mobile app?"}
+{"id": "226", "text": "I forgot my PIN and can't use the touchscreen. How do I enable Keyless Driving from the app?"}
+{"id": "227", "text": "How do I enable Dog Mode?"}
+{"id": "228", "text": "What does Cabin Overheat Protection do?"}
+{"id": "229", "text": "Can I use the mobile app to defrost the windshield?"}
+{"id": "230", "text": "How do I add a second driver using the Tesla mobile app?"}
+{"id": "231", "text": "What Tesla mobile app version do I need to grant access to an additional driver?"}
+{"id": "232", "text": "How do I request roadside assistance using the roadside resources?"}
+{"id": "233", "text": "How can I connect my Tesla Model Y to a Wi-Fi network?"}
+{"id": "234", "text": "What should I do if a known Wi-Fi network doesn't appear on the list?"}
+{"id": "235", "text": "Does Model Y support connections to captive Wi-Fi networks?"}
+{"id": "236", "text": "Why is my vehicle's Wi-Fi connection slow?"}
+{"id": "237", "text": "How do I reconnect to a Wi-Fi network on my vehicle?"}
+{"id": "238", "text": "What should I do if the Wi-Fi signal strength is low?"}
+{"id": "239", "text": "How do I pair my phone with the Model Y for Bluetooth?"}
+{"id": "240", "text": "Can I connect more than one Bluetooth device at the same time?"}
+{"id": "241", "text": "What do I do if my phone is not connecting to Bluetooth in the Model Y?"}
+{"id": "242", "text": "How do I pair my phone to the Model Y?"}
+{"id": "243", "text": "Can I access my phone's contacts and recent calls through the car?"}
+{"id": "244", "text": "I am having trouble connecting my phone via Bluetooth."}
+{"id": "245", "text": "How do I disconnect my phone from the Model Y but keep it paired?"}
+{"id": "246", "text": "What happens if I unpair my phone from the Bluetooth?"}
+{"id": "247", "text": "Does my phone automatically disconnect from Bluetooth when I leave the car?"}
+{"id": "248", "text": "How do I connect my phone to Model Y if it\u2019s not automatically connecting?"}
+{"id": "249", "text": "What should I do if my Bluetooth keeps disconnecting?"}
+{"id": "250", "text": "Is there a way to prioritize which phone connects to Model Y?"}
+{"id": "251", "text": "How do I update the Tesla mobile app to ensure it's up to date?"}
+{"id": "252", "text": "I'm having trouble with my phone key. How do I verify it's properly set up in the Tesla mobile app?"}
+{"id": "253", "text": "What should I do if my vehicle's Bluetooth isn't working even after restarting the touchscreen and rebooting the vehicle?"}
+{"id": "254", "text": "How can I send a text message using voice commands?"}
+{"id": "255", "text": "Where do I find my recent calls in the phone app?"}
+{"id": "256", "text": "How do I make a phone call to a contact saved as a favorite?"}
+{"id": "257", "text": "Can I make a call directly from the map on the Model Y screen?"}
+{"id": "258", "text": "How do I sync my calendar with the Tesla mobile app?"}
+{"id": "259", "text": "What should I do if I'm unable to hear calls clearly through the speakers?"}
+{"id": "260", "text": "How do I give permission to share my calendar with the Tesla app?"}
+{"id": "261", "text": "What happens if my calendar event includes an address?"}
+{"id": "262", "text": "I want to navigate to a location from a calendar event. How do I do that?"}
+{"id": "263", "text": "How do I initiate a phone call from the calendar in Model Y?"}
+{"id": "264", "text": "Can I attend a Zoom meeting using my vehicle's touchscreen?"}
+{"id": "265", "text": "What happens to the Zoom call video when I start driving my Model Y?"}
+{"id": "266", "text": "How do I set up myQ if my garage door isn't compatible?"}
+{"id": "267", "text": "Is there a subscription fee for using the myQ app with my car?"}
+{"id": "268", "text": "What do I need to do on the touchscreen to pair my garage with the Model Y?"}
+{"id": "269", "text": "How do I determine which mode my garage door is compatible with?"}
+{"id": "270", "text": "Can I use HomeLink if my garage door doesn't have a remote control?"}
+{"id": "271", "text": "Is my vehicle equipped with the HomeLink Universal Transceiver?"}
+{"id": "272", "text": "How do I change the transmit mode for my HomeLink device?"}
+{"id": "273", "text": "What should I be careful about when changing modes for older vehicles?"}
+{"id": "274", "text": "What precautions should I take while programming HomeLink?"}
+{"id": "275", "text": "How do I program my HomeLink device?"}
+{"id": "276", "text": "What should I do if my HomeLink device doesn't work after programming?"}
+{"id": "277", "text": "Can I automate my HomeLink device to open and close without using the touchscreen?"}
+{"id": "278", "text": "How can I adjust the distance at which the garage door opens?"}
+{"id": "279", "text": "What do I do if my HomeLink doesn't trigger when I get close to my garage?"}
+{"id": "280", "text": "Can I make the car chime when the garage door starts opening or closing?"}
+{"id": "281", "text": "How do I reset the location for my HomeLink device?"}
+{"id": "282", "text": "How can I delete a HomeLink device from my settings?"}
+{"id": "283", "text": "Why should I delete my HomeLink devices if I sell my Model Y?"}
+{"id": "284", "text": "What if the headlights don't flash while programming HomeLink in Standard Mode?"}
+{"id": "285", "text": "How close do I need to be to the garage door in D-Mode or UR-Mode?"}
+{"id": "286", "text": "I'm having trouble with the HomeLink programming; should I try multiple short presses instead of one long press?"}
+{"id": "287", "text": "How do I use the touchscreen to connect my garage device?"}
+{"id": "288", "text": "What should I do if my device is no longer in learning mode?"}
+{"id": "289", "text": "Who can I contact for HomeLink compatibility questions?"}
+{"id": "290", "text": "How do I manually lock the Model Y after I leave?"}
+{"id": "291", "text": "What should I do if the car doesn't detect my phone key?"}
+{"id": "292", "text": "Is it possible to power off the car while I'm sitting inside without it turning back on?"}
+{"id": "293", "text": "How do I power cycle my Model Y?"}
+{"id": "294", "text": "What happens if I shift into Neutral and then open the door?"}
+{"id": "295", "text": "Why does Model Y automatically shift into Park sometimes?"}
+{"id": "296", "text": "How do I adjust the steering wheel closer to me?"}
+{"id": "297", "text": "What does the Light setting for steering weight do?"}
+{"id": "298", "text": "Can I use the left scroll button to control climate settings?"}
+{"id": "299", "text": "How do I initiate a voice command using the right scroll button?"}
+{"id": "300", "text": "Can I adjust the set speed while using Traffic-Aware Cruise Control with the right scroll button?"}
+{"id": "301", "text": "How do I change the Full Self-Driving (Supervised) profile to Chill using the right scroll button?"}
+{"id": "302", "text": "How do I turn on the lights for the scroll buttons?"}
+{"id": "303", "text": "My steering wheel doesn't seem to heat up. Is it supposed to?"}
+{"id": "304", "text": "How do I restart the touchscreen?"}
+{"id": "305", "text": "How do I adjust the exterior mirrors?"}
+{"id": "306", "text": "Can I turn off the auto dim feature on the mirrors?"}
+{"id": "307", "text": "Is there a way to automatically fold the mirrors at a specific location?"}
+{"id": "308", "text": "How do I save a location for automatic mirror folding?"}
+{"id": "309", "text": "Can I manually fold and unfold the mirrors if my car loses power?"}
+{"id": "310", "text": "What should I do if my mirrors don't fold because of ice accumulation?"}
+{"id": "311", "text": "Can I disable the chime sounds when shifting gears?"}
+{"id": "312", "text": "How do I shift into Neutral when the car is moving?"}
+{"id": "313", "text": "What happens if I leave the driver's seat while in Neutral?"}
+{"id": "314", "text": "How do I activate Autopilot with a single pull?"}
+{"id": "315", "text": "What should I do if my Model Y won't shift out of Park?"}
+{"id": "316", "text": "Can I unlock all doors while the car is in Park?"}
+{"id": "317", "text": "What should I do if the vehicle doesn't automatically shift into Park?"}
+{"id": "318", "text": "When should I use this method to stop the vehicle?"}
+{"id": "319", "text": "Why might the vehicle not automatically shift into Park?"}
+{"id": "320", "text": "How do I override the Auto High Beam setting?"}
+{"id": "321", "text": "What happens if I pull the turn signal stalk when the lights controls are already on the touchscreen?"}
+{"id": "322", "text": "Do the lights settings I choose remain active after I restart my car?"}
+{"id": "323", "text": "How do I turn on the fog lights?"}
+{"id": "324", "text": "Why are my rear tail lights not turning on during the day?"}
+{"id": "325", "text": "How can I manually turn on a dome light?"}
+{"id": "326", "text": "How do I temporarily turn on high beam headlights?"}
+{"id": "327", "text": "What does it mean when the high beam indicator shows that Adaptive Headlights is enabled but the high beams are not on?"}
+{"id": "328", "text": "How can I enable or disable Adaptive Headlights?"}
+{"id": "329", "text": "How do I turn off the headlights when exiting the car?"}
+{"id": "330", "text": "Can I manually adjust the angle of the headlights?"}
+{"id": "331", "text": "What should I consider before adjusting the headlights myself?"}
+{"id": "332", "text": "What should I do if the turn signals stop working automatically?"}
+{"id": "333", "text": "Do I need to manually cancel the turn signals after changing a lane if Automatic Turn Signals is set to Off?"}
+{"id": "334", "text": "Is it normal to see condensation in the car's head or tail lights after a car wash?"}
+{"id": "335", "text": "How do I adjust the wiper speed using the touchscreen?"}
+{"id": "336", "text": "What happens when I press the wiper button while the car is in Autosteer mode?"}
+{"id": "337", "text": "Is the Auto setting for wipers reliable if it's in BETA?"}
+{"id": "338", "text": "How can I manually operate the wipers if I'm uncertain about using the Auto setting?"}
+{"id": "339", "text": "What should I do to prevent the wipers from getting damaged during a car wash?"}
+{"id": "340", "text": "How do I use the windshield washers to clean the windshield?"}
+{"id": "341", "text": "What should I do if the ABS indicator lights up while I'm driving?"}
+{"id": "342", "text": "I'm feeling a pulsing sensation when braking; is this normal?"}
+{"id": "343", "text": "The red brake indicator came on while driving, what action should I take?"}
+{"id": "344", "text": "What should I do if I see an amber brake indicator on the touchscreen?"}
+{"id": "345", "text": "How do I stop the car if the brakes aren't working properly?"}
+{"id": "346", "text": "Can I rely on Automatic Emergency Braking to prevent collisions?"}
+{"id": "347", "text": "What should I do if my brakes fail?"}
+{"id": "348", "text": "How do I stop the vehicle in an emergency?"}
+{"id": "349", "text": "I have a problem with my brakes not functioning properly."}
+{"id": "350", "text": "What should I do if the hazard warning lights keep flashing after a quick stop?"}
+{"id": "351", "text": "How does hydraulic fade compensation work in cold weather?"}
+{"id": "352", "text": "Are there any precautions I need to take when towing a trailer and braking suddenly?"}
+{"id": "353", "text": "What should I do if the brake booster fails?"}
+{"id": "354", "text": "How does the regenerative braking affect my driving range?"}
+{"id": "355", "text": "Why does the brake pedal feel stiffer if 'Apply Brakes When Regenerative Braking is Limited' is enabled?"}
+{"id": "356", "text": "I'm noticing less regenerative braking after installing winter tires, what should I do?"}
+{"id": "357", "text": "Can I adjust the regenerative braking level on my Model Y?"}
+{"id": "358", "text": "What should I do to maintain vehicle stability in snowy conditions?"}
+{"id": "359", "text": "What are the different stopping modes available in my Model Y?"}
+{"id": "360", "text": "How does the Creep mode work and when should I use it?"}
+{"id": "361", "text": "Can Hold mode help reduce brake wear on my Model Y?"}
+{"id": "362", "text": "What happens when Model Y is close to a complete stop?"}
+{"id": "363", "text": "Does my chosen Stopping Mode setting sync to my driver profile?"}
+{"id": "364", "text": "What should I do if I want the vehicle to hold on a slope?"}
+{"id": "365", "text": "How can I engage the parking brake without using the touchscreen?"}
+{"id": "366", "text": "What do I do if the parking brake indicator lights up amber?"}
+{"id": "367", "text": "Is it safe to rely on regenerative braking in icy conditions?"}
+{"id": "368", "text": "What should I do if my Model Y starts sliding down a snowy hill?"}
+{"id": "369", "text": "How do I know if my brake pads need replacing?"}
+{"id": "370", "text": "When should the brake calipers be cleaned and lubricated?"}
+{"id": "371", "text": "What should I do if Park Assist doesn't alert me when reversing?"}
+{"id": "372", "text": "Why is Park Assist not working when I attach a trailer to my Model Y?"}
+{"id": "373", "text": "Can I rely solely on Park Assist to ensure there are no objects around my Model Y when parking?"}
+{"id": "374", "text": "What do the red and yellow colors mean on the Park Assist view?"}
+{"id": "375", "text": "How do I switch to Park Assist view when I'm in the Camera app?"}
+{"id": "376", "text": "What should I do if the Park Assist view doesn't provide feedback?"}
+{"id": "377", "text": "How do I turn off the Park Assist chimes?"}
+{"id": "378", "text": "What causes false warnings with Park Assist?"}
+{"id": "379", "text": "Can Park Assist detect low barriers effectively?"}
+{"id": "380", "text": "How can I tell if Vehicle Hold is actively braking my Model Y?"}
+{"id": "381", "text": "What happens if I leave the car with Vehicle Hold on for an extended time?"}
+{"id": "382", "text": "How do I disengage Vehicle Hold on my Model Y?"}
+{"id": "383", "text": "What should I do if the traction control indicator stays on?"}
+{"id": "384", "text": "When should I consider turning off traction control?"}
+{"id": "385", "text": "How does Off-Road Assist help when driving off-road?"}
+{"id": "386", "text": "What should I do after using Off-Road Assist to make sure traction control is back on?"}
+{"id": "387", "text": "Can I use Slip Start with Autopilot?"}
+{"id": "388", "text": "Why did Off-Road Assist turn off when I engaged cruise control?"}
+{"id": "389", "text": "What does the Chill mode display on the touchscreen?"}
+{"id": "390", "text": "How can adjusting the acceleration mode improve cabin heating efficiency?"}
+{"id": "391", "text": "Why does the Battery require time to warm up after increasing the acceleration mode?"}
+{"id": "392", "text": "How do I enable Track Mode on my Model Y?"}
+{"id": "393", "text": "Why can't I use Track Mode on public roads?"}
+{"id": "394", "text": "What does the color-coded image in Track Mode indicate about my car's status?"}
+{"id": "395", "text": "How do I turn off Track Mode?"}
+{"id": "396", "text": "Why are Autopilot features unavailable in Track Mode?"}
+{"id": "397", "text": "Can I customize the Track Mode settings?"}
+{"id": "398", "text": "How do I adjust the Handling Balance for my Model Y?"}
+{"id": "399", "text": "What does a rear-biased setup do in Track Mode?"}
+{"id": "400", "text": "Can I customize the Stability Assist settings in Track Mode?"}
+{"id": "401", "text": "What does the regenerative braking setting do?"}
+{"id": "402", "text": "How can I enable Post-Drive Cooling?"}
+{"id": "403", "text": "Can I use the center console USB ports for recording videos?"}
+{"id": "404", "text": "How do I use the Lap Timer in Track Mode?"}
+{"id": "405", "text": "What do the different color indicators mean for vehicle health in Track Mode?"}
+{"id": "406", "text": "I'm concerned about the brakes overheating. What should I do if they display red?"}
+{"id": "407", "text": "Why is the component displayed in red when I enter Track Mode?"}
+{"id": "408", "text": "Does using Track Mode affect my vehicle warranty?"}
+{"id": "409", "text": "How can I switch the G-Meter display to a different card?"}
+{"id": "410", "text": "How do I create a new driver profile on the touchscreen?"}
+{"id": "411", "text": "What happens if I change the seat position after selecting a driver profile?"}
+{"id": "412", "text": "How can I delete a driver profile from the Model Y?"}
+{"id": "413", "text": "How do I set up a new Tesla Profile?"}
+{"id": "414", "text": "Why don't my seat and mirror positions restore correctly across different vehicle models?"}
+{"id": "415", "text": "What happens to a driver's Tesla Profile if I remove their access to my vehicle?"}
+{"id": "416", "text": "How do I remove a vehicle from my Tesla account using the mobile app?"}
+{"id": "417", "text": "What settings are automatically saved to my driver's profile in the Model Y?"}
+{"id": "418", "text": "How can I tell if my driver profile settings have been saved?"}
+{"id": "419", "text": "How do I link a driver profile to my key?"}
+{"id": "420", "text": "What happens if I don't check the Use Easy Entry box?"}
+{"id": "421", "text": "What restrictions are applied when the car is in Valet mode?"}
+{"id": "422", "text": "Why can't I access the navigation system for Home and Work locations?"}
+{"id": "423", "text": "How do I turn off Valet mode using the mobile app?"}
+{"id": "424", "text": "I forgot my valet PIN. How can I reset it?"}
+{"id": "425", "text": "What happens if I accidentally use Valet mode while towing a trailer?"}
+{"id": "426", "text": "How can I cancel Valet mode if I don't have my PIN?"}
+{"id": "427", "text": "I need help understanding how Valet mode affects towing."}
+{"id": "428", "text": "How do I display trip information on the touchscreen?"}
+{"id": "429", "text": "Can I see the total energy used since my last charge?"}
+{"id": "430", "text": "How do I reset a trip meter?"}
+{"id": "431", "text": "Why is there a black screen instead of the rear view camera feed?"}
+{"id": "432", "text": "How can I display the view from the rear view cameras without shifting into Reverse?"}
+{"id": "433", "text": "What should I do if my rear view camera is not working properly?"}
+{"id": "434", "text": "How do I pause the Pedestrian Warning System on my Model Y?"}
+{"id": "435", "text": "Why can't I turn off the Pedestrian Warning System on my car which was manufactured after November 2021?"}
+{"id": "436", "text": "I don't hear the Pedestrian Warning System sound; what should I do?"}
+{"id": "437", "text": "What is the maximum weight the hitch receiver can support for vertical loads?"}
+{"id": "438", "text": "Do I need Tesla-approved accessories to use the tow package?"}
+{"id": "439", "text": "Where should I store the ball mount when it's not in use to prevent rust and corrosion?"}
+{"id": "440", "text": "How do I know if my Model Y is equipped with the tow package?"}
+{"id": "441", "text": "I have a hitch carrier and two bicycles, each weighing 30 lbs. Is that within the weight limit?"}
+{"id": "442", "text": "I want to tow a trailer with five passengers in my Model Y. What's the maximum trailer weight I can tow with 20-inch wheels?"}
+{"id": "443", "text": "What should I consider about speed limits when towing in my electric car?"}
+{"id": "444", "text": "Do I need a separate braking system for trailers over a certain weight?"}
+{"id": "445", "text": "How does carrying extra equipment or passengers affect the towing capacity?"}
+{"id": "446", "text": "What tire pressure should I maintain when towing with my Model Y?"}
+{"id": "447", "text": "Can I use the trailer hitch to transport my Model Y?"}
+{"id": "448", "text": "Is towing damage covered under warranty for Model Y?"}
+{"id": "449", "text": "What should I do if my Model Y tire has been temporarily repaired but I need to tow a trailer?"}
+{"id": "450", "text": "How do I ensure that the trailer lights are working properly before towing?"}
+{"id": "451", "text": "Is there a specific way to connect safety chains when towing a trailer with my Model Y?"}
+{"id": "452", "text": "How do I properly secure cargo in a trailer?"}
+{"id": "453", "text": "What happens to the vehicle's range when towing a trailer?"}
+{"id": "454", "text": "Why is it important to reduce driving speed while towing?"}
+{"id": "455", "text": "How do I ensure Trailer Mode is properly engaged?"}
+{"id": "456", "text": "What should I do if Trailer Mode displays a red icon while towing?"}
+{"id": "457", "text": "How can I check if the trailer lights are functioning correctly?"}
+{"id": "458", "text": "Why is there a red icon after I've resolved the trailer light issues?"}
+{"id": "459", "text": "How does Traffic-Aware Cruise Control behave differently in Trailer Mode?"}
+{"id": "460", "text": "Do I need a separate brake controller for towing a trailer over 1650 lbs with my Model Y?"}
+{"id": "461", "text": "How do I connect the pigtail connector to the vehicle wiring?"}
+{"id": "462", "text": "What should I do if I need to park on a hill with a trailer?"}
+{"id": "463", "text": "How does the electronic stability control system help with trailer sway?"}
+{"id": "464", "text": "How does the Trailer Sway Mitigation system work?"}
+{"id": "465", "text": "What should I do if I need a ball mount for my Model Y?"}
+{"id": "466", "text": "Can I use any ball mount with the Model Y, or are there specific requirements?"}
+{"id": "467", "text": "How do I attach a ball mount to the hitch?"}
+{"id": "468", "text": "What steps do I need to take to ensure the trailer lights are working?"}
+{"id": "469", "text": "What should I do if the red Trailer Mode icon appears on the touchscreen while towing?"}
+{"id": "470", "text": "How can I check which type of low voltage battery my vehicle has?"}
+{"id": "471", "text": "What precautions should I take with the trailer's electrical cable?"}
+{"id": "472", "text": "How does towing a trailer affect my vehicle's driving range?"}
+{"id": "473", "text": "What do I need to activate Enhanced Autopilot?"}
+{"id": "474", "text": "Can I use Autopark for both parallel and perpendicular parking?"}
+{"id": "475", "text": "Does Autosteer require me to always keep my hands on the steering wheel?"}
+{"id": "476", "text": "Can Smart Summon navigate around pedestrians?"}
+{"id": "477", "text": "Is it safe to take my hands off the wheel when using Full Self-Driving Capability?"}
+{"id": "478", "text": "What should I do if I receive warnings while Autopilot is engaged?"}
+{"id": "479", "text": "What should I do if Autopilot disengages during my drive?"}
+{"id": "480", "text": "Is Autopilot a reliable collision warning system?"}
+{"id": "481", "text": "Why is it important to keep my hands on the wheel when using Autopilot?"}
+{"id": "482", "text": "What should I do if Autopilot features are not available after cleaning the cameras?"}
+{"id": "483", "text": "Why might Autopilot not work properly in tunnels?"}
+{"id": "484", "text": "How does bright sunlight affect the performance of Autopilot?"}
+{"id": "485", "text": "Can I use Autosteer if my headlights are turned off?"}
+{"id": "486", "text": "What happens if I drive on a residential road using Autopilot?"}
+{"id": "487", "text": "At what speed can I use Traffic-Aware Cruise Control if there's a car ahead of me?"}
+{"id": "488", "text": "Can I use Full Self-Driving if I'm driving more than 85 mph?"}
+{"id": "489", "text": "Why does Full Self-Driving automatically enable Auto High Beam when engaged?"}
+{"id": "490", "text": "What should the headlight settings be to use Full Self-Driving?"}
+{"id": "491", "text": "How does Traffic-Aware Cruise Control work?"}
+{"id": "492", "text": "Can I use Autosteer in all kinds of weather conditions?"}
+{"id": "493", "text": "What should I do if the cameras are dirty and affect Autopilot performance?"}
+{"id": "494", "text": "How do I customize the Autopilot settings on my Model Y?"}
+{"id": "495", "text": "What happens if the cameras or sensors are obstructed while using Autopilot?"}
+{"id": "496", "text": "Can I use Traffic-Aware Cruise Control without engaging Autosteer?"}
+{"id": "497", "text": "How do I engage Traffic-Aware Cruise Control?"}
+{"id": "498", "text": "What does it mean when the cruising speed is displayed in gray on the touchscreen?"}
+{"id": "499", "text": "Is there a sound notification when Traffic-Aware Cruise Control becomes active?"}
+{"id": "500", "text": "How do I set Autopilot Activation to Single Pull?"}
+{"id": "501", "text": "What should I do if Autosteer is temporarily unavailable?"}
+{"id": "502", "text": "How can I tell if Autosteer is currently active?"}
+{"id": "503", "text": "Why does Autosteer limit my speed to 45 mph when it can't detect the speed limit?"}
+{"id": "504", "text": "Can I manually accelerate beyond the limited speed when Autosteer is active?"}
+{"id": "505", "text": "What happens if there is a vehicle in my blind spot when I attempt to use Auto Lane Change?"}
+{"id": "506", "text": "What happens if Autopilot can't change lanes due to inadequate data?"}
+{"id": "507", "text": "Does the touchscreen show alerts during a lane change?"}
+{"id": "508", "text": "Do I need to engage the turn signal again if I want to move into another lane after a lane change?"}
+{"id": "509", "text": "Can I disable speed-based lane changes on Navigate on Autopilot?"}
+{"id": "510", "text": "What happens if I don't confirm a lane change within 3 seconds?"}
+{"id": "511", "text": "How do I get notified about upcoming lane changes with Navigate on Autopilot?"}
+{"id": "512", "text": "How do I turn on Navigate on Autopilot if Enable at Start of Every Trip is off?"}
+{"id": "513", "text": "What does it mean when the Navigate on Autopilot icon is blue?"}
+{"id": "514", "text": "Can Navigate on Autopilot change lanes for me automatically?"}
+{"id": "515", "text": "What happens if I miss a route-based lane change suggestion?"}
+{"id": "516", "text": "How does Navigate on Autopilot handle HOV lanes?"}
+{"id": "517", "text": "Can Navigate on Autopilot always exit at an off-ramp on its own?"}
+{"id": "518", "text": "What happens if I don't keep my hands on the steering wheel while using Navigate on Autopilot?"}
+{"id": "519", "text": "How do I know when Navigate on Autopilot has reverted to Autosteer?"}
+{"id": "520", "text": "What causes Autosteer to cancel while driving?"}
+{"id": "521", "text": "What happens when Autosteer cancels while I am driving?"}
+{"id": "522", "text": "Why does the visualization change from a single blue line to two blue lines when Navigate on Autopilot cancels?"}
+{"id": "523", "text": "Does the car coast or slow down when Traffic-Aware Cruise Control cancels?"}
+{"id": "524", "text": "What does it mean when the steering wheel icon turns blue?"}
+{"id": "525", "text": "How can I tell if Navigate on Autopilot is active?"}
+{"id": "526", "text": "Why are the lane markings highlighted in blue on the visualization?"}
+{"id": "527", "text": "How do I preview the self-driving visualization?"}
+{"id": "528", "text": "Can Autosteer center the car in the lane without lane markings?"}
+{"id": "529", "text": "How do I change the following distance behind the vehicle in front?"}
+{"id": "530", "text": "How do I adjust the following distance on my Model Y?"}
+{"id": "531", "text": "What happens if I change the scroll button when Full Self-Driving is active?"}
+{"id": "532", "text": "What is the closest following distance I can set for Autopilot?"}
+{"id": "533", "text": "Why did my Model Y go into HOLD state while it was on Autopilot?"}
+{"id": "534", "text": "How do I resume cruising after the Autopilot has gone into HOLD state?"}
+{"id": "535", "text": "What happens if I engage the turn signal near an exit but do not actually exit?"}
+{"id": "536", "text": "How do I override the speed adjustment when using Traffic-Aware Cruise Control on an off-ramp?"}
+{"id": "537", "text": "What happens to the set speed after I merge onto a different highway?"}
+{"id": "538", "text": "What should I do if Traffic-Aware Cruise Control doesn't automatically reduce speed on an interchange?"}
+{"id": "539", "text": "How do I use Overtake Acceleration with Traffic-Aware Cruise Control?"}
+{"id": "540", "text": "What should I do if the car gives a stop light or stop sign warning?"}
+{"id": "541", "text": "How does the Model Y respond to emergency vehicle lights when using Autosteer at night?"}
+{"id": "542", "text": "What should I do if the Autosteer doesn't detect my hands even though I'm touching the steering wheel?"}
+{"id": "543", "text": "Why did Autopilot get disabled for my current drive?"}
+{"id": "544", "text": "What happens if I ignore Autosteer's prompts to apply force to the steering wheel multiple times?"}
+{"id": "545", "text": "What happens if I get five Autopilot strikeouts?"}
+{"id": "546", "text": "How does the Autopilot system warn me to pay attention?"}
+{"id": "547", "text": "Can someone else using my car cause the Autopilot suspension?"}
+{"id": "548", "text": "How do I check how many strikeouts I have left before Autopilot access is suspended?"}
+{"id": "549", "text": "What happens if my access to Autopilot is suspended?"}
+{"id": "550", "text": "What should I do if Autosteer tells me to take over immediately?"}
+{"id": "551", "text": "Can Traffic Light and Stop Sign Control stop at green lights?"}
+{"id": "552", "text": "What should I do if the cameras are obstructed?"}
+{"id": "553", "text": "How do I ensure the maps are up to date for Traffic Light and Stop Sign Control?"}
+{"id": "554", "text": "How do I enable Traffic Light and Stop Sign Control on my Model Y?"}
+{"id": "555", "text": "What should I do if the traffic light changes while I'm approaching the intersection with Traffic Light and Stop Sign Control active?"}
+{"id": "556", "text": "Why does my Model Y stop even at green lights when Autosteer is active?"}
+{"id": "557", "text": "Why does my Model Y not turn at intersections even when I'm in a turning lane?"}
+{"id": "558", "text": "How can I make my Model Y proceed through an intersection when Autopilot is active but the car is stopped?"}
+{"id": "559", "text": "What should I do if the touchscreen doesn't display a red stop line at an intersection?"}
+{"id": "560", "text": "What should I do if the Traffic Light and Stop Sign Control inaccurately detects a traffic light?"}
+{"id": "561", "text": "Why does my Model Y slow down unexpectedly at intersections?"}
+{"id": "562", "text": "How do I confirm to proceed through an intersection if the traffic light is green?"}
+{"id": "563", "text": "Why does my Model Y slow down at a green traffic light?"}
+{"id": "564", "text": "What should I do if I want to continue through a green light and there's no car in front of me?"}
+{"id": "565", "text": "Does Model Y stop automatically if the traffic light turns yellow after I've confirmed to proceed?"}
+{"id": "566", "text": "How do I make my Model Y go through a red light if it's safe to proceed?"}
+{"id": "567", "text": "What should I do if my car stops at a red stop line on the touchscreen?"}
+{"id": "568", "text": "When does Model Y resume its set cruising speed after slowing down for a traffic light?"}
+{"id": "569", "text": "What should I do if Model Y doesn't stop at a T-junction without a stop sign?"}
+{"id": "570", "text": "Why does Model Y ignore my confirmation to proceed through a stop sign before stopping?"}
+{"id": "571", "text": "Do I need to turn the steering wheel manually at intersections when Autosteer is engaged?"}
+{"id": "572", "text": "Why does my Model Y stop at roundabouts?"}
+{"id": "573", "text": "What should I do when approaching a crosswalk with Autopilot engaged?"}
+{"id": "574", "text": "What causes the Traffic Light and Stop Sign Control to not work properly on my Model Y?"}
+{"id": "575", "text": "What should I do if Traffic Light and Stop Sign Control doesn't work as expected?"}
+{"id": "576", "text": "How can I ensure I'm driving attentively when using Traffic Light and Stop Sign Control?"}
+{"id": "577", "text": "Why might Model Y not operate as expected with Traffic Light and Stop Sign Control?"}
+{"id": "578", "text": "Can I use Full Self-Driving on narrow roads with oncoming cars?"}
+{"id": "579", "text": "How does the cabin camera monitor driver attentiveness?"}
+{"id": "580", "text": "Do I need to keep my hands on the steering wheel while using Full Self-Driving?"}
+{"id": "581", "text": "How do I ensure the cabin camera is monitoring my attentiveness properly?"}
+{"id": "582", "text": "What should I do if Full Self-Driving gets suspended for improper usage?"}
+{"id": "583", "text": "Do I need to update the maps before using Full Self-Driving?"}
+{"id": "584", "text": "How do I connect to a Wi-Fi network to update maps?"}
+{"id": "585", "text": "What happens to Autopilot Activation settings when Full Self-Driving is enabled?"}
+{"id": "586", "text": "Can I change the driving style of Full Self-Driving to Chill?"}
+{"id": "587", "text": "How do I know if Full Self-Driving (Supervised) is engaged or not?"}
+{"id": "588", "text": "What happens if Autopilot can't determine the speed limit?"}
+{"id": "589", "text": "I'm not sure if the Automatic Set Speed Offset is on. How can I check this?"}
+{"id": "590", "text": "How do I know what action the Full Self-Driving system is going to take?"}
+{"id": "591", "text": "Can I see the Full Self-Driving visualization in fullscreen?"}
+{"id": "592", "text": "How do I disengage Full Self-Driving if I'm not comfortable with it?"}
+{"id": "593", "text": "What happens if I disengage Full Self-Driving by steering manually?"}
+{"id": "594", "text": "How does Full Self-Driving (Supervised) handle intersections?"}
+{"id": "595", "text": "What should I do if the Full Self-Driving (Supervised) gets disengaged while driving?"}
+{"id": "596", "text": "What do I do if Full Self-Driving doesn't slow down at a stop sign?"}
+{"id": "597", "text": "How do I get notifications for upcoming lane changes?"}
+{"id": "598", "text": "How does Full Self-Driving handle a car backing out of a driveway?"}
+{"id": "599", "text": "How can I change the set speed while using Full Self-Driving?"}
+{"id": "600", "text": "What happens when I arrive at my destination with Full Self-Driving active?"}
+{"id": "601", "text": "I noticed a message about speed limitation; what could be causing it?"}
+{"id": "602", "text": "What happens if I don't keep my hands on the steering wheel?"}
+{"id": "603", "text": "Can I turn off the camera that monitors my attentiveness?"}
+{"id": "604", "text": "What should I do if Full Self-Driving gets disabled during a drive?"}
+{"id": "605", "text": "What counts as a strikeout with Autopilot?"}
+{"id": "606", "text": "Can I still use the Autopark feature if Autosteer is suspended?"}
+{"id": "607", "text": "How can I check how many strikeouts I have left before losing access to Autopilot?"}
+{"id": "608", "text": "What do I do if Autopark isn't working because something is on the tow hitch?"}
+{"id": "609", "text": "Can Autopark be used while Traffic-Aware Cruise Control is active?"}
+{"id": "610", "text": "What might cause Autopark to not detect a parking space?"}
+{"id": "611", "text": "Why is Autopark not detecting a parking space when I'm driving slowly?"}
+{"id": "612", "text": "Can Autopark work in a garage without visible parking lines?"}
+{"id": "613", "text": "Why can't Autopark park on cobblestone surfaces?"}
+{"id": "614", "text": "What should I do if Autopark pauses while parking?"}
+{"id": "615", "text": "Can I manually steer the wheel while Autopark is active?"}
+{"id": "616", "text": "How does Autopark inform me that parking is complete?"}
+{"id": "617", "text": "Is my Model Y equipped with the Summon feature?"}
+{"id": "618", "text": "How do I enable the Summon feature on my touchscreen?"}
+{"id": "619", "text": "What should I do to ensure Summon stops at a safe distance from objects?"}
+{"id": "620", "text": "What should I do if the sensors fail to detect obstacles when parking in a narrow space?"}
+{"id": "621", "text": "Can I use the key fob to operate Summon without holding the button continuously?"}
+{"id": "622", "text": "How can I make sure that the garage door doesn't close on the Model Y when using HomeLink?"}
+{"id": "623", "text": "Can I use a key fob to operate Smart Summon?"}
+{"id": "624", "text": "Do I need to hold the button to keep Model Y moving with Smart Summon?"}
+{"id": "625", "text": "How far can Model Y be from the parking space for Summon to work?"}
+{"id": "626", "text": "How do I specify the direction for Summon to drive?"}
+{"id": "627", "text": "What should I do if Summon detects an obstacle?"}
+{"id": "628", "text": "I need clarification on how Summon handles obstacles."}
+{"id": "629", "text": "How do I stop Summon if I need to?"}
+{"id": "630", "text": "What happens if I forget to select a direction before exiting the vehicle during Summon?"}
+{"id": "631", "text": "Does Summon stop if my phone loses connection to the car?"}
+{"id": "632", "text": "Why can't I use Smart Summon on public roads?"}
+{"id": "633", "text": "What should I do to ensure Smart Summon works properly?"}
+{"id": "634", "text": "I have a problem with Smart Summon. It doesn't seem to activate despite being close to the car."}
+{"id": "635", "text": "How do I make sure all cameras and sensors are clean before using Autopilot?"}
+{"id": "636", "text": "What should I do if there is a delay when starting Smart Summon?"}
+{"id": "637", "text": "How does the Go to Target mode work in Smart Summon?"}
+{"id": "638", "text": "What does it mean when the icon is blue in Come to Me mode?"}
+{"id": "639", "text": "How does the Model Y navigate around obstacles during Smart Summon?"}
+{"id": "640", "text": "What happens on the map when the Model Y is moving towards me?"}
+{"id": "641", "text": "How can I stop the Model Y using Smart Summon if there is a delay?"}
+{"id": "642", "text": "I'm concerned about using Smart Summon around people and animals. What precautions should I take?"}
+{"id": "643", "text": "What should I do if Smart Summon doesn't recognize certain obstacles like curbs or shelves?"}
+{"id": "644", "text": "How do I enable Standby Mode in my Model Y?"}
+{"id": "645", "text": "Why does Smart Summon exit Standby Mode from midnight to 6:00 am?"}
+{"id": "646", "text": "What should I do if Smart Summon stops because my phone loses connectivity?"}
+{"id": "647", "text": "Why isn't my Autopilot feature working even though it showed up on the menu?"}
+{"id": "648", "text": "What should I do if the touchscreen shows a camera obstruction message when I try to use Autopilot?"}
+{"id": "649", "text": "Does Traffic-Aware Cruise Control automatically adjust my speed when the speed limit changes?"}
+{"id": "650", "text": "Why does Traffic-Aware Cruise Control sometimes brake unexpectedly?"}
+{"id": "651", "text": "What causes the car to exceed the speed limit when driving downhill?"}
+{"id": "652", "text": "How should I handle sharp curves if Traffic-Aware Cruise Control might not work properly?"}
+{"id": "653", "text": "Why did Traffic-Aware Cruise Control cancel unexpectedly?"}
+{"id": "654", "text": "What should I do if Traffic-Aware Cruise Control cancels suddenly?"}
+{"id": "655", "text": "Am I responsible if Traffic-Aware Cruise Control stops working?"}
+{"id": "656", "text": "Can Traffic-Aware Cruise Control detect pedestrians and cyclists effectively?"}
+{"id": "657", "text": "Why should I keep my hands on the steering wheel when using Autosteer?"}
+{"id": "658", "text": "What conditions could cause Autosteer to not function properly?"}
+{"id": "659", "text": "Why does Autosteer have difficulties when there's direct sunlight?"}
+{"id": "660", "text": "What should I do if Autosteer doesn't steer around objects partially in my lane?"}
+{"id": "661", "text": "How can other electrical devices affect the sensors on my Model Y?"}
+{"id": "662", "text": "Can Auto Lane Change be used during heavy rain?"}
+{"id": "663", "text": "I'm not sure if Overtake Acceleration is working. What should I check?"}
+{"id": "664", "text": "Does the Stop Light and Stop Sign Warning feature automatically apply the brakes?"}
+{"id": "665", "text": "Does the Stop Light and Stop Sign Warning work when I'm pressing the brake pedal?"}
+{"id": "666", "text": "What should I watch out for when using Navigate on Autopilot at off-ramps?"}
+{"id": "667", "text": "Can Navigate on Autopilot detect oncoming vehicles or stationary objects?"}
+{"id": "668", "text": "What are the limitations of Full Self-Driving?"}
+{"id": "669", "text": "Does Full Self-Driving make the car fully autonomous?"}
+{"id": "670", "text": "How can I ensure I'm using Full Self-Driving safely?"}
+{"id": "671", "text": "What should I do if the car makes an unexpected maneuver?"}
+{"id": "672", "text": "How does poor visibility affect the performance of Full Self-Driving?"}
+{"id": "673", "text": "Are there specific scenarios where driver intervention is more likely needed with Full Self-Driving?"}
+{"id": "674", "text": "Why did Autopark stop working when I tried to park on a sloped road?"}
+{"id": "675", "text": "Is it safe to use Autopark when there's poor visibility due to heavy rain?"}
+{"id": "676", "text": "Can Autopark still function if my car's cameras are covered in mud?"}
+{"id": "677", "text": "How does weather affect the sensors of my electric car?"}
+{"id": "678", "text": "What issues can electrical interference cause with the car's sensors?"}
+{"id": "679", "text": "I have a problem with Autopilot during bad weather."}
+{"id": "680", "text": "What should I do if Autopark doesn't steer properly?"}
+{"id": "681", "text": "Why is Summon not working on my sloped driveway?"}
+{"id": "682", "text": "My car's Summon feature isn't detecting some obstacles; what could be the issue?"}
+{"id": "683", "text": "Can I use Smart Summon in a grocery store parking lot?"}
+{"id": "684", "text": "What should I do if Smart Summon is not working because of cold weather?"}
+{"id": "685", "text": "I tried using Smart Summon on a slope and it's not working. Is that normal?"}
+{"id": "686", "text": "What should I do if Smart Summon doesn't stop for an obstacle?"}
+{"id": "687", "text": "Is it safe to use Smart Summon if there are children playing nearby?"}
+{"id": "688", "text": "How do I stop the Model Y when using Smart Summon?"}
+{"id": "689", "text": "Why don't the lane visualizations appear when I'm driving my Model Y?"}
+{"id": "690", "text": "What do the different colors of the lines on the touchscreen mean?"}
+{"id": "691", "text": "What should I do if a camera is obstructed and Autopilot isn't available?"}
+{"id": "692", "text": "What should I do if Lane Assist doesn't seem to be detecting vehicles correctly?"}
+{"id": "693", "text": "I'm not receiving any warnings when I drift out of my lane. Could Lane Departure Avoidance be turned off?"}
+{"id": "694", "text": "What happens if the car drifts into another lane while I'm driving below 30 mph?"}
+{"id": "695", "text": "What should I do if my Model Y starts slowing down and the hazard lights begin flashing?"}
+{"id": "696", "text": "How does Lane Departure Avoidance work if I'm not using the turn signal?"}
+{"id": "697", "text": "How can I ensure that Lane Assist detects my hands on the steering wheel?"}
+{"id": "698", "text": "If my turn signal is on, will Lane Departure Avoidance still work?"}
+{"id": "699", "text": "How do I turn on the Emergency Lane Departure Avoidance feature?"}
+{"id": "700", "text": "What happens when Emergency Lane Departure Avoidance is activated?"}
+{"id": "701", "text": "How do I move the blind spot camera image to a different location on the touchscreen?"}
+{"id": "702", "text": "Is it normal for the lane assist to give unnecessary warnings in certain weather conditions?"}
+{"id": "703", "text": "Can I enable a chime to warn me of a potential blind spot collision?"}
+{"id": "704", "text": "Why is Lane Assist not working properly in bad weather?"}
+{"id": "705", "text": "Could my bike rack be causing issues with the Lane Assist sensors?"}
+{"id": "706", "text": "What do I do if bright light is interfering with Lane Assist?"}
+{"id": "707", "text": "Why is Lane Assist not working in rainy weather?"}
+{"id": "708", "text": "What happens to driver assistance features when Track Mode is on?"}
+{"id": "709", "text": "What should I do when Lane Assist features are not working properly?"}
+{"id": "710", "text": "How reliable is the Forward Collision Warning system in avoiding potential accidents?"}
+{"id": "711", "text": "Why is my Autopilot not available even after cleaning the cameras?"}
+{"id": "712", "text": "I'm concerned about the effectiveness of Automatic Emergency Braking in actual emergencies."}
+{"id": "713", "text": "How do I adjust the sensitivity of the Forward Collision Warning?"}
+{"id": "714", "text": "What should I do if the Forward Collision Warning alerts me?"}
+{"id": "715", "text": "Why does the Forward Collision Warning activate when it seems like there's no immediate danger?"}
+{"id": "716", "text": "What should I do if the Automatic Emergency Braking is applying but I need to accelerate?"}
+{"id": "717", "text": "Is it possible to disable the Automatic Emergency Braking feature, and how do I do that?"}
+{"id": "718", "text": "Why did my car not apply the brakes even though there was an object in front of me?"}
+{"id": "719", "text": "Why does my brake pedal move abruptly during automatic braking?"}
+{"id": "720", "text": "What should I do if Automatic Emergency Braking is unavailable?"}
+{"id": "721", "text": "How does Obstacle-Aware Acceleration help prevent collisions?"}
+{"id": "722", "text": "How does Obstacle-Aware Acceleration reduce damage when hitting something?"}
+{"id": "723", "text": "Under what conditions does Obstacle-Aware Acceleration operate?"}
+{"id": "724", "text": "I need help understanding Obstacle-Aware Acceleration."}
+{"id": "725", "text": "How can I disable Obstacle-Aware Acceleration?"}
+{"id": "726", "text": "What should I do if Obstacle-Aware Acceleration doesn't reduce motor torque when expected?"}
+{"id": "727", "text": "Why might Collision Avoidance features not detect an object or give an unnecessary warning?"}
+{"id": "728", "text": "What should I do if my car displays an alert for a fault with Collision Avoidance Assist?"}
+{"id": "729", "text": "Why are driver assistance features disabled when Track Mode is on?"}
+{"id": "730", "text": "Are there any weather conditions that could affect the collision avoidance sensors?"}
+{"id": "731", "text": "Can I manually set a speed limit that the car cannot determine?"}
+{"id": "732", "text": "What happens if the Model Y can't acquire a speed limit?"}
+{"id": "733", "text": "How do I change the speed limit warning settings to just display a chime?"}
+{"id": "734", "text": "Why is Speed Assist showing an incorrect speed limit while I'm driving on a highway?"}
+{"id": "735", "text": "I've noticed Speed Assist sometimes doesn't detect speed limit signs. What could be causing this?"}
+{"id": "736", "text": "Speed Assist seems inaccurate during heavy rain. Is this a known issue?"}
+{"id": "737", "text": "How can I adjust my data sharing preferences for the cabin camera?"}
+{"id": "738", "text": "What should I use to clean the cabin camera lens?"}
+{"id": "739", "text": "Can the cabin camera recognize my face or identity?"}
+{"id": "740", "text": "What should I do if the alarm goes off by mistake and I need to deactivate it?"}
+{"id": "741", "text": "Can I use Sentry Mode and the Security Alarm at the same time?"}
+{"id": "742", "text": "How do I enable the Tilt/Intrusion feature to detect motion inside the cabin?"}
+{"id": "743", "text": "How can I disable the intrusion alarm if I'm leaving something inside the car?"}
+{"id": "744", "text": "Is it possible to control parental settings from the Tesla mobile app?"}
+{"id": "745", "text": "What features are enabled when I activate the parental controls?"}
+{"id": "746", "text": "How do I disable Parental Controls?"}
+{"id": "747", "text": "What is the purpose of re-entering the PIN?"}
+{"id": "748", "text": "Where can I find the option for Parental Controls?"}
+{"id": "749", "text": "I forgot my driving PIN. How can I reset it?"}
+{"id": "750", "text": "How do I enable the Speed Limit Mode?"}
+{"id": "751", "text": "Can I open the glovebox when the car is in Valet mode?"}
+{"id": "752", "text": "How do I set up the 4-digit PIN for Speed Limit Mode?"}
+{"id": "753", "text": "What happens if I forget the Speed Limit Mode PIN?"}
+{"id": "754", "text": "Can I manage Speed Limit Mode settings using the Tesla mobile app?"}
+{"id": "755", "text": "How do I access the Dashcam recordings?"}
+{"id": "756", "text": "Can I use any USB flash drive for Dashcam recordings, or does it need to be formatted specifically?"}
+{"id": "757", "text": "What should I do if the USB ports in the center console are not working for Dashcam recordings?"}
+{"id": "758", "text": "How do I know if Dashcam is recording?"}
+{"id": "759", "text": "What happens when I press the horn with Dashcam set to 'On Honk'?"}
+{"id": "760", "text": "Can I view Dashcam footage directly on the car's touchscreen?"}
+{"id": "761", "text": "How do I turn off the Dashcam?"}
+{"id": "762", "text": "What are the options for Dashcam settings?"}
+{"id": "763", "text": "How can I view video recordings from Dashcam on my computer?"}
+{"id": "764", "text": "How do I enable Sentry Mode on my Model Y?"}
+{"id": "765", "text": "What should I do if Sentry Mode turns off because the battery is below 20%?"}
+{"id": "766", "text": "Can I use the center console USB ports to save Sentry Mode footage?"}
+{"id": "767", "text": "How do I enable Sentry Mode on my vehicle?"}
+{"id": "768", "text": "Why didn't the Sentry Mode alarm trigger when someone was near my car?"}
+{"id": "769", "text": "How can I silence the alarm when Sentry Mode is activated?"}
+{"id": "770", "text": "How do I disable Sentry Mode for more than one drive cycle?"}
+{"id": "771", "text": "What does it mean when the Sentry Mode icon is no longer red?"}
+{"id": "772", "text": "How can I set up Sentry Mode to exclude my home location?"}
+{"id": "773", "text": "What should I do if I want to view the live camera through the mobile app?"}
+{"id": "774", "text": "Does Sentry Mode work without a USB drive plugged in?"}
+{"id": "775", "text": "How do I use the View Live Camera feature in Sentry Mode?"}
+{"id": "776", "text": "Can I enable Dog Mode while using the View Live Camera in Sentry Mode?"}
+{"id": "777", "text": "What should I do if Sentry Mode video quality is poor due to network issues?"}
+{"id": "778", "text": "Can I use the center console USB ports to transfer media files?"}
+{"id": "779", "text": "I'm having trouble formatting my USB drive using the car; what should I do?"}
+{"id": "780", "text": "Does the Sentry Mode require a specific type of USB drive?"}
+{"id": "781", "text": "How do I format the USB drive for recording?"}
+{"id": "782", "text": "Why can't I use the rear USB port for the TeslaCam?"}
+{"id": "783", "text": "How do I delete all Dashcam and Sentry Mode footage?"}
+{"id": "784", "text": "How do I quickly delete dashcam clips?"}
+{"id": "785", "text": "Where can I find the recorded dashcam footage on my computer?"}
+{"id": "786", "text": "What happens to the oldest Sentry Clips when the USB drive is full?"}
+{"id": "787", "text": "How do I adjust the seat heaters for the driver?"}
+{"id": "788", "text": "Can using the climate control system affect my driving range?"}
+{"id": "789", "text": "Is it possible to turn the climate control system on or off using the touchscreen?"}
+{"id": "790", "text": "How do I add seat heaters to the touchscreen's bottom bar?"}
+{"id": "791", "text": "How does the heated steering wheel work with the Auto setting?"}
+{"id": "792", "text": "What happens when I turn on the rear window defroster?"}
+{"id": "793", "text": "How do I adjust the fan speed in my Model Y?"}
+{"id": "794", "text": "How does the Bioweapon Defense Mode work?"}
+{"id": "795", "text": "Can the HEPA filter remove odors from the cabin?"}
+{"id": "796", "text": "How do I adjust the seat heaters for the front passenger?"}
+{"id": "797", "text": "What happens if the battery charge level is below 20% when I try to keep the climate on?"}
+{"id": "798", "text": "How do I turn on the air conditioning system?"}
+{"id": "799", "text": "How do I turn the air conditioning system on or off?"}
+{"id": "800", "text": "Why is the air conditioning compressor sound more noticeable in the Model Y?"}
+{"id": "801", "text": "How can I minimize air conditioning noise while driving?"}
+{"id": "802", "text": "How do I enable heated seats?"}
+{"id": "803", "text": "Can I use the Dog setting to keep my cabin warm while I'm grocery shopping?"}
+{"id": "804", "text": "What happens if both Dog and Sentry modes are enabled at the same time?"}
+{"id": "805", "text": "How do I switch camera views when both Sentry Mode and Dog Mode are on?"}
+{"id": "806", "text": "Can I use the Live Camera feature with Autopilot computer 2.0?"}
+{"id": "807", "text": "Why can't I use Sentry Mode and the alarm system when Camp is on?"}
+{"id": "808", "text": "What happens if I forget to turn off Keep Climate On when the battery is low?"}
+{"id": "809", "text": "Why can't I enable Dog mode when the cabin is too hot?"}
+{"id": "810", "text": "How does the Tesla mobile app notify me if there's an issue with the climate control system?"}
+{"id": "811", "text": "How do I activate Cabin Overheat Protection?"}
+{"id": "812", "text": "Can I customize the cabin temperature using the mobile app?"}
+{"id": "813", "text": "What happens if I turn off the climate control system through the app?"}
+{"id": "814", "text": "How can I enable Cabin Overheat Protection using the mobile app?"}
+{"id": "815", "text": "What should I do if the inside of the vehicle becomes dangerously hot despite having Cabin Overheat Protection on?"}
+{"id": "816", "text": "Why does the climate system make a low fan noise when parked?"}
+{"id": "817", "text": "Why is my Model Y making a whining noise even when it's not in use?"}
+{"id": "818", "text": "What should I do if the charge port latch is frozen and I can't insert the charge cable?"}
+{"id": "819", "text": "Why does my air conditioning turn on even when I've set it to off?"}
+{"id": "820", "text": "How can I adjust the front air vents using the touchscreen?"}
+{"id": "821", "text": "Why is the passenger vent not working?"}
+{"id": "822", "text": "How do I adjust the rear vents in the Model Y?"}
+{"id": "823", "text": "How can I warm up my Model Y before driving in cold weather?"}
+{"id": "824", "text": "What should I do if my charge port latch freezes with the cable attached?"}
+{"id": "825", "text": "Is there a way to melt ice on the windows and mirrors using the mobile app?"}
+{"id": "826", "text": "What should I do if the charge port latch is frozen?"}
+{"id": "827", "text": "Why is there steam coming from the front of my car while charging at a Supercharger?"}
+{"id": "828", "text": "How can I make it easier to open the doors in severe winter conditions using the mobile app?"}
+{"id": "829", "text": "How do I unlatch the driver door?"}
+{"id": "830", "text": "What should I do if ice builds up on the door handle?"}
+{"id": "831", "text": "Can I use tools to remove ice from the door handle?"}
+{"id": "832", "text": "How do I prevent my side mirrors from freezing and not unfolding?"}
+{"id": "833", "text": "What should I do if the tire pressure monitoring system (TPMS) light comes on during cold weather?"}
+{"id": "834", "text": "Does using the seat heater really consume less energy than the cabin heater?"}
+{"id": "835", "text": "How can I reduce energy consumption while driving in cold weather?"}
+{"id": "836", "text": "What does the blue snowflake icon on my touchscreen mean?"}
+{"id": "837", "text": "Why might regenerative braking be limited in cold weather?"}
+{"id": "838", "text": "How do I schedule preconditioning for my Model Y?"}
+{"id": "839", "text": "Can I precondition my Model Y if it's not plugged in?"}
+{"id": "840", "text": "What happens if I keep my Model Y plugged in for a long time?"}
+{"id": "841", "text": "How do I precondition the cabin using the mobile app?"}
+{"id": "842", "text": "Can I use the cabin overheat protection without air conditioning?"}
+{"id": "843", "text": "What should I do to keep the cabin cool for my pets when I leave the vehicle?"}
+{"id": "844", "text": "What should I do to maintain battery health if I leave my Model Y parked for a long time?"}
+{"id": "845", "text": "How does preconditioning work when I'm heading to a Supercharger?"}
+{"id": "846", "text": "Can I leave my Model Y plugged in all the time, and is it safe to do so?"}
+{"id": "847", "text": "How do I re-enable tracking after it's been disabled?"}
+{"id": "848", "text": "What do I need to do to access the icons on the map while driving?"}
+{"id": "849", "text": "Can I customize the map to show traffic conditions and satellite imagery?"}
+{"id": "850", "text": "How can I filter the charging locations by the types of chargers?"}
+{"id": "851", "text": "What do the dark gray pins on the map mean?"}
+{"id": "852", "text": "How do I enable voice for the navigation guidance?"}
+{"id": "853", "text": "How do I adjust the volume for the navigation instructions?"}
+{"id": "854", "text": "Can I automatically mute navigation instructions during a phone call?"}
+{"id": "855", "text": "What happens if I enable the Trip Planner feature?"}
+{"id": "856", "text": "Can I start navigation from my phone?"}
+{"id": "857", "text": "What information is displayed at the bottom of the direction list?"}
+{"id": "858", "text": "How does the navigation system handle charging stops if I need to recharge to reach my destination?"}
+{"id": "859", "text": "How do I stop navigating to a location?"}
+{"id": "860", "text": "Can I still navigate if I don't have a data connection?"}
+{"id": "861", "text": "How do I delete recent navigation searches?"}
+{"id": "862", "text": "How do I select an alternate route if my car doesn't show any after entering a destination?"}
+{"id": "863", "text": "Can I use my Tesla mobile app to edit my route if it hasn't been updated to version 4.27.5?"}
+{"id": "864", "text": "Is Automatic Navigation available in my market region?"}
+{"id": "865", "text": "How do I enable Automatic Navigation to take me to work?"}
+{"id": "866", "text": "What should I do if the Hungry or Lucky feature is not available in my area?"}
+{"id": "867", "text": "Can I update the navigation maps without a Wi-Fi connection?"}
+{"id": "868", "text": "How do I add a place to my Favorites list?"}
+{"id": "869", "text": "What steps do I follow to delete a Favorite destination?"}
+{"id": "870", "text": "Is there a way to change the name of a destination before adding it to Favorites?"}
+{"id": "871", "text": "How do I save a new home address in the navigation system?"}
+{"id": "872", "text": "Can I remove my work address from the Model Y navigation?"}
+{"id": "873", "text": "How do I display all available charging stations on the map?"}
+{"id": "874", "text": "What should I do if the Supercharger location is predicting a high volume of users?"}
+{"id": "875", "text": "How can I find more information about amenities available at a charging location?"}
+{"id": "876", "text": "How does the car prepare the battery for charging when navigating to a Supercharger?"}
+{"id": "877", "text": "How does Model Y calculate the energy I will have left when I reach my destination?"}
+{"id": "878", "text": "What should I do if I get a yellow warning about low energy on my trip?"}
+{"id": "879", "text": "Can Model Y account for traffic conditions when predicting my trip time and energy usage?"}
+{"id": "880", "text": "How do I turn off the rerouting feature?"}
+{"id": "881", "text": "Can my Model Y alert me about speed cameras in my area?"}
+{"id": "882", "text": "How does Trip Planner determine when and where I need to charge during a long trip?"}
+{"id": "883", "text": "How do I remove Supercharger stops from my directions?"}
+{"id": "884", "text": "Can I use my mobile app to check the remaining charging time?"}
+{"id": "885", "text": "What happens if a Supercharger on my route is not working?"}
+{"id": "886", "text": "How can I connect my phone via Bluetooth to play music?"}
+{"id": "887", "text": "Is it possible to use Spotify without a data connection?"}
+{"id": "888", "text": "Why can't I find Apple Music on my Media Player?"}
+{"id": "889", "text": "How do I adjust the volume using the steering wheel?"}
+{"id": "890", "text": "Can I mute the volume during a phone call using the steering wheel controls?"}
+{"id": "891", "text": "How do I adjust the balance and tone settings in the Media Player?"}
+{"id": "892", "text": "How can I hide a media source in the Media Player?"}
+{"id": "893", "text": "Is there a way to disable the main vocals in Caraoke?"}
+{"id": "894", "text": "How do I add a podcast to my Favorites list in Media Player?"}
+{"id": "895", "text": "How do I remove favorites from the Media Player?"}
+{"id": "896", "text": "Can I play music from an iPod using Bluetooth?"}
+{"id": "897", "text": "Which USB port should I use to play music from a flash drive?"}
+{"id": "898", "text": "Can I use the Theater mode while I'm not connected to WiFi?"}
+{"id": "899", "text": "Are there any restrictions on using the USB ports for playing games?"}
+{"id": "900", "text": "How do I use the Boombox feature to play sounds outside?"}
+{"id": "901", "text": "How do I schedule the light show for a future time?"}
+{"id": "902", "text": "Can I use the light show near public roads?"}
+{"id": "903", "text": "What happens when I press the button on the mobile connector ten times while charging?"}
+{"id": "904", "text": "How do I submit my drawings from the Sketchpad for Tesla to critique?"}
+{"id": "905", "text": "Can I use Boombox if my car doesn't have the Pedestrian Warning System?"}
+{"id": "906", "text": "How do I format a USB drive to add custom sounds for the Boombox feature?"}
+{"id": "907", "text": "How can I play audio from a USB drive in my car?"}
+{"id": "908", "text": "I plugged the USB drive into the center console, but it's not being recognized. What should I do?"}
+{"id": "909", "text": "How do I uninstall a game from the Arcade to free up space?"}
+{"id": "910", "text": "Can I connect more than two Bluetooth devices at a time in my Model Y?"}
+{"id": "911", "text": "Where should I plug in a USB game controller in a Model Y manufactured after November 2021?"}
+{"id": "912", "text": "How do I pair a Bluetooth gaming controller to my Model Y?"}
+{"id": "913", "text": "What should I do if there's a fire in my Model Y?"}
+{"id": "914", "text": "How do I identify high voltage cables in my Model Y?"}
+{"id": "915", "text": "Where can I find a Wall Connector for my region to charge my Model Y?"}
+{"id": "916", "text": "Why should I leave my Model Y plugged in when not in use?"}
+{"id": "917", "text": "What happens if the battery discharges to 0%?"}
+{"id": "918", "text": "How does cold weather affect the battery discharge rate on my Model Y?"}
+{"id": "919", "text": "What should I do if the Model Y is unresponsive and won't unlock or charge?"}
+{"id": "920", "text": "How can I prevent the Battery from discharging to 0%?"}
+{"id": "921", "text": "Can I control the energy-saving feature on an older Model Y?"}
+{"id": "922", "text": "What should I do if the battery charge level falls to 0%?"}
+{"id": "923", "text": "Is the battery damage by water covered under warranty?"}
+{"id": "924", "text": "Can I use the car's battery as a stationary power source?"}
+{"id": "925", "text": "How do I open the charge port on my Model Y?"}
+{"id": "926", "text": "Can I use voice commands to open the charge port door on my Tesla?"}
+{"id": "927", "text": "I think my charge port latch is frozen, what should I do?"}
+{"id": "928", "text": "Can I change the charging current from the touchscreen?"}
+{"id": "929", "text": "What should I do if the charge port door doesn't open?"}
+{"id": "930", "text": "Do I need a specific adapter to use public charging stations?"}
+{"id": "931", "text": "Why is my Model Y not charging even though it\u2019s plugged in and the port light is blue?"}
+{"id": "932", "text": "What should I do if the charge port light is amber or red?"}
+{"id": "933", "text": "Why is my Model Y drawing energy directly from the Battery when it's parked and plugged in for several days?"}
+{"id": "934", "text": "What does a solid amber light on the charge port mean?"}
+{"id": "935", "text": "Why is the charge port light blinking green slowly as the battery gets full?"}
+{"id": "936", "text": "What should I do if the charge port light turns red while charging?"}
+{"id": "937", "text": "Why is there steam coming from the front of my vehicle while charging?"}
+{"id": "938", "text": "Is it normal to hear sounds during charging?"}
+{"id": "939", "text": "What should I do if there's a power outage while charging?"}
+{"id": "940", "text": "Why is the air not as cool while charging on a hot day?"}
+{"id": "941", "text": "Can I use a pressure washer near the charge port while charging?"}
+{"id": "942", "text": "How do I stop charging my Model Y?"}
+{"id": "943", "text": "How can I unlock the charge port if the adapter is stuck?"}
+{"id": "944", "text": "What are the different ways to close the charge port door using the touchscreen?"}
+{"id": "945", "text": "Why is it recommended to leave Model Y plugged in when not in use?"}
+{"id": "946", "text": "Why is a portion of my battery's energy not available when it's cold?"}
+{"id": "947", "text": "How do I temporarily charge above the daily recommended limit for a long trip?"}
+{"id": "948", "text": "How can I adjust the charge current to avoid overloading a domestic wiring circuit?"}
+{"id": "949", "text": "How can I set up my vehicle to charge with excess solar power at home?"}
+{"id": "950", "text": "What are the software requirements for using Charge on Solar?"}
+{"id": "951", "text": "Why am I limited to a maximum charge of 80% at some Supercharger sites?"}
+{"id": "952", "text": "What happens if I don\u2019t move my car immediately after charging is complete?"}
+{"id": "953", "text": "How can I find out if idle or congestion fees will apply at a Supercharger?"}
+{"id": "954", "text": "Are there any fees associated with using third-party chargers with the Tesla?"}
+{"id": "955", "text": "What do I do if my Model Y doesn't charge at a third-party NACS station?"}
+{"id": "956", "text": "Can I check if my Model Y supports the CCS communication protocol?"}
+{"id": "957", "text": "How can I manually release the charge cable if normal methods fail?"}
+{"id": "958", "text": "What should I do if the charge port light is blinking amber?"}
+{"id": "959", "text": "When can I use the release cable for the charge port?"}
+{"id": "960", "text": "Why is my vehicle not beginning to charge even though the connector is plugged in?"}
+{"id": "961", "text": "How can I find fast chargers using the navigation system?"}
+{"id": "962", "text": "Why is it important to navigate to a fast charger for preconditioning the Battery?"}
+{"id": "963", "text": "Is it true that a lower state of charge makes the car charge faster?"}
+{"id": "964", "text": "How do I set up preconditioning for my car's current location?"}
+{"id": "965", "text": "Can I schedule charging using the Tesla app?"}
+{"id": "966", "text": "Why can't I use scheduled charging with a Tesla Supercharger?"}
+{"id": "967", "text": "Why does my Model Y make a clicking sound when I plug it in if I haven't set a start time?"}
+{"id": "968", "text": "Can I set my Model Y to start charging immediately instead of waiting for a scheduled time?"}
+{"id": "969", "text": "What happens if I plug in my vehicle shortly after the End by time without scheduling another charge?"}
+{"id": "970", "text": "How do I schedule the preconditioning for my Model Y?"}
+{"id": "971", "text": "Does preconditioning require the Model Y to be plugged in?"}
+{"id": "972", "text": "Will preconditioning increase the driving range on my next trip?"}
+{"id": "973", "text": "How does regenerative braking work?"}
+{"id": "974", "text": "What is Chill Mode and how do I activate it?"}
+{"id": "975", "text": "How can I improve my car's range during cold weather?"}
+{"id": "976", "text": "How can I decrease the impact of Sentry Mode and Cabin Overheat Protection on my car's range?"}
+{"id": "977", "text": "What does the power meter on the touchscreen indicate?"}
+{"id": "978", "text": "Why does the estimated range on my Model Y decrease faster than the actual distance driven?"}
+{"id": "979", "text": "How can I find nearby charging stations using the Navigation search bar?"}
+{"id": "980", "text": "What does the Energy app show about my vehicle's energy usage when I'm driving?"}
+{"id": "981", "text": "How do I use the Trip Planner to optimize my route through Superchargers?"}
+{"id": "982", "text": "How do I view how much energy my Model Y has consumed?"}
+{"id": "983", "text": "What is the difference between Instant Range and Average Range estimation?"}
+{"id": "984", "text": "How can I decrease energy loss while my vehicle is parked?"}
+{"id": "985", "text": "What should I do if the download is interrupted because I lost Wi-Fi connection?"}
+{"id": "986", "text": "Can I start installing the software update immediately after it's downloaded?"}
+{"id": "987", "text": "Why can't I install a software update while Keep Climate On mode is active?"}
+{"id": "988", "text": "Why did my Model Y stop charging during a software update?"}
+{"id": "989", "text": "What should I do if a software update fails to install?"}
+{"id": "990", "text": "Can I request Tesla to update my software to the latest version?"}
+{"id": "991", "text": "Does charging automatically resume after a software update?"}
+{"id": "992", "text": "Where can I view the release notes for the latest software update?"}
+{"id": "993", "text": "What should I do if I miss reading the release notes after a software update?"}
+{"id": "994", "text": "What should I do if my brake fluid needs replacement before the 4-year interval?"}
+{"id": "995", "text": "I live in an area with salted roads in winter. How often should I clean and lubricate my brake calipers?"}
+{"id": "996", "text": "How do I schedule a service visit using the Tesla mobile app?"}
+{"id": "997", "text": "How do I schedule a service visit?"}
+{"id": "998", "text": "What should I do if there are unexpected indicator lights on the touchscreen?"}
+{"id": "999", "text": "How often should I clean the Autopilot cameras during dry weather?"}
+{"id": "1000", "text": "Why does the air conditioning turn on even when I've turned it off?"}
+{"id": "1001", "text": "Is it normal to hear a whining noise or the sound of water circulating when the air conditioning is off?"}
+{"id": "1002", "text": "What should I do if the radiator becomes clogged and affects my heating/AC performance?"}
+{"id": "1003", "text": "Why are the high voltage cables colored orange?"}
+{"id": "1004", "text": "What should I do if a fire starts in my electric car?"}
+{"id": "1005", "text": "Are there any precautions I should take before working under my car?"}
+{"id": "1006", "text": "How do I change the tire pressure units from PSI to Bar?"}
+{"id": "1007", "text": "The tire pressure indicator light is still on after I've adjusted the tire pressures; what should I do?"}
+{"id": "1008", "text": "Can I check my tire pressures using the Tesla mobile app?"}
+{"id": "1009", "text": "How often should I check my tire pressures?"}
+{"id": "1010", "text": "What should I do if my tires are warm and the pressures seem too high?"}
+{"id": "1011", "text": "Why does the Low Tire Pressure indicator not alert me based on the load I'm carrying?"}
+{"id": "1012", "text": "How often should I check my tire pressure?"}
+{"id": "1013", "text": "What should I do if I find a bulge in the tire?"}
+{"id": "1014", "text": "How can I tell if my tire has a leak?"}
+{"id": "1015", "text": "What should I do if my tires are excessively worn or show cuts and bulges?"}
+{"id": "1016", "text": "When should I rotate the tires on my Model Y?"}
+{"id": "1017", "text": "Why is there a vibration through the steering wheel while driving?"}
+{"id": "1018", "text": "What should I do if I notice uneven tire wear?"}
+{"id": "1019", "text": "Is it safe to drive with a punctured tire if it hasn't deflated yet?"}
+{"id": "1020", "text": "How can I prevent flat spots on my tires when my car is parked for a long time?"}
+{"id": "1021", "text": "Why do I need to replace my car tires every six years even if the tread depth is fine?"}
+{"id": "1022", "text": "What should I do if my tires get contaminated with fluids?"}
+{"id": "1023", "text": "How can I identify if a tire is Tesla-approved for my vehicle?"}
+{"id": "1024", "text": "Why should I replace my tires in pairs?"}
+{"id": "1025", "text": "What should I do after replacing a wheel to ensure the TPMS sensors work correctly?"}
+{"id": "1026", "text": "Is it okay to accelerate hard right after replacing a tire?"}
+{"id": "1027", "text": "How can I accelerate harder to help the vehicle recalibrate after changing tires?"}
+{"id": "1028", "text": "What should I do to mount asymmetric tires correctly?"}
+{"id": "1029", "text": "How do I remove and install aero covers on my Model Y?"}
+{"id": "1030", "text": "How do I make sure the aero cover is fully secured before driving?"}
+{"id": "1031", "text": "Where can I find the lug nut cover tool in my car?"}
+{"id": "1032", "text": "What do I need to do if I'm installing new wheels on my Model Y?"}
+{"id": "1033", "text": "What does it mean if my wheels are staggered?"}
+{"id": "1034", "text": "How can changing wheel configuration affect my vehicle?"}
+{"id": "1035", "text": "Is it okay to use non Tesla-approved wheels?"}
+{"id": "1036", "text": "How do I update my vehicle's tire configuration after rotating the tires?"}
+{"id": "1037", "text": "What should I do if the Tire Pressure Indicator Light comes on?"}
+{"id": "1038", "text": "How often should I check the tire pressure on my Model Y?"}
+{"id": "1039", "text": "What should I do if the TPMS malfunction indicator is flashing?"}
+{"id": "1040", "text": "Can installing new tires affect the TPMS functionality?"}
+{"id": "1041", "text": "Is it possible that using a non-Tesla tire sealant will damage the tire sensor?"}
+{"id": "1042", "text": "Why should I avoid placing powered USB devices near the card reader?"}
+{"id": "1043", "text": "How long does it take for the TPMS sensors to reset after replacing a wheel?"}
+{"id": "1044", "text": "What should I do if I'm using aftermarket tires on the Model Y?"}
+{"id": "1045", "text": "How can I schedule a service appointment using the mobile app if the tire pressure warning indicator displays frequently?"}
+{"id": "1046", "text": "Do I need to visit a Tesla Service Center after a non-Tesla Service Center replaces a tire to ensure the tire sensor works?"}
+{"id": "1047", "text": "Can I use all-season tires for winter driving conditions, or should I get winter tires?"}
+{"id": "1048", "text": "What should I expect when driving with winter tires regarding road noise and performance?"}
+{"id": "1049", "text": "How do I reset the tire configuration after installing new tires?"}
+{"id": "1050", "text": "Can I use tire chains on the front tires of my Model Y?"}
+{"id": "1051", "text": "What should I do to improve tire performance in low temperatures?"}
+{"id": "1052", "text": "Are there specific tire chains recommended for Model Y?"}
+{"id": "1053", "text": "Why shouldn't I use snow chains on the front tires?"}
+{"id": "1054", "text": "What should I do if the tire chains make unusual noises while driving?"}
+{"id": "1055", "text": "What should I use to remove tar spots from the car?"}
+{"id": "1056", "text": "Can I use any type of car shampoo to wash my Model Y?"}
+{"id": "1057", "text": "How do I dry the car properly after washing it?"}
+{"id": "1058", "text": "Can I apply hydrophobic coating to the front windshield?"}
+{"id": "1059", "text": "How do I enable Car Wash Mode?"}
+{"id": "1060", "text": "What precautions should I take when using an automatic car wash with my Model Y?"}
+{"id": "1061", "text": "How should I clean the camera lens if there's dirt?"}
+{"id": "1062", "text": "Is it okay to use regular cleaners on the camera lens?"}
+{"id": "1063", "text": "What precautions should I take when cleaning the exterior of the car?"}
+{"id": "1064", "text": "Can I use a regular hose to wash my Model Y?"}
+{"id": "1065", "text": "What should I avoid doing when using a pressure washer on my car?"}
+{"id": "1066", "text": "Is it safe to use chemical wheel cleaners on my Model Y?"}
+{"id": "1067", "text": "Can I use a pressure washer to clean the car while it's charging?"}
+{"id": "1068", "text": "What should I use to clean interior glass surfaces?"}
+{"id": "1069", "text": "How should I clean the interior lighting without causing damage?"}
+{"id": "1070", "text": "What cleaning solutions are recommended for the seats?"}
+{"id": "1071", "text": "Does the warranty cover seat damage from cleaning with unapproved products?"}
+{"id": "1072", "text": "How should I maintain the seats to avoid voiding the warranty?"}
+{"id": "1073", "text": "Can I use alcohol wipes to clean the black seats?"}
+{"id": "1074", "text": "What kind of cleaning products should I avoid for the seats?"}
+{"id": "1075", "text": "I have a problem with a stain on my white seat that won't come off."}
+{"id": "1076", "text": "What's the best way to clean heavily soiled carpets in the car?"}
+{"id": "1077", "text": "How can I clean the seat belts without causing damage?"}
+{"id": "1078", "text": "I'm not sure if I'm cleaning the touchscreen correctly, can you guide me on how to do it safely?"}
+{"id": "1079", "text": "What type of polish is approved for treating the paint surfaces?"}
+{"id": "1080", "text": "Where can I purchase a paint touch-up pen?"}
+{"id": "1081", "text": "How often should I inspect the exterior paint for damage?"}
+{"id": "1082", "text": "Can I use any car cover while my Model Y is charging?"}
+{"id": "1083", "text": "Where can I buy Tesla-approved floor mats?"}
+{"id": "1084", "text": "Is it safe to use chrome polish on my Model Y?"}
+{"id": "1085", "text": "How do I refill the windshield washer fluid in my electric car?"}
+{"id": "1086", "text": "What type of windshield washer fluid should I avoid using?"}
+{"id": "1087", "text": "Why is it important to use washer fluid with antifreeze in cold weather?"}
+{"id": "1088", "text": "What should I do if my wiper blades are damaged?"}
+{"id": "1089", "text": "Where can I buy replacement wiper blades for my car?"}
+{"id": "1090", "text": "How often should I replace the wiper blades for optimal performance?"}
+{"id": "1091", "text": "How do I know if the new wiper blade is locked in place?"}
+{"id": "1092", "text": "What should I use to unblock a washer jet?"}
+{"id": "1093", "text": "Can I operate the washers while cleaning the car?"}
+{"id": "1094", "text": "Where are the designated body lift points on the Model Y?"}
+{"id": "1095", "text": "What should I do if I accidentally lift the Model Y with the charge cable connected?"}
+{"id": "1096", "text": "Why is it important not to place lift arm pads under the Battery or side rails?"}
+{"id": "1097", "text": "Can I use non-Tesla parts for my Model Y?"}
+{"id": "1098", "text": "Where can I buy accessories for my Tesla?"}
+{"id": "1099", "text": "How often should I replace the cabin filters in my Model Y?"}
+{"id": "1100", "text": "How do I remove the footwell cover without damaging the electrical connectors?"}
+{"id": "1101", "text": "What should I use to release the push clips for the footwell cover?"}
+{"id": "1102", "text": "What is the correct way to disconnect the light and speaker connectors from the footwell cover?"}
+{"id": "1103", "text": "How do I properly align the right side panel when reinstalling?"}
+{"id": "1104", "text": "What type of low voltage lead-acid battery should I use for my North American electric vehicle?"}
+{"id": "1105", "text": "Is damage to the low voltage battery covered by the warranty if it runs out of range?"}
+{"id": "1106", "text": "What if I don't have a 10mm socket?"}
+{"id": "1107", "text": "How can I safely handle the lead-acid battery?"}
+{"id": "1108", "text": "Is it necessary to remove the washer tank neck if the reservoir is full?"}
+{"id": "1109", "text": "What should I do if the positive terminal clamp accidentally touches the A/C cooling lines?"}
+{"id": "1110", "text": "How should I dispose of the old lead-acid battery?"}
+{"id": "1111", "text": "Do I need any special tools to replace the lead-acid battery?"}
+{"id": "1112", "text": "How do I ensure I'm torquing the nut to the correct specification?"}
+{"id": "1113", "text": "Why does it take several minutes for the touchscreen to turn on after reconnecting the battery?"}
+{"id": "1114", "text": "What should I do if a vehicle door doesn't restore power after reconnecting the battery?"}
+{"id": "1115", "text": "Where exactly should I attach the RFID transponder for optimal performance?"}
+{"id": "1116", "text": "What should I consider when attaching the front license plate bracket?"}
+{"id": "1117", "text": "Is there any precaution I need to take when cleaning the mounting site with isopropyl alcohol?"}
+{"id": "1118", "text": "What should I do if the license plate bracket is not aligning properly with the grille?"}
+{"id": "1119", "text": "How can I ensure the bracket is secure once it's adhered to the bumper?"}
+{"id": "1120", "text": "What size is required for tightening the screws on the license plate bracket?"}
+{"id": "1121", "text": "How can I replace the wiper blades on my Tesla?"}
+{"id": "1122", "text": "Where can I find videos on installing the paint protection film kit?"}
+{"id": "1123", "text": "Are all Do It Yourself procedures available for my specific Tesla model and region on the website?"}
+{"id": "1124", "text": "Where can I find my VIN number?"}
+{"id": "1125", "text": "Is the VIN in a different location for cars made in Gigafactory Shanghai?"}
+{"id": "1126", "text": "Where is the emission control label located on my 2022 model car?"}
+{"id": "1127", "text": "Where can I find the tire and loading information label on my Model Y?"}
+{"id": "1128", "text": "What happens if I overload my Model Y?"}
+{"id": "1129", "text": "What should I do if my Model Y is at full capacity regarding tire pressures?"}
+{"id": "1130", "text": "What kind of roof racks can I use with my Model Y?"}
+{"id": "1131", "text": "How do I calculate the available cargo load capacity for my Model Y?"}
+{"id": "1132", "text": "I have a problem with cargo security inside the cabin during sudden stops."}
+{"id": "1133", "text": "What happens if the passengers weigh more than 150 lbs each?"}
+{"id": "1134", "text": "How should I distribute the cargo weight between the front and rear trunks?"}
+{"id": "1135", "text": "What is the maximum available cargo weight with four passengers?"}
+{"id": "1136", "text": "What is the ground clearance for a non-performance model with two passengers?"}
+{"id": "1137", "text": "How high does the liftgate open, and can I adjust it?"}
+{"id": "1138", "text": "What is the overall width of the car if I fold the mirrors?"}
+{"id": "1139", "text": "How much cargo space is available behind the third row in the Model Y with 7 seats?"}
+{"id": "1140", "text": "What is the leg room like in the third row of the Model Y with 7 seats?"}
+{"id": "1141", "text": "What is the maximum total cargo volume for the Model Y with 5 passengers?"}
+{"id": "1142", "text": "What is the turning circle of the car?"}
+{"id": "1143", "text": "Can you explain the difference in rotor thickness for performance and non-performance brakes?"}
+{"id": "1144", "text": "How does the electronic power steering work with speed sensitivity?"}
+{"id": "1145", "text": "What is the minimum thickness for the front brake pads before they need to be serviced?"}
+{"id": "1146", "text": "Can you explain how the electrically actuated parking brake is integrated into the rear caliper?"}
+{"id": "1147", "text": "Is there a different service limit for performance rear brake pads compared to regular rear brake pads?"}
+{"id": "1148", "text": "What is the lug nut torque specification for the wheels?"}
+{"id": "1149", "text": "Can I purchase winter tires directly from a Tesla service center?"}
+{"id": "1150", "text": "What are the tire sizes for the 21-inch wheels on the Model Y?"}
+{"id": "1151", "text": "What does the 'T-mark' specification on a tire mean?"}
+{"id": "1152", "text": "How can I check if my tires are Tesla-approved?"}
+{"id": "1153", "text": "What is the significance of the speed rating on my tire?"}
+{"id": "1154", "text": "What load range should I use if I'm replacing my tires?"}
+{"id": "1155", "text": "Can you explain how the U.S. DOT Tire Identification Number works?"}
+{"id": "1156", "text": "What does a higher treadwear grade mean for my tires?"}
+{"id": "1157", "text": "What do the numbers and letters on my tire's sidewall mean?"}
+{"id": "1158", "text": "What should I do if my tire is marked with a low traction grade?"}
+{"id": "1159", "text": "How do I know if my tires are overheating?"}
+{"id": "1160", "text": "What should I do if my tire's temperature grade is only C?"}
+{"id": "1161", "text": "Does carrying more accessories affect tire temperature and safety?"}
+{"id": "1162", "text": "How can I prevent tire failure when driving at high speeds?"}
+{"id": "1163", "text": "What is the recommended tire inflation pressure for my Model Y?"}
+{"id": "1164", "text": "How can I check if my tire pressure is at the cold tire pressure level?"}
+{"id": "1165", "text": "What is the difference between curb weight and maximum loaded vehicle weight?"}
+{"id": "1166", "text": "What is the difference between a passenger car tire and a light truck tire?"}
+{"id": "1167", "text": "Can you explain what bead separation in a tire means?"}
+{"id": "1168", "text": "I need to know what causes chunking in a tire."}
+{"id": "1169", "text": "What do I do if I notice sidewall separation?"}
+{"id": "1170", "text": "Can you explain what a radial ply tire is?"}
+{"id": "1171", "text": "How is a snow tire different from a regular tire?"}
+{"id": "1172", "text": "What is a tread wear indicator and how does it help me?"}
+{"id": "1173", "text": "Can you explain what tread rib means?"}
+{"id": "1174", "text": "What happens if there's tread separation on my tires?"}
+{"id": "1175", "text": "What happens if my Model Y is transported with the wheels on the ground?"}
+{"id": "1176", "text": "Can I transport my Model Y using a method not specified by Tesla?"}
+{"id": "1177", "text": "Is Tesla responsible for any damages if I transport my Model Y improperly?"}
+{"id": "1178", "text": "How can I activate Transport Mode on my Model Y?"}
+{"id": "1179", "text": "Is it possible to activate Transport Mode if my Model Y has no power?"}
+{"id": "1180", "text": "What precautions should I take before transporting my Model Y after a collision?"}
+{"id": "1181", "text": "How do I enable Transport Mode on my Model Y?"}
+{"id": "1182", "text": "What should I do if the electrical system isn't working and I can't use the touchscreen?"}
+{"id": "1183", "text": "Where can I find the tow eye in the Model Y?"}
+{"id": "1184", "text": "How do I activate Transport Mode?"}
+{"id": "1185", "text": "Where can I find the tow eye?"}
+{"id": "1186", "text": "What should I do if there's no low voltage power when trying to use Transport Mode?"}
+{"id": "1187", "text": "How do I activate Transport Mode?"}
+{"id": "1188", "text": "What is the correct way to attach the winch cable to the tow eye?"}
+{"id": "1189", "text": "What should I avoid when securing the tires onto the truck?"}
+{"id": "1190", "text": "How do I contact Tesla Roadside Assistance if I have an issue with my vehicle?"}
+{"id": "1191", "text": "Where can I find the VIN in my Tesla?"}
+{"id": "1192", "text": "Can I use the Tesla mobile app to request roadside assistance in my region?"}
+{"id": "1193", "text": "What should I do if my Model Y runs out of range while driving?"}
+{"id": "1194", "text": "How can I jump start the low voltage battery if my car runs out of range?"}
+{"id": "1195", "text": "Is towing my vehicle to a charging station covered by the warranty if I run out of range?"}
+{"id": "1196", "text": "What should I do if I can't open the front trunk because my Model Y has no power?"}
+{"id": "1197", "text": "Can I charge the low voltage battery using the terminals for opening the hood?"}
+{"id": "1198", "text": "What external power supply can I use to open the hood if the car has no power?"}
+{"id": "1199", "text": "What type of battery does my Model Y use?"}
+{"id": "1200", "text": "How do I properly connect the cables when jump starting?"}
+{"id": "1201", "text": "Why can't Model Y be used to jump start another vehicle?"}
+{"id": "1202", "text": "What should I do if the touchscreen doesn't wake up immediately?"}
+{"id": "1203", "text": "How do I properly disconnect the cables from the battery after jump starting?"}
+{"id": "1204", "text": "What happens if I leave the power supply on for more than 20 seconds?"}
+{"id": "1205", "text": "What should I do if my vehicle won't shift into Drive after leaving the power supply on too long?"}
+{"id": "1206", "text": "Is the low voltage battery self-recovery required for activating Transport Mode?"}
+{"id": "1207", "text": "How can I ensure that the vehicle can shift into Drive after opening the driver door?"}
+{"id": "1208", "text": "How do I manually open a front door when there's no power?"}
+{"id": "1209", "text": "What should I do if my Model Y doesn't have a manual release for the rear doors?"}
+{"id": "1210", "text": "Is it safe to use the manual door release when my Model Y still has power?"}
+{"id": "1211", "text": "Why is Automatic Emergency Braking unavailable during my drive?"}
+{"id": "1212", "text": "The Autopilot features keep becoming unavailable, what should I do?"}
+{"id": "1213", "text": "Autosteer stopped working, could it be because of poor visibility?"}
+{"id": "1214", "text": "Why is Autosteer not available even after I've parked and started driving again?"}
+{"id": "1215", "text": "What should I do if the front camera is blocked and Autosteer isn't working?"}
+{"id": "1216", "text": "How can I ensure that obstructions like mud or snow aren't affecting my Autosteer feature?"}
+{"id": "1217", "text": "Why are my Traffic-Aware Cruise Control and Autosteer not working?"}
+{"id": "1218", "text": "What should I do if my front camera visibility is limited?"}
+{"id": "1219", "text": "Can rain or fog affect my car's camera functionality?"}
+{"id": "1220", "text": "I'm having trouble with the camera system due to glare; what should I do?"}
+{"id": "1221", "text": "How can I clear condensation from the front camera enclosure?"}
+{"id": "1222", "text": "Why is Traffic-Aware Cruise Control unavailable on my car?"}
+{"id": "1223", "text": "What should I do if the camera calibration alert does not go away after 100 miles?"}
+{"id": "1224", "text": "Why are Traffic-Aware Cruise Control and Autosteer unavailable even after the camera calibration is completed?"}
+{"id": "1225", "text": "How can I clear a 'Camera blocked or blinded' alert?"}
+{"id": "1226", "text": "What should I do if one or more vehicle cameras have limited visibility?"}
+{"id": "1227", "text": "How can I clean the cameras on my electric car?"}
+{"id": "1228", "text": "There is an alert about the high voltage battery performance being limited, what does it mean?"}
+{"id": "1229", "text": "What should I do if my vehicle's maximum range is reduced?"}
+{"id": "1230", "text": "When should I schedule service for my vehicle's charging issues?"}
+{"id": "1231", "text": "Why is it important to keep my vehicle charged to 30% or higher?"}
+{"id": "1232", "text": "What should I do if the high voltage battery requires service?"}
+{"id": "1233", "text": "Why is my car's acceleration performance reduced?"}
+{"id": "1234", "text": "What happens if my battery charge level is low while driving?"}
+{"id": "1235", "text": "What should I do if my car won't charge because of insufficient grounding?"}
+{"id": "1236", "text": "Why is my car's maximum charge level reduced?"}
+{"id": "1237", "text": "I can only charge up to 50%\u2014should I schedule a service?"}
+{"id": "1238", "text": "Why can't I charge my car using the Wall Connector?"}
+{"id": "1239", "text": "What should I do if the Wall Connector GFCI trips and I can't charge my car?"}
+{"id": "1240", "text": "I'm having a Wall Connector hardware issue; what steps should I take to resolve it?"}
+{"id": "1241", "text": "What should I do if the Wall Connector's GFCI is tripped?"}
+{"id": "1242", "text": "How can I fix the 'overcurrent' alert from the Wall Connector?"}
+{"id": "1243", "text": "What steps should I take if the Wall Connector's input voltage is too high?"}
+{"id": "1244", "text": "Why is my Wall Connector not charging my electric car?"}
+{"id": "1245", "text": "What should I do if my Wall Connector is too hot?"}
+{"id": "1246", "text": "I have a problem with my Wall Connector not working and showing a hardware issue."}
+{"id": "1247", "text": "Why is my car unable to charge because the wall connection is too hot?"}
+{"id": "1248", "text": "What should I do if my charge handle is getting too hot?"}
+{"id": "1249", "text": "What does it mean when the Wall Connector needs service due to a hardware issue?"}
+{"id": "1250", "text": "What should I do if my vehicle is unable to charge due to a connection issue?"}
+{"id": "1251", "text": "I disconnected and reconnected the Wall Connector, but it's still not working. What should I try next?"}
+{"id": "1252", "text": "Do I need an electrician to check the Wall Connector if I'm still unable to charge my vehicle?"}
+{"id": "1253", "text": "What should I do if my car isn't charging and I've already tried reconnecting the Wall Connector?"}
+{"id": "1254", "text": "How long should I wait after turning off the circuit breaker before turning it back on?"}
+{"id": "1255", "text": "Is service required if my vehicle can't communicate with any charging equipment?"}
+{"id": "1256", "text": "How do I fix a Wall Connector hardware issue?"}
+{"id": "1257", "text": "What should I do if my car's Wall Connector is not charging?"}
+{"id": "1258", "text": "I think there's an issue with the thermal sensor on my Wall Connector."}
+{"id": "1259", "text": "Why can't I charge my car when there are too many Wall Connectors?"}
+{"id": "1260", "text": "What should I do if my Wall Connector shows a low current error?"}
+{"id": "1261", "text": "I have a problem with my Wall Connector needing service."}
+{"id": "1262", "text": "I tried reconnecting the Wall Connector, but it's still not charging. What should I do next?"}
+{"id": "1263", "text": "What does it mean if the thermal sensor is disconnected?"}
+{"id": "1264", "text": "The Wall Connector alert says it needs service. Can I fix this myself, or do I need to contact someone?"}
+{"id": "1265", "text": "What should I do if the Wall Connector detects an internal issue?"}
+{"id": "1266", "text": "How do I fix an incorrect rotary switch setting on the Wall Connector?"}
+{"id": "1267", "text": "I am unable to charge my vehicle due to a connection issue. What steps should I take?"}
+{"id": "1268", "text": "Why is my Wall Connector not charging my car?"}
+{"id": "1269", "text": "What should I do if the Wall Connector indicates a mismatch in current ratings?"}
+{"id": "1270", "text": "My Wall Connector is getting hot and reducing the charge rate, what steps should I take?"}
+{"id": "1271", "text": "Why is my electric car not charging even when the cable is connected?"}
+{"id": "1272", "text": "What should I do if my car displays a 'Charging equipment not recognized' alert?"}
+{"id": "1273", "text": "Can I try using a Tesla Supercharger if my charging equipment is not recognized?"}
+{"id": "1274", "text": "What should I do if my car cannot sense a control pilot signal?"}
+{"id": "1275", "text": "Can I fix the charging issue by myself or do I need to schedule service?"}
+{"id": "1276", "text": "What might be wrong if my vehicle isn't charging correctly with the usual equipment?"}
+{"id": "1277", "text": "What should I do if my vehicle still does not charge after checking for obstructions?"}
+{"id": "1278", "text": "I have a problem with the charge port door sensor fault."}
+{"id": "1279", "text": "What steps can I take if there's a communication loss with the charging equipment?"}
+{"id": "1280", "text": "What should I do if I can't charge my car at home?"}
+{"id": "1281", "text": "If my car starts charging with different equipment, does that mean there\u2019s a problem with my home charging station?"}
+{"id": "1282", "text": "What should I do if my charge port won't open when I press on it?"}
+{"id": "1283", "text": "How can I check if the charging station is powered?"}
+{"id": "1284", "text": "I am unable to charge my car, and it might be an issue with the charging equipment. What should I try next?"}
+{"id": "1285", "text": "What should I do if no status lights are visible on the Wall Connector?"}
+{"id": "1286", "text": "Who should I contact to inspect the building wiring for charging issues?"}
+{"id": "1287", "text": "I need help with troubleshooting charging alerts."}
+{"id": "1288", "text": "Why is my charge port light pulsing amber during AC charging?"}
+{"id": "1289", "text": "My vehicle won't charge and the charge port latch not engaged alert is on, what should I check?"}
+{"id": "1290", "text": "Is it normal for the charge port latch release cable to affect charging capacity?"}
+{"id": "1291", "text": "Why did my car stop charging?"}
+{"id": "1292", "text": "What should I do if my charging equipment loses communication with my vehicle?"}
+{"id": "1293", "text": "Where can I locate a Tesla Supercharger or Destination Charging location?"}
+{"id": "1294", "text": "What should I do if my car stops charging due to a disconnected charge cable?"}
+{"id": "1295", "text": "I'm unable to AC charge my vehicle, can I try using a Tesla Supercharger instead?"}
+{"id": "1296", "text": "How can I locate Tesla Supercharger or Destination Charging locations using my touchscreen display?"}
+{"id": "1297", "text": "What should I do if the charging station is delaying charging?"}
+{"id": "1298", "text": "I cannot remove the charge cable, and it might be frozen."}
+{"id": "1299", "text": "How can I start charging if the station requires further activation?"}
+{"id": "1300", "text": "How can I remove a frozen charge cable from the port?"}
+{"id": "1301", "text": "Why does adjusting the climate control on the touchscreen not effectively thaw the charge port?"}
+{"id": "1302", "text": "I need help with the charge port latch being frozen."}
+{"id": "1303", "text": "How can I thaw the ice affecting the charge port latch?"}
+{"id": "1304", "text": "What should I do if the charge cable cannot be removed?"}
+{"id": "1305", "text": "Why is my charge rate reduced and limited to 16A in cold weather?"}
+{"id": "1306", "text": "Why is my electric car not charging even though the charge port light pulses green?"}
+{"id": "1307", "text": "What should I do if my charge port latch manual release cable has been pulled accidentally?"}
+{"id": "1308", "text": "How can I defrost the charge port latch if it\u2019s frozen?"}
+{"id": "1309", "text": "How do I turn on the rear defrost to thaw the charge port?"}
+{"id": "1310", "text": "What should I do if the Wall Connector gets too hot and the car can't charge?"}
+{"id": "1311", "text": "Why can't I charge my car using a third-party charging adapter?"}
+{"id": "1312", "text": "What should I do if there's an electric arc flash while charging?"}
+{"id": "1313", "text": "Is it safe to unplug the car while it is charging?"}
+{"id": "1314", "text": "I have a problem with charging using a third-party adapter."}
+{"id": "1315", "text": "What should I do if my charge port shows an error and requires service?"}
+{"id": "1316", "text": "Can I still use a Tesla Supercharger if my AC charging is not working?"}
+{"id": "1317", "text": "How do I confirm that charging has completely stopped before unplugging the adapter?"}
+{"id": "1318", "text": "What should I do if the charge handle is still detected after I try to unlatch it?"}
+{"id": "1319", "text": "How can I use the charge port manual release cable?"}
+{"id": "1320", "text": "I have a problem with the charge port not releasing the cable."}
+{"id": "1321", "text": "What should I do if the charge cable won't release after using the manual release cable?"}
+{"id": "1322", "text": "How can I defrost the charge port if it's frozen?"}
+{"id": "1323", "text": "I received an alert that says the front motor is disabled. Can I still drive my car?"}
+{"id": "1324", "text": "Why is the power, speed, and acceleration reduced in my vehicle?"}
+{"id": "1325", "text": "The alert about driving with rear motor(s) only persists; should I schedule service?"}
+{"id": "1326", "text": "Is it safe to continue driving if I see an alert about the front motor requiring inspection?"}
+{"id": "1327", "text": "Why did my vehicle automatically shift into Park while I was driving slowly?"}
+{"id": "1328", "text": "What should I check if Cruise Control is unavailable even though I've tried reactivating it?"}
+{"id": "1329", "text": "Can the vehicle automatically shift into Park if I just open the driver door slightly?"}
+{"id": "1330", "text": "Why was my Autopark canceled?"}
+{"id": "1331", "text": "Autopark aborted and applied the parking brake, what should I do now?"}
+{"id": "1332", "text": "Can Autopark be used immediately after it gets canceled or aborted?"}
+{"id": "1333", "text": "What should I do if the rear tire tread depth is low but the car alert hasn't appeared?"}
+{"id": "1334", "text": "Can I schedule a service through the Tesla Mobile App for a tire rotation?"}
+{"id": "1335", "text": "How often should I check my tire tread depth even if the alert hasn't triggered?"}
+{"id": "1336", "text": "Why is the Vehicle Hold feature unavailable?"}
+{"id": "1337", "text": "What should I do if the Vehicle Hold alert appears?"}
+{"id": "1338", "text": "Is it safe to drive with the Vehicle Hold feature unavailable?"}
+{"id": "1339", "text": "What should I do if I'm getting a gearbox fluid service alert?"}
+{"id": "1340", "text": "Why does my vehicle automatically shift into Park when I'm not leaving?"}
+{"id": "1341", "text": "What does 'assist for low brake performance activated' mean and what should I do?"}
+{"id": "1342", "text": "Why did my brake pedal feel like it was pulling away from my foot while driving?"}
+{"id": "1343", "text": "Is it normal to hear a pumping sound coming from the brake hydraulic unit?"}
+{"id": "1344", "text": "I can't charge my car at home. Could it be an issue with my wall outlet?"}
+{"id": "1345", "text": "What should I do if my car doesn't charge with the Mobile Connector?"}
+{"id": "1346", "text": "How can I find a Tesla Supercharger location using my car's display?"}
+{"id": "1347", "text": "Where can I get help if my car won't charge at different locations with different equipment?"}
+{"id": "1348", "text": "Why did my charging stop unexpectedly?"}
+{"id": "1349", "text": "How do I check the status lights on the Mobile Connector?"}
+{"id": "1350", "text": "Can I charge with a Tesla Supercharger if my Wall Connector is not working?"}
+{"id": "1351", "text": "Why has my charging speed been reduced?"}
+{"id": "1352", "text": "What should I do if my AC charging is limited?"}
+{"id": "1353", "text": "Is DC fast charging still working if there's a problem with AC charging?"}
+{"id": "1354", "text": "Could using nearby electric devices affect my vehicle's AC charging?"}
+{"id": "1355", "text": "Why is my vehicle charging speed reduced?"}
+{"id": "1356", "text": "What should I do if my car doesn't charge with the Mobile Connector?"}
+{"id": "1357", "text": "Can I still use a Tesla Supercharger if there's an issue with AC power charging?"}
+{"id": "1358", "text": "How can I charge my electric car at a Tesla Supercharger?"}
+{"id": "1359", "text": "What should I do if my car isn't charging properly with my home charger?"}
+{"id": "1360", "text": "Can I find Tesla Destination Charging locations using my car's touchscreen?"}
+{"id": "1361", "text": "What should I do if my electric car isn't charging with the external equipment?"}
+{"id": "1362", "text": "Why is the charging speed reduced on my electric car?"}
+{"id": "1363", "text": "I need an electrician to inspect the wiring because the charge rate has been reduced."}
+{"id": "1364", "text": "Why did my charging stop with a large voltage drop message?"}
+{"id": "1365", "text": "Can using an extension cord cause charging issues?"}
+{"id": "1366", "text": "What should I do if my usual charging location keeps having a voltage drop issue?"}
+{"id": "1367", "text": "Why is the onboard charger detecting input voltage when no power is requested?"}
+{"id": "1368", "text": "What should I do if the external charging equipment is not functioning as expected?"}
+{"id": "1369", "text": "I need help with DC fast charging issues."}
+{"id": "1370", "text": "Why is my car not charging with the external equipment?"}
+{"id": "1371", "text": "How can I fix the issue of some AC phases not being powered during charging?"}
+{"id": "1372", "text": "There is a powertrain issue detected, what steps should I take next?"}
+{"id": "1373", "text": "What should I do if I get a powertrain issue alert?"}
+{"id": "1374", "text": "Can the vehicle shut down while driving due to a powertrain issue?"}
+{"id": "1375", "text": "Do I need to schedule service if the powertrain alert goes away on its own?"}
+{"id": "1376", "text": "What should I do if my front trunk opens while driving?"}
+{"id": "1377", "text": "What does it mean when there is a 'Service is required' alert?"}
+{"id": "1378", "text": "Why is there a loss of Infotainment functionality when a service technician is performing remote diagnostics?"}
+{"id": "1379", "text": "Why can't I charge my car with the Mobile Connector?"}
+{"id": "1380", "text": "What does it mean if the Mobile Connector's GFCI has tripped?"}
+{"id": "1381", "text": "Can I charge my vehicle at a Tesla Supercharger if I'm having issues with my home outlet?"}
+{"id": "1382", "text": "Why has my car's charging been interrupted?"}
+{"id": "1383", "text": "What should I do if I find moisture in the charge port?"}
+{"id": "1384", "text": "Can I use a damaged charge cable to charge my vehicle?"}
+{"id": "1385", "text": "I'm having trouble charging with the Mobile Connector; what should I do?"}
+{"id": "1386", "text": "What does it mean if the Mobile Connector detects high voltage and the car doesn't charge?"}
+{"id": "1387", "text": "Is the problem with my vehicle if it can't charge with the Mobile Connector?"}
+{"id": "1388", "text": "What should I do if my vehicle isn't charging with external equipment?"}
+{"id": "1389", "text": "How can I find a Tesla Supercharger or Destination Charging location?"}
+{"id": "1390", "text": "I have a problem with charging using my Mobile Connector."}
+{"id": "1391", "text": "Why does the Mobile Connector stop charging due to high temperature?"}
+{"id": "1392", "text": "What should I do if my wall outlet becomes too warm during charging?"}
+{"id": "1393", "text": "How can I resolve a high temperature alert in the charge handle?"}
+{"id": "1394", "text": "How do I properly insert the Mobile Connector into the charge port?"}
+{"id": "1395", "text": "What should I do if there is moisture in the charge port?"}
+{"id": "1396", "text": "Can having a heat source near the Mobile Connector cause issues?"}
+{"id": "1397", "text": "What should I do if the Mobile Connector gets really hot?"}
+{"id": "1398", "text": "Why can't my car communicate with the Mobile Connector?"}
+{"id": "1399", "text": "How can I find a Tesla Supercharger or Destination Charging location?"}
+{"id": "1400", "text": "What should I do if my car doesn't charge?"}
+{"id": "1401", "text": "How can I check if my Mobile Connector is causing charging problems?"}
+{"id": "1402", "text": "What if there are obstructions in the charge port inlet?"}
+{"id": "1403", "text": "What should I do if my vehicle does not start charging with the Mobile Connector?"}
+{"id": "1404", "text": "I have a problem with a communication error when trying to charge my car."}
+{"id": "1405", "text": "What can cause the charge rate to be reduced when using my Mobile Connector?"}
+{"id": "1406", "text": "Why is my charge current reduced to 8A?"}
+{"id": "1407", "text": "How can I make sure the connection between the wall plug adapter and the Mobile Connector is secure?"}
+{"id": "1408", "text": "What should I do if the charge current is automatically reduced?"}
+{"id": "1409", "text": "What should I do if my Mobile Connector is unable to communicate with the wall plug adapter?"}
+{"id": "1410", "text": "Why is my electric car charging rate reduced to 8A?"}
+{"id": "1411", "text": "Do I need to replace the Mobile Connector if the charging alert persists?"}
+{"id": "1412", "text": "What should I do if my charge rate is reduced?"}
+{"id": "1413", "text": "Can I still use my Mobile Connector if there's a wall plug adapter error?"}
+{"id": "1414", "text": "Where can I find a Tesla Supercharger or Destination Charging location?"}
+{"id": "1415", "text": "Why is my Mobile Connector reducing the charge current to 8A?"}
+{"id": "1416", "text": "What should I do if my Mobile Connector's control box temperature is high?"}
+{"id": "1417", "text": "How can I find a Tesla Supercharger or Destination Charging location?"}
+{"id": "1418", "text": "Why is my vehicle's charging rate reduced when using a wall plug?"}
+{"id": "1419", "text": "What should I do if my wall plug outlet becomes warm while charging?"}
+{"id": "1420", "text": "How does the Mobile Connector detect high temperatures in the wall plug?"}
+{"id": "1421", "text": "What should I do if my charging speed does not return to normal after ensuring the adapter is fully plugged in?"}
+{"id": "1422", "text": "How do I inspect the charge port inlet and Mobile Connector handle for obstructions or moisture?"}
+{"id": "1423", "text": "What's the procedure if the Mobile Connector to adapter connection feels hot?"}
+{"id": "1424", "text": "What should I do if there's moisture on the wall plug adapter?"}
+{"id": "1425", "text": "Why do I need to check for obstructions in the wall plug adapter connection?"}
+{"id": "1426", "text": "What does it mean if the alert persists even after following all the steps?"}
+{"id": "1427", "text": "What should I do if my vehicle may shut down unexpectedly while driving?"}
+{"id": "1428", "text": "How can I schedule a service to replace the low voltage battery?"}
+{"id": "1429", "text": "Is there a way to reduce the electrical system power issues temporarily?"}
+{"id": "1430", "text": "What should I do if my vehicle shuts down unexpectedly while driving?"}
+{"id": "1431", "text": "How can I exit the vehicle if all electrical power is lost?"}
+{"id": "1432", "text": "Why are some features like seat heaters and climate control not working now?"}
+{"id": "1433", "text": "What should I do if my vehicle's electrical system can't support all features?"}
+{"id": "1434", "text": "Why won't my vehicle restart after Supercharging?"}
+{"id": "1435", "text": "I'm having an issue with limited cabin climate control."}
+{"id": "1436", "text": "Why are my powered windows not working?"}
+{"id": "1437", "text": "What should I do if the vehicle shuts down unexpectedly?"}
+{"id": "1438", "text": "Why is the car consuming more energy while it's idle?"}
+{"id": "1439", "text": "What should I do if my vehicle shows the 'Vehicle is preparing to shut down' alert while driving?"}
+{"id": "1440", "text": "Why are the powered doors and windows not working?"}
+{"id": "1441", "text": "How can I contact Tesla Roadside Assistance using the Mobile App?"}
+{"id": "1442", "text": "What should I do if my vehicle's electrical system issue makes it unable to drive?"}
+{"id": "1443", "text": "How do I exit the vehicle if the powered doors lose electrical power?"}
+{"id": "1444", "text": "Why are the powered windows and front seat heaters not working?"}
+{"id": "1445", "text": "What should I do if my car is unable to drive due to an electrical system issue?"}
+{"id": "1446", "text": "How do I release the manual door if the powered doors lose electrical power?"}
+{"id": "1447", "text": "Why does the tire pressure alert appear more often in cold weather?"}
+{"id": "1448", "text": "Why does the tire pressure alert appear?"}
+{"id": "1449", "text": "What should I do if the tire pressure alert clears while driving?"}
+{"id": "1450", "text": "When will the tire pressure alert clear?"}
+{"id": "1451", "text": "Why is the Tire Pressure indicator light still on after I filled the tires?"}
+{"id": "1452", "text": "What should I do if I keep getting an alert for low tire pressure on the same tire?"}
+{"id": "1453", "text": "How fast do I need to drive for the Tire Pressure Monitoring System to update?"}
+{"id": "1454", "text": "I have a problem with repeated tire pressure alerts."}
+{"id": "1455", "text": "Where can I find the most up-to-date information specific to my vehicle?"}
+{"id": "1456", "text": "What should I do if the information in the Owner's Manual conflicts with the Release Notes?"}
+{"id": "1457", "text": "How can I provide feedback about inaccuracies in the Owner's Manual?"}
+{"id": "1458", "text": "Where can I find more information about the Open Source software used by Tesla?"}
+{"id": "1459", "text": "What are the implications of using Tesla's trademarks without authorization?"}
+{"id": "1460", "text": "How can I check if my Tesla has the latest software features?"}
+{"id": "1461", "text": "Where can I adjust my software update preferences?"}
+{"id": "1462", "text": "Why might my Tesla not have all the features mentioned in the owner's manual?"}
+{"id": "1463", "text": "How can I access the data recorded by the EDR?"}
+{"id": "1464", "text": "What kind of driving conditions trigger the EDR to start recording data?"}
+{"id": "1465", "text": "Is the data recorded by EDR combined with personal information?"}
+{"id": "1466", "text": "Can Tesla technicians access my vehicle's data remotely to fix issues?"}
+{"id": "1467", "text": "How does Tesla use the data collected from my vehicle?"}
+{"id": "1468", "text": "Who can Tesla disclose my vehicle's data to?"}
+{"id": "1469", "text": "How do I change my data sharing preferences in my Model Y?"}
+{"id": "1470", "text": "Can Tesla identify me personally from the data collected from my vehicle?"}
+{"id": "1471", "text": "Does Tesla store GPS information about my vehicle's past locations?"}
+{"id": "1472", "text": "Why does my Model Y have miles on it when I just received it?"}
+{"id": "1473", "text": "Can I use the sound effects in my YouTube videos?"}
+{"id": "1474", "text": "Do I need to take any precautions when handling the battery posts in my vehicle?"}
+{"id": "1475", "text": "How do I report a bug with my Tesla Model Y using voice commands?"}
+{"id": "1476", "text": "Who should I contact if I think there is a safety defect in my Model Y?"}
+{"id": "1477", "text": "What number do I call if I have questions about my Tesla in Mexico?"}
+{"id": "1478", "text": "What should I do if my Tesla device causes harmful interference?"}
+{"id": "1479", "text": "Is it possible to modify the in-cabin radar myself?"}
+{"id": "1480", "text": "Can the wireless charger be installed after the car is purchased?"}
+{"id": "1481", "text": "What should I do if my car is causing interference with my radio?"}
+{"id": "1482", "text": "How can I reduce radio interference caused by the car?"}
+{"id": "1483", "text": "What does compliance with FCC Part 15 mean for my car?"}
+{"id": "1484", "text": "What should I do if my radio or TV is experiencing interference from the car's equipment?"}
+{"id": "1485", "text": "Is it safe to operate the car's wireless power transfer functions?"}
+{"id": "1486", "text": "Can the car's antennas be used together with other transmitters?"}
+{"id": "1487", "text": "What should I do if my car experiences interference during operation?"}
+{"id": "1488", "text": "Can this device cause any interference?"}
+{"id": "1489", "text": "Does this equipment comply with consumer safety standards?"}
