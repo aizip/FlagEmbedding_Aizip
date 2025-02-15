@@ -17,7 +17,7 @@ Or by running:
 
 .. code:: bash
 
-    python -m FlagEmbedding.evaluation.mteb \
+    python -m FlagEmbedding_Aizip.evaluation.mteb \
     --eval_name mteb \
     --output_dir ./mteb/search_results \
     --languages eng \

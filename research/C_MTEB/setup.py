@@ -10,7 +10,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     author_email='2906698981@qq.com',
-    url='https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB',
+    url='https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/C_MTEB',
     packages=find_packages(),
     install_requires=[
         'mteb[beir]==1.1.1',

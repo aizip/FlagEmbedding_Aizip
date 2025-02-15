@@ -1,7 +1,7 @@
 Community
 =========
 
-Visit our `GitHub repo <https://github.com/FlagOpen/FlagEmbedding>`_ and 
+Visit our `GitHub repo <https://github.com/FlagOpen/FlagEmbedding_Aizip>`_ and 
 `Hugging Face collection <https://huggingface.co/collections/BAAI/bge-66797a74476eb1f085c7446d>`_ for more materials!
 
 We are also holding WeChat groups for for BGE. Scan the QR code to join the group chat! 

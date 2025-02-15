@@ -1,6 +1,6 @@
 # Tutorial
 
-FlagEmbedding holds a whole curriculum for retrieval, embedding models, RAG, etc. This section is currently being actively updated, suggestions are very welcome. No matter you are new to NLP or a veteran, we hope you can find something helpful!
+FlagEmbedding_Aizip holds a whole curriculum for retrieval, embedding models, RAG, etc. This section is currently being actively updated, suggestions are very welcome. No matter you are new to NLP or a veteran, we hope you can find something helpful!
 
 If you are new to embedding and retrieval, check out the 5 minute [quick start](./quick_start.ipynb)!
 

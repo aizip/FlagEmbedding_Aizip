@@ -8,7 +8,7 @@ An embedder can encode text into embeddings.
 
 When provided with a query and a passage, the embedder encodes both separately, and then uses the similarity between their embeddings as the similarity score.
 
-For more detailed using, you can look [embedder-encoder only](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/embedder/encoder_only) or [embedder-decoder only](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/embedder/decoder_only)
+For more detailed using, you can look [embedder-encoder only](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/embedder/encoder_only) or [embedder-decoder only](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/embedder/decoder_only)
 
 
 ## Model List
@@ -35,14 +35,14 @@ For more detailed using, you can look [embedder-encoder only](https://github.com
 
 ## Usage
 
-### Using FlagEmbedding
+### Using FlagEmbedding_Aizip
 
 #### 1. Auto Model
 
-You can use `FlagAutoModel` to load the model. For the **custom model** (not included in [`AUTO_EMBEDDER_MAPPING`](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/inference/embedder/model_mapping.py#L39)), you must specify the `model_class` parameter. You can also submit a pull request to add your **released model** to the [`AUTO_EMBEDDER_MAPPING`](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/inference/embedder/model_mapping.py#L39) dictionary. If need, you can create a new `<model>.py` file in [here](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/inference/embedder/encoder_only) or [here](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/inference/embedder/decoder_only).
+You can use `FlagAutoModel` to load the model. For the **custom model** (not included in [`AUTO_EMBEDDER_MAPPING`](https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/FlagEmbedding_Aizip/inference/embedder/model_mapping.py#L39)), you must specify the `model_class` parameter. You can also submit a pull request to add your **released model** to the [`AUTO_EMBEDDER_MAPPING`](https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/FlagEmbedding_Aizip/inference/embedder/model_mapping.py#L39) dictionary. If need, you can create a new `<model>.py` file in [here](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/FlagEmbedding_Aizip/inference/embedder/encoder_only) or [here](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/FlagEmbedding_Aizip/inference/embedder/decoder_only).
 
 ```python
-from FlagEmbedding import FlagAutoModel
+from FlagEmbedding_Aizip import FlagAutoModel
 sentences_1 = ["样例数据-1", "样例数据-2"]
 sentences_2 = ["样例数据-3", "样例数据-4"]
 model = FlagAutoModel.from_finetuned('BAAI/bge-large-zh-v1.5',
@@ -67,7 +67,7 @@ print(scores)
 For your **custom model** (assume the model is finetuned from `BAAI/bge-large-zh-v1.5`, then the model class is `encoder-only-base`), you can use the following code:
 
 ```python
-from FlagEmbedding import FlagAutoModel
+from FlagEmbedding_Aizip import FlagAutoModel
 sentences_1 = ["样例数据-1", "样例数据-2"]
 sentences_2 = ["样例数据-3", "样例数据-4"]
 model = FlagAutoModel.from_finetuned('your_model_name_or_path',
@@ -102,7 +102,7 @@ The `model_class` parameter currently includes the following options:
 For `FlagModel`, it supports `BAAI/bge-large-en-v1.5`, `BAAI/bge-base-en-v1.5`, `BAAI/bge-small-en-v1.5`, `BAAI/bge-large-zh-v1.5`, `BAAI/bge-base-zh-v1.5`, `BAAI/bge-small-zh-v1.5`, `BAAI/bge-large-en`, `BAAI/bge-base-en`, `BAAI/bge-small-en`, `BAAI/bge-large-zh`, `BAAI/bge-base-zh`, `BAAI/bge-small-zh'`:
 
 ```python
-from FlagEmbedding import FlagModel
+from FlagEmbedding_Aizip import FlagModel
 sentences_1 = ["样例数据-1", "样例数据-2"]
 sentences_2 = ["样例数据-3", "样例数据-4"]
 model = FlagModel('BAAI/bge-large-zh-v1.5',
@@ -129,7 +129,7 @@ print(scores)
 For `BGEM3FlagModel`, it supports `BAAI/bge-m3`:
 
 ```python
-from FlagEmbedding import BGEM3FlagModel
+from FlagEmbedding_Aizip import BGEM3FlagModel
 sentences_1 = ["样例数据-1", "样例数据-2"]
 sentences_2 = ["样例数据-3", "样例数据-4"]
 model = BGEM3FlagModel('BAAI/bge-m3',
@@ -184,7 +184,7 @@ print('sparse similarity:', sparse_scores)
 For `FlagLLMModel`, it supports `BAAI/bge-multilingual-gemma2`, `Alibaba-NLP/gte-Qwen2-7B-instruct`, `intfloat/e5-mistral-7b-instruct`, .etc:
 
 ```python
-from FlagEmbedding import FlagLLMModel
+from FlagEmbedding_Aizip import FlagLLMModel
 sentences_1 = ["样例数据-1", "样例数据-2"]
 sentences_2 = ["样例数据-3", "样例数据-4"]
 model = FlagLLMModel('BAAI/bge-multilingual-gemma2',
@@ -205,7 +205,7 @@ print(scores)
 For `FlagICLModel`, it supports `BAAI/bge-en-icl`:
 
 ```python
-from FlagEmbedding import FlagICLModel
+from FlagEmbedding_Aizip import FlagICLModel
 
 examples = [
     {
@@ -440,7 +440,7 @@ similarity = embeddings_1 @ embeddings_2.T
 print(similarity)
 ```
 
-For s2p(short query to long passage) retrieval task, each short query should start with an instruction (instructions see [Model List](https://github.com/FlagOpen/FlagEmbedding/tree/master#model-list)). But the instruction is not needed for passages.
+For s2p(short query to long passage) retrieval task, each short query should start with an instruction (instructions see [Model List](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master#model-list)). But the instruction is not needed for passages.
 
 ```shell
 from sentence_transformers import SentenceTransformer

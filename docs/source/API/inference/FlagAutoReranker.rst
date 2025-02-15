@@ -1,9 +1,9 @@
 FlagAutoReranker
 ================
 
-.. autoclass:: FlagEmbedding.inference.FlagAutoReranker
+.. autoclass:: FlagEmbedding_Aizip.inference.FlagAutoReranker
 
 Methods
 -------
 
-.. automethod:: FlagEmbedding.inference.FlagAutoReranker.from_finetuned
+.. automethod:: FlagEmbedding_Aizip.inference.FlagAutoReranker.from_finetuned

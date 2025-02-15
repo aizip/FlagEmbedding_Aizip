@@ -1,4 +1,4 @@
-.. FlagEmbedding documentation master file, created by
+.. FlagEmbedding_Aizip documentation master file, created by
    sphinx-quickstart on Sat Oct 12 13:27:49 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -61,7 +61,7 @@ Welcome to BGE!
 
    .. grid-item-card:: :octicon:`codescan` API
 
-      Check the API of classes and functions in FlagEmbedding.
+      Check the API of classes and functions in FlagEmbedding_Aizip.
 
       +++
 
@@ -98,18 +98,18 @@ Welcome to BGE!
 
          To Community
 
-Besides the resources we provide here in this documentation, please visit our `GitHub repo <https://github.com/FlagOpen/FlagEmbedding>`_ for more contents including:
+Besides the resources we provide here in this documentation, please visit our `GitHub repo <https://github.com/FlagOpen/FlagEmbedding_Aizip>`_ for more contents including:
 
-- Want to get familiar with BGE quickly? There are hands-on `examples <https://github.com/FlagOpen/FlagEmbedding/tree/068e86f58eccc3107aacb119920de8dba9caa913/examples>`_ to run for embedder and reranker's inference, evaluation, and finetuning.
-- Unfamiliar with some area, keywords or techniques of retrieval and RAG? We provide `tutorials <https://github.com/FlagOpen/FlagEmbedding/tree/068e86f58eccc3107aacb119920de8dba9caa913/Tutorials>`_ to teach you basic knowledge and coding tips.
-- Interested in research topics that expanding from BGE and retrieval? Our `research <https://github.com/FlagOpen/FlagEmbedding/tree/068e86f58eccc3107aacb119920de8dba9caa913/research>`_ folder contains many exciting topics for you to explore.
+- Want to get familiar with BGE quickly? There are hands-on `examples <https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/068e86f58eccc3107aacb119920de8dba9caa913/examples>`_ to run for embedder and reranker's inference, evaluation, and finetuning.
+- Unfamiliar with some area, keywords or techniques of retrieval and RAG? We provide `tutorials <https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/068e86f58eccc3107aacb119920de8dba9caa913/Tutorials>`_ to teach you basic knowledge and coding tips.
+- Interested in research topics that expanding from BGE and retrieval? Our `research <https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/068e86f58eccc3107aacb119920de8dba9caa913/research>`_ folder contains many exciting topics for you to explore.
 
 BGE is developed by Beijing Academy of Artificial Intelligence (BAAI).
 
 |
 
 .. image:: _static/img/BAAI_logo.png
-   :target: https://github.com/FlagOpen/FlagEmbedding
+   :target: https://github.com/FlagOpen/FlagEmbedding_Aizip
    :width: 300
    :align: center
 

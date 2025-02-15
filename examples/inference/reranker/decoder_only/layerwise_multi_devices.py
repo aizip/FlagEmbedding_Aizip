@@ -1,5 +1,5 @@
 import os
-from FlagEmbedding import LayerWiseFlagLLMReranker
+from FlagEmbedding_Aizip import LayerWiseFlagLLMReranker
 
 
 def test_base_multi_devices():

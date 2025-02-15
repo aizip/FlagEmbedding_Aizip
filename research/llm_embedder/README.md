@@ -17,10 +17,10 @@ This is the codebase for LLM-Embedder, a unified embedding model to comprehensiv
 - Details about how to evaluate different retrievers on various retrieval-augmented scenarios are [here](docs/evaluation.md).
 
 ## Usage
-### Using `FlagEmbedding`
-```pip install -U FlagEmbedding```
+### Using `FlagEmbedding_Aizip`
+```pip install -U FlagEmbedding_Aizip```
 ```python
-from FlagEmbedding import FlagModel
+from FlagEmbedding_Aizip import FlagModel
 
 INSTRUCTIONS = {
     "qa": {

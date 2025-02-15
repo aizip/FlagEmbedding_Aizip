@@ -3,7 +3,7 @@ from typing import Optional, List
 
 from dataclasses import dataclass, field
 from transformers import HfArgumentParser
-from FlagEmbedding import FlagAutoReranker
+from FlagEmbedding_Aizip import FlagAutoReranker
 
 
 @dataclass

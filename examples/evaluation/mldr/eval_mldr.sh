@@ -29,7 +29,7 @@ model_args="\
     --reranker_max_length 8192 \
 "
 
-cmd="python -m FlagEmbedding.evaluation.mldr \
+cmd="python -m FlagEmbedding_Aizip.evaluation.mldr \
     $eval_args \
     $model_args \
 "

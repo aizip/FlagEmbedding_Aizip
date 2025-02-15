@@ -16,7 +16,7 @@ import json
 import datasets
 import numpy as np
 from tqdm import tqdm
-from FlagEmbedding import BGEM3FlagModel
+from FlagEmbedding_Aizip import BGEM3FlagModel
 from dataclasses import dataclass, field
 from transformers import HfArgumentParser
 

@@ -1,4 +1,4 @@
 runner
 ======
 
-.. autoclass:: FlagEmbedding.evaluation.beir.BEIREvalRunner
+.. autoclass:: FlagEmbedding_Aizip.evaluation.beir.BEIREvalRunner

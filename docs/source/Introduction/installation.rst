@@ -10,13 +10,13 @@ If you do not need to finetune the models, you can install the package without t
 
 .. code:: bash
 
-    pip install -U FlagEmbedding
+    pip install -U FlagEmbedding_Aizip
 
 If you want to finetune the models, you can install the package with the finetune dependency:
 
 .. code:: bash
 
-    pip install -U FlagEmbedding[finetune]
+    pip install -U FlagEmbedding_Aizip[finetune]
 
 
 Install from sources:
@@ -26,8 +26,8 @@ Clone the repository and install
 
 .. code:: bash
 
-    git clone https://github.com/FlagOpen/FlagEmbedding.git
-    cd FlagEmbedding
+    git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+    cd FlagEmbedding_Aizip
     # If you do not need to finetune the models, you can install the package without the finetune dependency:
     pip install  .
     # If you want to finetune the models, install the package with the finetune dependency:

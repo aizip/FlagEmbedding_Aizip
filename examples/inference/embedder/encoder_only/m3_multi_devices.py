@@ -1,5 +1,5 @@
 import os
-from FlagEmbedding import BGEM3FlagModel
+from FlagEmbedding_Aizip import BGEM3FlagModel
 
 
 def test_m3_multi_devices():

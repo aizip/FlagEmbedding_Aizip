@@ -58,7 +58,7 @@ Or by running:
 
 .. code:: bash
 
-    python -m FlagEmbedding.evaluation.mkqa \
+    python -m FlagEmbedding_Aizip.evaluation.mkqa \
     --eval_name mkqa \
     --dataset_dir ./mkqa/data \
     --dataset_names en zh_cn \

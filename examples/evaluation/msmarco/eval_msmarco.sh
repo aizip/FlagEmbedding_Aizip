@@ -28,7 +28,7 @@ model_args="\
     --reranker_max_length 1024 \
 "
 
-cmd="python -m FlagEmbedding.evaluation.msmarco \
+cmd="python -m FlagEmbedding_Aizip.evaluation.msmarco \
     $eval_args \
     $model_args \
 "

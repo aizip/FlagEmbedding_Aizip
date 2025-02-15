@@ -2,9 +2,9 @@
 Modeling
 ========
 
-.. autoclass:: FlagEmbedding.finetune.reranker.decoder_only.base.CrossDecoderModel
+.. autoclass:: FlagEmbedding_Aizip.finetune.reranker.decoder_only.base.CrossDecoderModel
 
 Methods
 =======
 
-.. automethod:: FlagEmbedding.finetune.reranker.decoder_only.base.CrossDecoderModel.encode
+.. automethod:: FlagEmbedding_Aizip.finetune.reranker.decoder_only.base.CrossDecoderModel.encode

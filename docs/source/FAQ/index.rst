@@ -26,7 +26,7 @@ Below are some commonly asked questions.
 .. dropdown:: Why it takes quite long to just encode 1 sentence?
     :animate: fade-in-slide-down
 
-    Note that if you have multiple CUDA GPUs, FlagEmbedding will automatically use all of them. 
+    Note that if you have multiple CUDA GPUs, FlagEmbedding_Aizip will automatically use all of them. 
     Then the time used to start the multi-process will cost way longer than the actual encoding.
     Try to just use CPU or just single GPU for simple tasks.
 

@@ -16,7 +16,7 @@ Or by running:
 
 .. code:: bash
 
-    python -m FlagEmbedding.evaluation.msmarco \
+    python -m FlagEmbedding_Aizip.evaluation.msmarco \
     --eval_name msmarco \
     --dataset_dir ./msmarco/data \
     --dataset_names passage \

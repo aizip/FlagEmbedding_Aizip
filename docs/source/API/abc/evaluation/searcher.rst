@@ -5,14 +5,14 @@ searcher
 EvalRetriever
 =============
 
-.. autoclass:: FlagEmbedding.abc.evaluation.EvalRetriever
+.. autoclass:: FlagEmbedding_Aizip.abc.evaluation.EvalRetriever
 
 EvalDenseRetriever
 ==================
 
-.. autoclass:: FlagEmbedding.abc.evaluation.EvalDenseRetriever
+.. autoclass:: FlagEmbedding_Aizip.abc.evaluation.EvalDenseRetriever
 
 EvalReranker
 ============
 
-.. autoclass:: FlagEmbedding.abc.evaluation.EvalReranker
+.. autoclass:: FlagEmbedding_Aizip.abc.evaluation.EvalReranker

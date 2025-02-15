@@ -1,6 +1,6 @@
 AbsArguments
 ============
 
-.. autoclass:: FlagEmbedding.abc.finetune.embedder.AbsEmbedderModelArguments
+.. autoclass:: FlagEmbedding_Aizip.abc.finetune.embedder.AbsEmbedderModelArguments
 
-.. autoclass:: FlagEmbedding.abc.finetune.embedder.AbsEmbedderDataArguments
+.. autoclass:: FlagEmbedding_Aizip.abc.finetune.embedder.AbsEmbedderDataArguments

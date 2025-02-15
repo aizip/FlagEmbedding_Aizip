@@ -19,7 +19,7 @@ model_args="\
     --cache_dir $HF_HUB_CACHE \
 "
 
-cmd="python -m FlagEmbedding.evaluation.mteb \
+cmd="python -m FlagEmbedding_Aizip.evaluation.mteb \
     $eval_args \
     $model_args \
 "

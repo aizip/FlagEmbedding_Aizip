@@ -13,12 +13,12 @@ Therefore, make sure to use the correct method to obtain sentence vectors. You c
 
 **1. How to fine-tune bge embedding model?**
 
-Following this [example](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder) to prepare data and fine-tune your model. 
+Following this [example](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/embedder) to prepare data and fine-tune your model. 
 Some suggestions:
 
-- Mine hard negatives following this [example](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder#hard-negatives), which can improve the retrieval performance.
-- In general, larger hyper-parameter `per_device_train_batch_size` brings better performance. You can expand it by enabling `--fp16`, `--deepspeed df_config.json` (df_config.json can refer to [ds_config.json](https://github.com/FlagOpen/FlagEmbedding/blob/master/examples/finetune/ds_stage0.json), `--gradient_checkpointing`, etc.
-- If you want to maintain the performance on other tasks when fine-tuning on your data, you can use [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/LM_Cocktail) to merge the fine-tuned model and the original bge model. Besides, if you want to fine-tune on multiple tasks, you also can approximate the multi-task learning via model merging as [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/LM_Cocktail).
+- Mine hard negatives following this [example](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/embedder#hard-negatives), which can improve the retrieval performance.
+- In general, larger hyper-parameter `per_device_train_batch_size` brings better performance. You can expand it by enabling `--fp16`, `--deepspeed df_config.json` (df_config.json can refer to [ds_config.json](https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/examples/finetune/ds_stage0.json), `--gradient_checkpointing`, etc.
+- If you want to maintain the performance on other tasks when fine-tuning on your data, you can use [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/LM_Cocktail) to merge the fine-tuned model and the original bge model. Besides, if you want to fine-tune on multiple tasks, you also can approximate the multi-task learning via model merging as [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/LM_Cocktail).
 - If you pre-train bge on your data, the pre-trained model cannot be directly used to calculate similarity, and it must be fine-tuned with contrastive learning before computing similarity.
 - If the accuracy of the fine-tuned model is still not high, it is recommended to use/fine-tune the cross-encoder model (bge-reranker) to re-rank top-k results. Hard negatives also are needed to fine-tune reranker.
 
@@ -69,22 +69,22 @@ In all cases, the documents/passages do not need to add the instruction.
 
 ## Usage
 
-### Using FlagEmbedding
+### Using FlagEmbedding_Aizip
 
 Install: 
 ```
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip
 pip install -e .
 ```
 or: 
 ```
-pip install -U FlagEmbedding
+pip install -U FlagEmbedding_Aizip
 ```
 
 
 ```python
-from FlagEmbedding import FlagModel
+from FlagEmbedding_Aizip import FlagModel
 sentences_1 = ["样例数据-1", "样例数据-2"]
 sentences_2 = ["样例数据-3", "样例数据-4"]
 model = FlagModel('BAAI/bge-large-zh-v1.5', 
@@ -103,7 +103,7 @@ q_embeddings = model.encode_queries(queries)
 p_embeddings = model.encode(passages)
 scores = q_embeddings @ p_embeddings.T
 ```
-For the value of the argument `query_instruction_for_retrieval`, see [Model List](https://github.com/FlagOpen/FlagEmbedding/tree/master#model-list). 
+For the value of the argument `query_instruction_for_retrieval`, see [Model List](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master#model-list). 
 
 By default, FlagModel will use all available GPUs when encoding. Please set `os.environ["CUDA_VISIBLE_DEVICES"]` to select specific GPUs.
 You also can set `os.environ["CUDA_VISIBLE_DEVICES"]=""` to make all GPUs unavailable.
@@ -127,7 +127,7 @@ similarity = embeddings_1 @ embeddings_2.T
 print(similarity)
 ```
 For s2p(short query to long passage) retrieval task, 
-each short query should start with an instruction (instructions see [Model List](https://github.com/FlagOpen/FlagEmbedding/tree/master#model-list)). 
+each short query should start with an instruction (instructions see [Model List](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master#model-list)). 
 But the instruction is not needed for passages.
 ```python
 from sentence_transformers import SentenceTransformer
@@ -193,9 +193,9 @@ print("Sentence embeddings:", sentence_embeddings)
 ## Evaluation  
 
 `baai-general-embedding` models achieve **state-of-the-art performance on both MTEB and C-MTEB leaderboard!**
-For more details and evaluation tools see our [scripts](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/C_MTEB) 
+For more details and evaluation tools see our [scripts](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/C_MTEB) 
 
-If you want to evaluate the model(or your model) on **your data**, you can refer to this [tool](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/evaluation#8-custom-dataset).
+If you want to evaluate the model(or your model) on **your data**, you can refer to this [tool](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/evaluation#8-custom-dataset).
 
 
 - **MTEB**:   
@@ -224,7 +224,7 @@ If you want to evaluate the model(or your model) on **your data**, you can refer
 
 - **C-MTEB**:  
 We create the benchmark C-MTEB for Chinese text embedding which consists of 31 datasets from 6 tasks. 
-Please refer to [C_MTEB](https://github.com/FlagOpen/FlagEmbedding/blob/master/research/C_MTEB/README.md) for a detailed introduction.
+Please refer to [C_MTEB](https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/research/C_MTEB/README.md) for a detailed introduction.
 
 | Model | Embedding dimension | Avg | Retrieval | STS | PairClassification | Classification | Reranking | Clustering |
 |:-------------------------------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|

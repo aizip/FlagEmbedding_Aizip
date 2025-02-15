@@ -1,5 +1,5 @@
 runner
 ======
 
-.. autoclass:: FlagEmbedding.evaluation.mldr.MLDREvalRunner
+.. autoclass:: FlagEmbedding_Aizip.evaluation.mldr.MLDREvalRunner
     :members:

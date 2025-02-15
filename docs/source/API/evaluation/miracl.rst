@@ -18,7 +18,7 @@ Or by running:
 
 .. code:: bash
 
-    python -m FlagEmbedding.evaluation.miracl \
+    python -m FlagEmbedding_Aizip.evaluation.miracl \
     --eval_name miracl \
     --dataset_dir ./miracl/data \
     --dataset_names bn hi sw te th yo \

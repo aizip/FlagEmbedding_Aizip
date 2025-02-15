@@ -3,7 +3,7 @@ import argparse
 from C_MTEB.tasks import *
 from mteb import MTEB
 
-from FlagEmbedding import FlagReranker
+from FlagEmbedding_Aizip import FlagReranker
 
 
 def get_args():

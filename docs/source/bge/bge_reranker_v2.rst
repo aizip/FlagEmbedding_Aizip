@@ -34,7 +34,7 @@ Use :code:`bge-reranker-v2-m3` in the same way as bge-reranker-base and bge-rera
 
 .. code:: python
 
-    from FlagEmbedding import FlagReranker
+    from FlagEmbedding_Aizip import FlagReranker
 
     # Setting use_fp16 to True speeds up computation with a slight performance degradation
     reranker = FlagReranker('BAAI/bge-reranker-v2-m3', use_fp16=True)
@@ -51,7 +51,7 @@ Use the :code:`FlagLLMReranker` class for bge-reranker-v2-gemma.
 
 .. code:: python
 
-    from FlagEmbedding import FlagLLMReranker
+    from FlagEmbedding_Aizip import FlagLLMReranker
 
     # Setting use_fp16 to True speeds up computation with a slight performance degradation
     reranker = FlagLLMReranker('BAAI/bge-reranker-v2-gemma', use_fp16=True)
@@ -65,7 +65,7 @@ Use the :code:`LayerWiseFlagLLMReranker` class for bge-reranker-v2-minicpm-layer
 
 .. code:: python
 
-    from FlagEmbedding import LayerWiseFlagLLMReranker
+    from FlagEmbedding_Aizip import LayerWiseFlagLLMReranker
 
     # Setting use_fp16 to True speeds up computation with a slight performance degradation
     reranker = LayerWiseFlagLLMReranker('BAAI/bge-reranker-v2-minicpm-layerwise', use_fp16=True)
@@ -80,7 +80,7 @@ Use the :code:`LightWeightFlagLLMReranker` class for bge-reranker-v2.5-gemma2-li
 
 .. code:: python
 
-    from FlagEmbedding import LightWeightFlagLLMReranker
+    from FlagEmbedding_Aizip import LightWeightFlagLLMReranker
 
     # Setting use_fp16 to True speeds up computation with a slight performance degradation
     reranker = LightWeightFlagLLMReranker('BAAI/bge-reranker-v2.5-gemma2-lightweight', use_fp16=True)

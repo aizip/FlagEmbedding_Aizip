@@ -3,15 +3,15 @@ In this example, we show how to finetune the cross-encoder reranker with your da
 
 ## 1. Installation
 ```
-git clone https://github.com/FlagOpen/FlagEmbedding.git
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
 cd research/reranker
 pip install  .
 ```
 
 ## 2. Data format
 
-The data format for reranker is the same as [embedding fine-tune](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder#2-data-format).
-Besides, we strongly suggest to [mine hard negatives](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/reranker#hard-negatives) to fine-tune reranker.
+The data format for reranker is the same as [embedding fine-tune](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/embedder#2-data-format).
+Besides, we strongly suggest to [mine hard negatives](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/reranker#hard-negatives) to fine-tune reranker.
 
 
 ## 3. Train
@@ -44,9 +44,9 @@ Besides the negatives in this group, the in-batch negatives also will be used in
 More training arguments please refer to [transformers.TrainingArguments](https://huggingface.co/docs/transformers/main_classes/trainer#transformers.TrainingArguments)
 
 
-### 4. Model merging via [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/LM_Cocktail) [optional]
+### 4. Model merging via [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/LM_Cocktail) [optional]
 
-For more details please refer to [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/LM_Cocktail).
+For more details please refer to [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/LM_Cocktail).
 
 Fine-tuning the base bge model can improve its performance on target task, 
 but maybe lead to severe degeneration of model’s general capabilities 
@@ -71,10 +71,10 @@ model = mix_models(
 
 ### 5. Load your model
 
-#### Using FlagEmbedding
+#### Using FlagEmbedding_Aizip
 
 ```python
-from FlagEmbedding import FlagReranker
+from FlagEmbedding_Aizip import FlagReranker
 reranker = FlagReranker('BAAI/bge-reranker-base', use_fp16=True) #use fp16 can speed up computing
 
 score = reranker.compute_score(['query', 'passage'])

@@ -5,8 +5,8 @@ In this example, we show how to use scripts to make your fine-tuning process mor
 # 2. Installation
 
 ```shell
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding/scripts
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip/scripts
 ```
 
 # 3. Usage

@@ -1,6 +1,6 @@
 AbsArguments
 ============
 
-.. autoclass:: FlagEmbedding.abc.finetune.reranker.AbsRerankerModelArguments
+.. autoclass:: FlagEmbedding_Aizip.abc.finetune.reranker.AbsRerankerModelArguments
 
-.. autoclass:: FlagEmbedding.abc.finetune.reranker.AbsRerankerDataArguments
+.. autoclass:: FlagEmbedding_Aizip.abc.finetune.reranker.AbsRerankerDataArguments

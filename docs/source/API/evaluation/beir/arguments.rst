@@ -1,4 +1,4 @@
 arguments
 =========
 
-.. autoclass:: FlagEmbedding.evaluation.beir.arguments.BEIREvalArgs
+.. autoclass:: FlagEmbedding_Aizip.evaluation.beir.arguments.BEIREvalArgs

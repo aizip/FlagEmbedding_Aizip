@@ -121,7 +121,7 @@ Here is an example for evaluation:
 
 ```shell
 pip install mteb==1.15.0
-python -m FlagEmbedding.evaluation.mteb \
+python -m FlagEmbedding_Aizip.evaluation.mteb \
     --eval_name mteb \
     --output_dir ./data/mteb/search_results \
     --languages eng \
@@ -144,7 +144,7 @@ Here is an example for evaluation:
 pip install beir
 mkdir eval_beir
 cd eavl_beir
-python -m FlagEmbedding.evaluation.beir \
+python -m FlagEmbedding_Aizip.evaluation.beir \
     --eval_name beir \
     --dataset_dir ./beir/data \
     --dataset_names fiqa arguana cqadupstack \
@@ -175,7 +175,7 @@ python -m FlagEmbedding.evaluation.beir \
 Here is an example for evaluation:
 
 ```shell
-python -m FlagEmbedding.evaluation.msmarco \
+python -m FlagEmbedding_Aizip.evaluation.msmarco \
     --eval_name msmarco \
     --dataset_dir ./msmarco/data \
     --dataset_names passage \
@@ -205,7 +205,7 @@ python -m FlagEmbedding.evaluation.msmarco \
 Here is an example for evaluation:
 
 ```shell
-python -m FlagEmbedding.evaluation.miracl \
+python -m FlagEmbedding_Aizip.evaluation.miracl \
     --eval_name miracl \
     --dataset_dir ./miracl/data \
     --dataset_names bn hi sw te th yo \
@@ -235,7 +235,7 @@ python -m FlagEmbedding.evaluation.miracl \
 Here is an example for evaluation:
 
 ```shell
-python -m FlagEmbedding.evaluation.mldr \
+python -m FlagEmbedding_Aizip.evaluation.mldr \
     --eval_name mldr \
     --dataset_dir ./mldr/data \
     --dataset_names hi \
@@ -265,7 +265,7 @@ python -m FlagEmbedding.evaluation.mldr \
 Here is an example for evaluation:
 
 ```shell
-python -m FlagEmbedding.evaluation.mkqa \
+python -m FlagEmbedding_Aizip.evaluation.mkqa \
     --eval_name mkqa \
     --dataset_dir ./mkqa/data \
     --dataset_names en zh_cn \
@@ -301,7 +301,7 @@ Here is an example for evaluation:
 
 ```shell
 pip install air-benchmark
-python -m FlagEmbedding.evaluation.air_bench \
+python -m FlagEmbedding_Aizip.evaluation.air_bench \
     --benchmark_version AIR-Bench_24.05 \
     --task_types qa long-doc \
     --domains arxiv \
@@ -356,7 +356,7 @@ The example data for `test_qrels.jsonl`:
 Please put the above file (`corpus.jsonl`, `test_queries.jsonl`, `test_qrels.jsonl`) in `dataset_dir`, and then you can use the following code:
 
 ```shell
-python -m FlagEmbedding.evaluation.custom \
+python -m FlagEmbedding_Aizip.evaluation.custom \
     --eval_name your_data_name \
     --dataset_dir ./your_data_path \
     --splits test \

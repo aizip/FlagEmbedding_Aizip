@@ -10,7 +10,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     author_email='2906698981@qq.com',
-    url='https://github.com/FlagOpen/FlagEmbedding/LM_Cocktail',
+    url='https://github.com/FlagOpen/FlagEmbedding_Aizip/LM_Cocktail',
     packages=find_packages(),
     install_requires=[
         'torch>=1.6.0',

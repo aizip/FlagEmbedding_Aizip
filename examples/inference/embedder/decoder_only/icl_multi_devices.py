@@ -1,5 +1,5 @@
 import os
-from FlagEmbedding import FlagICLModel
+from FlagEmbedding_Aizip import FlagICLModel
 
 
 def test_icl_multi_devices():

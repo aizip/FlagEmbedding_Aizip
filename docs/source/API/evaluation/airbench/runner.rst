@@ -1,4 +1,4 @@
 runner
 ======
 
-.. autoclass:: FlagEmbedding.evaluation.air_bench.AIRBenchEvalRunner
+.. autoclass:: FlagEmbedding_Aizip.evaluation.air_bench.AIRBenchEvalRunner

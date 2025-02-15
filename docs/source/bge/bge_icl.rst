@@ -18,7 +18,7 @@ Usage
 
 .. code:: python
 
-    from FlagEmbedding import FlagICLModel
+    from FlagEmbedding_Aizip import FlagICLModel
 
     documents = [
         "As a general guideline, the CDC's average requirement of protein for women ages 19 to 70 is 46 grams per day. But, as you can see from this chart, you'll need to increase that if you're expecting or training for a marathon. Check out the chart below to see how much protein you should be eating each day.",

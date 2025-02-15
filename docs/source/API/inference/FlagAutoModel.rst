@@ -1,9 +1,9 @@
 FlagAutoModel
 =============
 
-.. autoclass:: FlagEmbedding.inference.FlagAutoModel
+.. autoclass:: FlagEmbedding_Aizip.inference.FlagAutoModel
 
 Methods
 -------
 
-.. automethod:: FlagEmbedding.inference.FlagAutoModel.from_finetuned
+.. automethod:: FlagEmbedding_Aizip.inference.FlagAutoModel.from_finetuned

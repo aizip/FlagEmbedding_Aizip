@@ -64,7 +64,7 @@ Or by running:
 
 .. code:: bash
 
-    python -m FlagEmbedding.evaluation.mldr \
+    python -m FlagEmbedding_Aizip.evaluation.mldr \
     --eval_name mldr \
     --dataset_dir ./mldr/data \
     --dataset_names hi \

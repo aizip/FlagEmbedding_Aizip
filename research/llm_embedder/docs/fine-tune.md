@@ -3,7 +3,7 @@
 ## Environment
 It is recommended that you create a new environment:
 ```
-cd FlagEmbedding/llm_embedder
+cd FlagEmbedding_Aizip/llm_embedder
 
 conda env create -f environment.yaml --name llm-embedder
 conda activate llm-embedder

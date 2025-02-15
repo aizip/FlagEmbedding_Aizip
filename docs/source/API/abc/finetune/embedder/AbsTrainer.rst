@@ -5,9 +5,9 @@ AbsTrainer
 AbsEmbedderTrainer
 ==================
 
-.. autoclass:: FlagEmbedding.abc.finetune.embedder.AbsEmbedderTrainer
+.. autoclass:: FlagEmbedding_Aizip.abc.finetune.embedder.AbsEmbedderTrainer
 
 Methods
 -------
 
-.. automethod:: FlagEmbedding.abc.finetune.embedder.AbsEmbedderTrainer.compute_loss
+.. automethod:: FlagEmbedding_Aizip.abc.finetune.embedder.AbsEmbedderTrainer.compute_loss

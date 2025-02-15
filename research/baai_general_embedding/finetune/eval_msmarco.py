@@ -7,7 +7,7 @@ from tqdm import tqdm
 from typing import Optional
 from dataclasses import dataclass, field
 from transformers import HfArgumentParser
-from FlagEmbedding import FlagModel
+from FlagEmbedding_Aizip import FlagModel
 
 logger = logging.getLogger(__name__)
 

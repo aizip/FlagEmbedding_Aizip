@@ -5,13 +5,13 @@ which can improve the retrieval performance.
 ## 1. Installation
 * **with pip**
 ```
-pip install -U FlagEmbedding
+pip install -U FlagEmbedding_Aizip
 ```
 
 * **from source**
 ```
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding/research/old-examples/pretrain
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip/research/old-examples/pretrain
 ```
 
 ## 2. Data format
@@ -19,7 +19,7 @@ Train data should be a json file, where each line is a dict like this:
 ```
 {"text": str}
 ```
-See [toy_pretrain_data.jsonl](https://github.com/FlagOpen/FlagEmbedding/blob/master/examples/pretrain/toy_pretrain_data.jsonl) for a toy data file.
+See [toy_pretrain_data.jsonl](https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/examples/pretrain/toy_pretrain_data.jsonl) for a toy data file.
 
 ## 3. Train
 

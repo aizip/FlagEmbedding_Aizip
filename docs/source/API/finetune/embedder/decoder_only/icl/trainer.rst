@@ -1,5 +1,5 @@
 Trainer
 =======
 
-.. autoclass:: FlagEmbedding.finetune.embedder.decoder_only.icl.DecoderOnlyEmbedderICLTrainer
+.. autoclass:: FlagEmbedding_Aizip.finetune.embedder.decoder_only.icl.DecoderOnlyEmbedderICLTrainer
     :members:

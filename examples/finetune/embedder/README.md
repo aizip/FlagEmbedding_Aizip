@@ -17,14 +17,14 @@ In this example, we show how to finetune the embedder with your data.
 - **with pip**
 
 ```shell
-pip install -U FlagEmbedding[finetune]
+pip install -U FlagEmbedding_Aizip[finetune]
 ```
 
 - **from source**
 
 ```shell
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip
 pip install  .[finetune]
 ```
 
@@ -44,15 +44,15 @@ Train data should be a json file, where each line is a dict like this:
 
 `query` is the query, and `pos` is a list of positive texts, `neg` is a list of negative texts. `pos_scores` is a list of scores corresponding to the `query` and `pos`, `neg_scores` is a list of scores corresponding to the `query` and `neg`, if you don't use knowledge distillation, it can be ignored. `prompt` is the prompt used for the query, it will cover `query_instruction_for_retrieval`. `type` is used for `bge-en-icl`,  it includes `normal`, `symmetric_class`, `symmetric_clustering`, .etc. If you have no negative texts for a query, you can random sample some from the entire corpus as the negatives.
 
-See [example_data](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder/example_data) for more detailed files.
+See [example_data](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/embedder/example_data) for more detailed files.
 
 ### Hard Negatives
 
 Hard negatives is a widely used method to improve the quality of sentence embedding. You can mine hard negatives following this command:
 
 ```shell
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding/scripts
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip/scripts
 ```
 
 ```shell
@@ -90,8 +90,8 @@ python hn_mine.py \
 Teacher scores can be used for model distillation. You can obtain the scores using the following command:
 
 ```shell
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding/scripts
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip/scripts
 ```
 
 ```shell
@@ -168,7 +168,7 @@ Here are some import arguments:
 
 ```shell
 torchrun --nproc_per_node 2 \
-	-m FlagEmbedding.finetune.embedder.encoder_only.base \
+	-m FlagEmbedding_Aizip.finetune.embedder.encoder_only.base \
 	--model_name_or_path BAAI/bge-large-en-v1.5 \
     --cache_dir ./cache/model \
     --train_data ./example_data/retrieval \
@@ -206,7 +206,7 @@ torchrun --nproc_per_node 2 \
 
 ```shell
 torchrun --nproc_per_node 2 \
-	-m FlagEmbedding.finetune.embedder.encoder_only.m3 \
+	-m FlagEmbedding_Aizip.finetune.embedder.encoder_only.m3 \
 	--model_name_or_path BAAI/bge-m3 \
     --cache_dir ./cache/model \
     --train_data ./example_data/retrieval \
@@ -257,7 +257,7 @@ Here are some new arguments:
 
 ```shell
 torchrun --nproc_per_node 2 \
-    -m FlagEmbedding.finetune.embedder.decoder_only.base \
+    -m FlagEmbedding_Aizip.finetune.embedder.decoder_only.base \
 	--model_name_or_path BAAI/bge-multilingual-gemma2 \
     --cache_dir ./cache/model \
     --use_lora True \
@@ -317,7 +317,7 @@ Here are some new arguments:
 
 ```shell
 torchrun --nproc_per_node 2 \
-    -m FlagEmbedding.finetune.embedder.decoder_only.icl \
+    -m FlagEmbedding_Aizip.finetune.embedder.decoder_only.icl \
 	--model_name_or_path BAAI/bge-en-icl \
     --cache_dir ./cache/model \
     --use_lora True \

@@ -68,7 +68,7 @@ training_args="\
 "
 
 cmd="torchrun --nproc_per_node $num_gpus \
-    -m FlagEmbedding.finetune.embedder.decoder_only.icl \
+    -m FlagEmbedding_Aizip.finetune.embedder.decoder_only.icl \
     $model_args \
     $data_args \
     $training_args \

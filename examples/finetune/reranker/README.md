@@ -16,14 +16,14 @@ In this example, we show how to finetune the reranker with your data.
 - **with pip**
 
 ```shell
-pip install -U FlagEmbedding[finetune]
+pip install -U FlagEmbedding_Aizip[finetune]
 ```
 
 - **from source**
 
 ```shell
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip
 pip install  .[finetune]
 ```
 
@@ -43,15 +43,15 @@ Train data should be a json file, where each line is a dict like this:
 
 `query` is the query, and `pos` is a list of positive texts, `neg` is a list of negative texts. `pos_scores` is a list of scores corresponding to the `query` and `pos`, `neg_scores` is a list of scores corresponding to the `query` and `neg`, if you don't use knowledge distillation, it can be ignored. `prompt` is the prompt used for the input, input has the following format: `query [sep] passage [sep] prompt`. If you have no negative texts for a query, you can random sample some from the entire corpus as the negatives.
 
-See [example_data](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder/example_data) for more detailed files.
+See [example_data](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/embedder/example_data) for more detailed files.
 
 ### Hard Negatives
 
 Hard negatives is a widely used method to improve the quality of sentence embedding. You can mine hard negatives following this command:
 
 ```shell
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding/scripts
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip/scripts
 ```
 
 ```shell
@@ -68,7 +68,7 @@ python hn_mine.py \
 - **`output_file`**: path to save JSON data with mined hard negatives for finetuning
 - **`negative_number`**: the number of sampled negatives
 - **`range_for_sampling`**: where to sample negative. For example, `2-100` means sampling `negative_number` negatives from top2-top200 documents. **You can set larger value to reduce the difficulty of negatives (e.g., set it `60-300` to sample negatives from top60-300 passages)**
-- **`candidate_pool`**: The pool to retrieval. The default value is None, and this script will retrieve from the combination of all `neg` in `input_file`. The format of this file is the same as [pretrain data](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/pretrain#2-data-format). If input a candidate_pool, this script will retrieve negatives from this file.
+- **`candidate_pool`**: The pool to retrieval. The default value is None, and this script will retrieve from the combination of all `neg` in `input_file`. The format of this file is the same as [pretrain data](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/pretrain#2-data-format). If input a candidate_pool, this script will retrieve negatives from this file.
 - **`use_gpu_for_searching`**: whether to use faiss-gpu to retrieve negatives.
 
 ### Teacher Scores
@@ -76,8 +76,8 @@ python hn_mine.py \
 Teacher scores can be used for model distillation. You can obtain the scores using the following command:
 
 ```shell
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding/scripts
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip/scripts
 ```
 
 ```shell
@@ -147,7 +147,7 @@ Here are some import arguments:
 
 ```shell
 torchrun --nproc_per_node 2 \
-	-m FlagEmbedding.finetune.reranker.encoder_only.base \
+	-m FlagEmbedding_Aizip.finetune.reranker.encoder_only.base \
 	--model_name_or_path BAAI/bge-reranker-v2-m3 \
     --cache_dir ./cache/model \
     --train_data ./example_data/normal/examples.jsonl \
@@ -177,7 +177,7 @@ torchrun --nproc_per_node 2 \
 
 ```shell
 torchrun --nproc_per_node 2 \
-	-m FlagEmbedding.finetune.reranker.decoder_only.base \
+	-m FlagEmbedding_Aizip.finetune.reranker.decoder_only.base \
 	--model_name_or_path BAAI/bge-reranker-v2-gemma \
     --use_lora True \
     --lora_rank 32 \
@@ -231,7 +231,7 @@ Here are some new arguments:
 
 ```shell
 torchrun --nproc_per_node 2 \
-	-m FlagEmbedding.finetune.reranker.decoder_only.layerwise \
+	-m FlagEmbedding_Aizip.finetune.reranker.decoder_only.layerwise \
     --model_name_or_path BAAI/bge-reranker-v2-minicpm-layerwise \
     --use_lora True \
     --lora_rank 32 \

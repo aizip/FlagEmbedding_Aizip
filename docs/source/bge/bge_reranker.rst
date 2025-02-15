@@ -24,7 +24,7 @@ Usage
 
 .. code:: python
 
-    from FlagEmbedding import FlagReranker
+    from FlagEmbedding_Aizip import FlagReranker
 
     reranker = FlagReranker(
         'BAAI/bge-reranker-base', 

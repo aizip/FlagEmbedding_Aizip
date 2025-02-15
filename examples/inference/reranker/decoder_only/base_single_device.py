@@ -1,5 +1,5 @@
 import os
-from FlagEmbedding import FlagLLMReranker
+from FlagEmbedding_Aizip import FlagLLMReranker
 
 
 def test_base_multi_devices():

@@ -14,7 +14,7 @@ import faiss
 import datasets
 import numpy as np
 from tqdm import tqdm
-from FlagEmbedding import FlagModel
+from FlagEmbedding_Aizip import FlagModel
 from dataclasses import dataclass, field
 from transformers import HfArgumentParser
 

@@ -8,7 +8,7 @@ Different from embedding model, reranker uses question and document as input and
 You can get a relevance score by inputting query and passage to the reranker. 
 And the score can be mapped to a float value in [0,1] by sigmoid function.
 
-For more detailed using, you can look [reranker-encoder only](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/reranker/encoder_only) or [reranker-decoder only](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/reranker/decoder_only)
+For more detailed using, you can look [reranker-encoder only](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/reranker/encoder_only) or [reranker-decoder only](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/reranker/decoder_only)
 
 ## Model List
 
@@ -31,14 +31,14 @@ You can select the model according your senario and resource.
 - For better performance, recommand [BAAI/bge-reranker-v2-minicpm-layerwise](https://huggingface.co/BAAI/bge-reranker-v2-minicpm-layerwise) and [BAAI/bge-reranker-v2-gemma](https://huggingface.co/BAAI/bge-reranker-v2-gemma)
 
 ## Usage 
-### Using FlagEmbedding
+### Using FlagEmbedding_Aizip
 
 #### 1. Auto Reranker
 
-You can use `FlagAutoReranker` to load the model. For the **custom model** (not included in [`AUTO_RERANKER_MAPPING`](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/inference/reranker/model_mapping.py#L31)), you must specify the `model_class` parameter. You can also submit a pull request to add your **released model** to the [`AUTO_RERANKER_MAPPING`](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/inference/reranker/model_mapping.py#L31) dictionary. If need, you can create a new `<model>.py` file in [here](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/inference/reranker/encoder_only) or [here](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/inference/reranker/decoder_only).
+You can use `FlagAutoReranker` to load the model. For the **custom model** (not included in [`AUTO_RERANKER_MAPPING`](https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/FlagEmbedding_Aizip/inference/reranker/model_mapping.py#L31)), you must specify the `model_class` parameter. You can also submit a pull request to add your **released model** to the [`AUTO_RERANKER_MAPPING`](https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/FlagEmbedding_Aizip/inference/reranker/model_mapping.py#L31) dictionary. If need, you can create a new `<model>.py` file in [here](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/FlagEmbedding_Aizip/inference/reranker/encoder_only) or [here](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/FlagEmbedding_Aizip/inference/reranker/decoder_only).
 
 ```python
-from FlagEmbedding import FlagAutoReranker
+from FlagEmbedding_Aizip import FlagAutoReranker
 reranker = FlagAutoReranker.from_finetuned('BAAI/bge-reranker-large',
                                            query_max_length=256,
                                            passage_max_length=512,
@@ -62,7 +62,7 @@ print(scores) # [0.0036642203307843528, 0.9968641641227171]
 For your **custom model** (assume the model is finetuned from `BAAI/bge-reranker-large`, then the model class is `encoder-only-base`), you can use the following code:
 
 ```python
-from FlagEmbedding import FlagAutoReranker
+from FlagEmbedding_Aizip import FlagAutoReranker
 reranker = FlagAutoReranker.from_finetuned('your_model_name_or_path',
                                            model_class='encoder-only-base',
                                            query_max_length=256,
@@ -84,7 +84,7 @@ The `model_class` parameter currently includes the following options:
 For `FlagReranker`, it supports `BAAI/bge-reranker-base`, `BAAI/bge-reranker-large`, `BAAI/bge-reranker-v2-m3`:
 
 ```python
-from FlagEmbedding import FlagReranker
+from FlagEmbedding_Aizip import FlagReranker
 reranker = FlagReranker(
     'BAAI/bge-reranker-v2-m3', 
     query_max_length=256,
@@ -113,7 +113,7 @@ print(scores) # [0.00027803096387751553, 0.9948403768236574]
 For `FlagLLMReranker`, it supports `BAAI/bge-reranker-v2-gemma`:
 
 ```python
-from FlagEmbedding import FlagLLMReranker
+from FlagEmbedding_Aizip import FlagLLMReranker
 reranker = FlagLLMReranker(
     'BAAI/bge-reranker-v2-gemma', 
     query_max_length=256,
@@ -134,7 +134,7 @@ print(scores)
 For `LayerWiseFlagLLMReranker`, it supports `BAAI/bge-reranker-v2-minicpm-layerwise`:
 
 ```python
-from FlagEmbedding import LayerWiseFlagLLMReranker
+from FlagEmbedding_Aizip import LayerWiseFlagLLMReranker
 reranker = LayerWiseFlagLLMReranker(
     'BAAI/bge-reranker-v2-minicpm-layerwise', 
     query_max_length=256,
@@ -155,7 +155,7 @@ print(scores)
 For `LightWeightFlagLLMReranker`, it supports `BAAI/bge-reranker-v2.5-gemma2-lightweight`:
 
 ```python
-from FlagEmbedding import LightWeightFlagLLMReranker
+from FlagEmbedding_Aizip import LightWeightFlagLLMReranker
 reranker = LightWeightFlagLLMReranker(
     'BAAI/bge-reranker-v2.5-gemma2-lightweight', 
     query_max_length=256,

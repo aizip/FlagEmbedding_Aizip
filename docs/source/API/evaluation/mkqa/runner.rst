@@ -1,4 +1,4 @@
 runner
 ======
-.. autoclass:: FlagEmbedding.evaluation.mkqa.MKQAEvalRunner
+.. autoclass:: FlagEmbedding_Aizip.evaluation.mkqa.MKQAEvalRunner
     :members:

@@ -4,13 +4,13 @@ with open("README.md", mode="r", encoding="utf-8") as readme_file:
     readme = readme_file.read()
 
 setup(
-    name='FlagEmbedding',
+    name='FlagEmbedding_Aizip_Aizip',
     version='1.3.4',
-    description='FlagEmbedding',
+    description='FlagEmbedding_Aizip_Aizip',
     long_description=readme,
     long_description_content_type="text/markdown",
     author_email='2906698981@qq.com',
-    url='https://github.com/FlagOpen/FlagEmbedding',
+    url='https://github.com/FlagOpen/FlagEmbedding_Aizip_Aizip',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[

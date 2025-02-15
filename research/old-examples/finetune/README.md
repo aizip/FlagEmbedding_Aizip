@@ -3,8 +3,8 @@ In this example, we show how to finetune the baai-general-embedding with your da
 
 ## 1. Installation
 ```
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding/research/baai_general_embedding
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip/research/baai_general_embedding
 ```
 ## 2. Data format
 Train data should be a json file, where each line is a dict like this:
@@ -16,7 +16,7 @@ Train data should be a json file, where each line is a dict like this:
 `query` is the query, and `pos` is a list of positive texts, `neg` is a list of negative texts.
 If you have no negative texts for a query, you can random sample some from the entire corpus as the negatives.
 
-See [toy_finetune_data.jsonl](https://github.com/FlagOpen/FlagEmbedding/blob/master/examples/finetune/toy_finetune_data.jsonl) for a toy data file.
+See [toy_finetune_data.jsonl](https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/examples/finetune/toy_finetune_data.jsonl) for a toy data file.
 
 ### Hard Negatives 
 
@@ -24,12 +24,12 @@ Hard negatives is a widely used method to improve the quality of sentence embedd
 You can mine hard negatives following this command:
 
 ```shell
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding/scripts
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip/scripts
 ```
 
 ```bash
-python -m FlagEmbedding.baai_general_embedding.finetune.hn_mine \
+python -m FlagEmbedding_Aizip.baai_general_embedding.finetune.hn_mine \
 --model_name_or_path BAAI/bge-base-en-v1.5 \
 --input_file toy_finetune_data.jsonl \
 --output_file toy_finetune_data_minedHN.jsonl \
@@ -44,7 +44,7 @@ and random sample negatives from the top-k documents (not including the positive
 - `negative_number`: the number of sampled negatives 
 - `range_for_sampling`: where to sample negative. For example, `2-100` means sampling `negative_number` negatives from top2-top200 documents. **You can set larger value to reduce the difficulty of negatives (e.g., set it `60-300` to sample negatives from top60-300 passages)**
 - `candidate_pool`: The pool to retrieval. The default value is None, and this script will retrieve from the combination of all `neg` in `input_file`. 
-The format of this file is the same as [pretrain data](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/pretrain#2-data-format). If input a candidate_pool, this script will retrieve negatives from this file.
+The format of this file is the same as [pretrain data](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/pretrain#2-data-format). If input a candidate_pool, this script will retrieve negatives from this file.
 - `use_gpu_for_searching`: whether to use faiss-gpu to retrieve negatives.
 
 
@@ -89,9 +89,9 @@ Besides the negatives in this group, the in-batch negatives also will be used in
 For more training arguments please refer to [transformers.TrainingArguments](https://huggingface.co/docs/transformers/main_classes/trainer#transformers.TrainingArguments)
 
 
-### 4. Model merging via [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/LM_Cocktail) [optional]
+### 4. Model merging via [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/LM_Cocktail) [optional]
 
-For more details please refer to [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/LM_Cocktail).
+For more details please refer to [LM-Cocktail](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/LM_Cocktail).
 
 Fine-tuning the base bge model can improve its performance on target task, 
 but maybe lead to severe degeneration of model’s general capabilities 
@@ -136,13 +136,13 @@ You can fine-tune the base model on more tasks and merge them to achieve better 
 
 
 ### 5. Load your model
-After fine-tuning BGE model, you can load it easily in the same way as [here](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/baai_general_embedding#usage) 
+After fine-tuning BGE model, you can load it easily in the same way as [here](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/baai_general_embedding#usage) 
 
 Please replace the `query_instruction_for_retrieval` with your instruction if you set a different value for hyper-parameter `--query_instruction_for_retrieval` when fine-tuning.
 
 
 ### 6. Evaluate model
-We provide [a simple script](https://github.com/FlagOpen/FlagEmbedding/blob/master/research/baai_general_embedding/finetune/eval_msmarco.py) to evaluate the model's performance.
+We provide [a simple script](https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/research/baai_general_embedding/finetune/eval_msmarco.py) to evaluate the model's performance.
 A brief summary of how the script works:
 
 1. Load the model on all available GPUs through [DataParallel](https://pytorch.org/docs/stable/generated/torch.nn.DataParallel.html). 
@@ -207,7 +207,7 @@ You should prepare two files with jsonl format:
 
 Then, pass the data path to evaluation script: 
 ```bash
-python -m FlagEmbedding.baai_general_embedding.finetune.eval_msmarco \
+python -m FlagEmbedding_Aizip.baai_general_embedding.finetune.eval_msmarco \
 --encoder BAAI/bge-base-en-v1.5 \
 --fp16 \
 --add_instruction \

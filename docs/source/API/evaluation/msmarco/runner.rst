@@ -1,5 +1,5 @@
 runner
 ======
 
-.. autoclass:: FlagEmbedding.evaluation.msmarco.MSMARCOEvalRunner
+.. autoclass:: FlagEmbedding_Aizip.evaluation.msmarco.MSMARCOEvalRunner
     :members:

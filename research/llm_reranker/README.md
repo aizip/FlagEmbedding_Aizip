@@ -33,10 +33,10 @@ You can select the model according your senario and resource.
 - For better performance, recommand [BAAI/bge-reranker-v2-minicpm-layerwise](https://huggingface.co/BAAI/bge-reranker-v2-minicpm-layerwise) and [BAAI/bge-reranker-v2-gemma](https://huggingface.co/BAAI/bge-reranker-v2-gemma)
 
 ## Usage 
-### Using FlagEmbedding
+### Using FlagEmbedding_Aizip
 
 ```
-pip install -U FlagEmbedding
+pip install -U FlagEmbedding_Aizip
 ```
 
 #### For normal reranker (bge-reranker-base / bge-reranker-large / bge-reranker-v2-m3 )
@@ -44,7 +44,7 @@ pip install -U FlagEmbedding
 Get relevance scores (higher scores indicate more relevance):
 
 ```python
-from FlagEmbedding import FlagReranker
+from FlagEmbedding_Aizip import FlagReranker
 reranker = FlagReranker('BAAI/bge-reranker-v2-m3', use_fp16=True) # Setting use_fp16 to True speeds up computation with a slight performance degradation
 
 score = reranker.compute_score(['query', 'passage'])
@@ -65,7 +65,7 @@ print(scores) # [0.00027803096387751553, 0.9948403768236574]
 #### For LLM-based reranker
 
 ```python
-from FlagEmbedding import FlagLLMReranker
+from FlagEmbedding_Aizip import FlagLLMReranker
 reranker = FlagLLMReranker('BAAI/bge-reranker-v2-gemma', use_fp16=True) # Setting use_fp16 to True speeds up computation with a slight performance degradation
 # reranker = FlagLLMReranker('BAAI/bge-reranker-v2-gemma', use_bf16=True) # You can also set use_bf16=True to speed up computation with a slight performance degradation
 
@@ -79,7 +79,7 @@ print(scores)
 #### For LLM-based layerwise reranker
 
 ```python
-from FlagEmbedding import LayerWiseFlagLLMReranker
+from FlagEmbedding_Aizip import LayerWiseFlagLLMReranker
 reranker = LayerWiseFlagLLMReranker('BAAI/bge-reranker-v2-minicpm-layerwise', use_fp16=True) # Setting use_fp16 to True speeds up computation with a slight performance degradation
 # reranker = LayerWiseFlagLLMReranker('BAAI/bge-reranker-v2-minicpm-layerwise', use_bf16=True) # You can also set use_bf16=True to speed up computation with a slight performance degradation
 
@@ -246,7 +246,7 @@ Train data should be a json file, where each line is a dict like this:
 
 `query` is the query, and `pos` is a list of positive texts, `neg` is a list of negative texts, `prompt` indicates the relationship between query and texts. If you have no negative texts for a query, you can random sample some from the entire corpus as the negatives.
 
-See [toy_finetune_data.jsonl](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/llm_reranker/toy_finetune_data.jsonl) for a toy data file.
+See [toy_finetune_data.jsonl](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/FlagEmbedding_Aizip/llm_reranker/toy_finetune_data.jsonl) for a toy data file.
 
 ### Train
 
@@ -254,7 +254,7 @@ You can fine-tune the reranker with the following code:
 
 **For normal reranker** (bge-reranker-base / bge-reranker-large / bge-reranker-v2-m3 )
 
-Refer to: [reranker](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/reranker#1-standard-model)
+Refer to: [reranker](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/reranker#1-standard-model)
 
 **For llm-based reranker** (bge-reranker-v2-gemma)
 
@@ -336,7 +336,7 @@ After finetune, you need to merge the model
 **For llm-based reranker**
 
 ```python
-from FlagEmbedding.llm_reranker.merge import merge_llm
+from FlagEmbedding_Aizip.llm_reranker.merge import merge_llm
 merge_llm('google/gemma-2b', 'lora_llm_output_path', 'merged_model_output_paths')
 ```
 
@@ -345,14 +345,14 @@ merge_llm('google/gemma-2b', 'lora_llm_output_path', 'merged_model_output_paths'
 If you finetune the raw model (openbmb/MiniCPM-2B-dpo-bf16)
 
 ```shell
-from FlagEmbedding.llm_reranker.merge import merge_layerwise_raw_llm
+from FlagEmbedding_Aizip.llm_reranker.merge import merge_layerwise_raw_llm
 merge_layerwise_raw_llm('openbmb/MiniCPM-2B-dpo-bf16', 'lora_llm_output_path', 'merged_model_output_paths')
 ```
 
 If you finetune the finetuned model (BAAI/bge-reranker-v2-minicpm-layerwise)
 
 ```shell
-from FlagEmbedding.llm_reranker.merge import merge_layerwise_finetuned_llm
+from FlagEmbedding_Aizip.llm_reranker.merge import merge_layerwise_finetuned_llm
 merge_layerwise_finetuned_llm('BAAI/bge-reranker-v2-minicpm-layerwise', 'lora_llm_output_path', 'merged_model_output_paths')
 ```
 

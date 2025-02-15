@@ -6,7 +6,7 @@ setup(
     description='visual_bge',
     long_description="./README.md",
     long_description_content_type="text/markdown",
-    url='https://github.com/FlagOpen/FlagEmbedding/tree/master/research/visual_bge',
+    url='https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/visual_bge',
     packages=find_packages(),
     install_requires=[
         'torchvision',

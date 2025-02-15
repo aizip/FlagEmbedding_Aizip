@@ -15,7 +15,7 @@ Or by running:
 
 .. code:: bash
 
-    python -m FlagEmbedding.evaluation.beir \
+    python -m FlagEmbedding_Aizip.evaluation.beir \
     --eval_name beir \
     --dataset_dir ./beir/data \
     --dataset_names fiqa arguana cqadupstack \

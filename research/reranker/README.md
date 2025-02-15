@@ -7,14 +7,14 @@ You can get a relevance score by inputting query and passage to the reranker.
 The reranker is optimized based cross-entropy loss, so the relevance score is not bounded to a specific range.
 
 
-### Using FlagEmbedding
+### Using FlagEmbedding_Aizip
 ```
-pip install -U FlagEmbedding
+pip install -U FlagEmbedding_Aizip
 ```
 
 Get relevance scores (higher scores indicate more relevance):
 ```python
-from FlagEmbedding import FlagReranker
+from FlagEmbedding_Aizip import FlagReranker
 reranker = FlagReranker('BAAI/bge-reranker-large', use_fp16=True) # Setting use_fp16 to True speeds up computation with a slight performance degradation
 
 score = reranker.compute_score(['query', 'passage'])
@@ -45,7 +45,7 @@ with torch.no_grad():
 
 ## Fine-tune
 
-You can follow this [example](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/reranker#1-standard-model) to fine-tune the reranker.
+You can follow this [example](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/reranker#1-standard-model) to fine-tune the reranker.
 
 This reranker is initialized from [xlm-roberta-base](https://huggingface.co/xlm-roberta-base), and we train it on a mixture of multilingual datasets:
 - Chinese: 788,491 text pairs from [T2ranking](https://huggingface.co/datasets/THUIR/T2Ranking), [MMmarco](https://github.com/unicamp-dl/mMARCO), [dulreader](https://github.com/baidu/DuReader), [Cmedqa-v2](https://github.com/zhangsheng93/cMedQA2), and [nli-zh](https://huggingface.co/datasets/shibing624/nli_zh)
@@ -61,7 +61,7 @@ Currently, this model mainly supports Chinese and English, and may see performan
 
 ## Evaluation
 
-You can evaluate the reranker using our [c-mteb script](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/C_MTEB#evaluate-reranker)
+You can evaluate the reranker using our [c-mteb script](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/C_MTEB#evaluate-reranker)
 
 | Model | T2Reranking | T2RerankingZh2En\* | T2RerankingEn2Zh\* | MmarcoReranking | CMedQAv1 | CMedQAv2 |  Avg  |  
 |:-------------------------------|:-----------:|:------------------:|:------------------:|:---------------:|:--------:|:--------:|:-----:|  

@@ -4,7 +4,7 @@
 .. Introduction
 .. ------------
 
-.. `C-MTEB <https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB>`_ is a benchmark for chinese text embedding. It contains 35
+.. `C-MTEB <https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/C_MTEB>`_ is a benchmark for chinese text embedding. It contains 35
 .. datasets in 6 different tasks, providing a comprehensive evaluation to the quality of an embedding model on Chinese.
 
 
@@ -22,12 +22,12 @@
 
 ..     pip install -U C_MTEB
 
-.. or install by FlagEmbedding's repo:
+.. or install by FlagEmbedding_Aizip's repo:
 
 .. .. code:: bash
 
-..     git clone https://github.com/FlagOpen/FlagEmbedding.git
-..     cd FlagEmbedding/C_MTEB
+..     git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+..     cd FlagEmbedding_Aizip/C_MTEB
 ..     pip install -e .
 
 .. Citing the Work

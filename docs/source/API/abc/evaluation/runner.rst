@@ -1,4 +1,4 @@
 runner
 ======
 
-.. autoclass:: FlagEmbedding.abc.evaluation.AbsEvalRunner
+.. autoclass:: FlagEmbedding_Aizip.abc.evaluation.AbsEvalRunner

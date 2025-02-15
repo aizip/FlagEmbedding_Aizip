@@ -16,7 +16,7 @@ Or by running:
 
 .. code:: bash
 
-    python -m FlagEmbedding.evaluation.air_bench \
+    python -m FlagEmbedding_Aizip.evaluation.air_bench \
     --benchmark_version AIR-Bench_24.05 \
     --task_types qa long-doc \
     --domains arxiv \

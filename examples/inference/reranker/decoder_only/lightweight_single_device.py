@@ -1,5 +1,5 @@
 import os
-from FlagEmbedding import LightWeightFlagLLMReranker
+from FlagEmbedding_Aizip import LightWeightFlagLLMReranker
 
 
 def test_base_multi_devices():

@@ -5,7 +5,7 @@ from typing import List
 import numpy as np
 import pytrec_eval
 from transformers import HfArgumentParser
-from FlagEmbedding import FlagReranker
+from FlagEmbedding_Aizip import FlagReranker
 
 @dataclass
 class Args():

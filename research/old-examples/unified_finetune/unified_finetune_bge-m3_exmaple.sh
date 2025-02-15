@@ -83,7 +83,7 @@ full_options="
   --use_self_distill True
   "
 
-run_cmd="$LAUNCHER --module FlagEmbedding.BGE_M3.run ${full_options}"
+run_cmd="$LAUNCHER --module FlagEmbedding_Aizip.BGE_M3.run ${full_options}"
 echo ${run_cmd}
 eval ${run_cmd} 2>&1 | tee $SAVE_PATH/output.log
 

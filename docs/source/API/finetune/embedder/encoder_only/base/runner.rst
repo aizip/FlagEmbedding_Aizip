@@ -1,5 +1,5 @@
 Runner
 ======
 
-.. autoclass:: FlagEmbedding.finetune.embedder.encoder_only.base.EncoderOnlyEmbedderRunner
+.. autoclass:: FlagEmbedding_Aizip.finetune.embedder.encoder_only.base.EncoderOnlyEmbedderRunner
     :members:

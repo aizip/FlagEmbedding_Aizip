@@ -57,12 +57,12 @@ html_theme_options = {
     "icon_links":[
         {
             "name": "GitHub",
-            "url": "https://github.com/FlagOpen/FlagEmbedding",
+            "url": "https://github.com/FlagOpen/FlagEmbedding_Aizip",
             "icon": "fa-brands fa-github",
         },
         {
             "name": "PyPI",
-            "url": "https://pypi.org/project/FlagEmbedding/",
+            "url": "https://pypi.org/project/FlagEmbedding_Aizip/",
             "icon": "fa-brands fa-python",
         },
         {

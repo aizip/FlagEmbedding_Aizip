@@ -1,5 +1,5 @@
 evaluator
 =========
 
-.. autoclass:: FlagEmbedding.evaluation.mkqa.MKQAEvaluator
+.. autoclass:: FlagEmbedding_Aizip.evaluation.mkqa.MKQAEvaluator
     :members:

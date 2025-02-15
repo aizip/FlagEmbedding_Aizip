@@ -1,4 +1,4 @@
 arguments
 =========
 
-.. autoclass:: FlagEmbedding.evaluation.mteb.arguments.MTEBEvalArgs
+.. autoclass:: FlagEmbedding_Aizip.evaluation.mteb.arguments.MTEBEvalArgs

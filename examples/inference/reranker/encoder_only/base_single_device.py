@@ -1,5 +1,5 @@
 import os
-from FlagEmbedding import FlagReranker
+from FlagEmbedding_Aizip import FlagReranker
 
 
 def test_base_multi_devices():

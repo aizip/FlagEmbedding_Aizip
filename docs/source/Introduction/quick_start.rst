@@ -5,7 +5,7 @@ First, load one of the BGE embedding model:
 
 .. code:: python
 
-    from FlagEmbedding import FlagAutoModel
+    from FlagEmbedding_Aizip import FlagAutoModel
 
     model = FlagAutoModel.from_finetuned('BAAI/bge-base-en-v1.5')
 

@@ -15,14 +15,14 @@ In this example, we show how to **inference**, **finetune** and **evaluate** the
 * **with pip**
 
 ```shell
-pip install -U FlagEmbedding
+pip install -U FlagEmbedding_Aizip
 ```
 
 * **from source**
 
 ```shell
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip
 pip install  .
 ```
 
@@ -34,12 +34,12 @@ pip install -e .
 
 ## 3. Inference
 
-We have provided the inference code for two types of models: the **embedder** and the **reranker**. These can be loaded using `FlagAutoModel` and `FlagAutoReranker`, respectively. For more detailed instructions on their use, please refer to the documentation for the [embedder](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/embedder) and [reranker](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/reranker).
+We have provided the inference code for two types of models: the **embedder** and the **reranker**. These can be loaded using `FlagAutoModel` and `FlagAutoReranker`, respectively. For more detailed instructions on their use, please refer to the documentation for the [embedder](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/embedder) and [reranker](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/reranker).
 
 ### 1. Embedder
 
 ```python
-from FlagEmbedding import FlagAutoModel
+from FlagEmbedding_Aizip import FlagAutoModel
 sentences_1 = ["样例数据-1", "样例数据-2"]
 sentences_2 = ["样例数据-3", "样例数据-4"]
 model = FlagAutoModel.from_finetuned('BAAI/bge-large-zh-v1.5', 
@@ -64,7 +64,7 @@ print(scores)
 ### 2. Reranker
 
 ```python
-from FlagEmbedding import FlagAutoReranker
+from FlagEmbedding_Aizip import FlagAutoReranker
 pairs = [("样例数据-1", "样例数据-3"), ("样例数据-2", "样例数据-4")]
 model = FlagAutoReranker.from_finetuned('BAAI/bge-reranker-large',
                                         use_fp16=True,
@@ -79,7 +79,7 @@ print(scores)
 
 ## 4. Finetune
 
-We support fine-tuning a variety of BGE series models, including `bge-large-en-v1.5`, `bge-m3`, `bge-en-icl`, `bge-multilingual-gemma2`, `bge-reranker-v2-m3`, `bge-reranker-v2-gemma`, and `bge-reranker-v2-minicpm-layerwise`, among others. As examples, we use the basic models `bge-large-en-v1.5` and `bge-reranker-large`. For more details, please refer to the [embedder](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder) and [reranker](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/reranker) sections.
+We support fine-tuning a variety of BGE series models, including `bge-large-en-v1.5`, `bge-m3`, `bge-en-icl`, `bge-multilingual-gemma2`, `bge-reranker-v2-m3`, `bge-reranker-v2-gemma`, and `bge-reranker-v2-minicpm-layerwise`, among others. As examples, we use the basic models `bge-large-en-v1.5` and `bge-reranker-large`. For more details, please refer to the [embedder](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/embedder) and [reranker](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/reranker) sections.
 
 If you do not have the `deepspeed` and `flash-attn` packages installed, you can install them with the following commands:
 ```shell
@@ -91,7 +91,7 @@ pip install flash-attn --no-build-isolation
 
 ```shell
 torchrun --nproc_per_node 2 \
-    -m FlagEmbedding.finetune.embedder.encoder_only.base \
+    -m FlagEmbedding_Aizip.finetune.embedder.encoder_only.base \
     --model_name_or_path BAAI/bge-large-en-v1.5 \
     --cache_dir ./cache/model \
     --train_data ./finetune/embedder/example_data/retrieval \
@@ -126,7 +126,7 @@ torchrun --nproc_per_node 2 \
 
 ```shell
 torchrun --nproc_per_node 2 \
-    -m FlagEmbedding.finetune.reranker.encoder_only.base \
+    -m FlagEmbedding_Aizip.finetune.reranker.encoder_only.base \
     --model_name_or_path BAAI/bge-reranker-large \
     --cache_dir ./cache/model \
     --train_data ./finetune/reranker/example_data/normal/examples.jsonl \
@@ -154,12 +154,12 @@ torchrun --nproc_per_node 2 \
 
 ## 5. Evaluation
 
-We support evaluations on [MTEB](https://github.com/embeddings-benchmark/mteb), [BEIR](https://github.com/beir-cellar/beir), [MSMARCO](https://microsoft.github.io/msmarco/), [MIRACL](https://github.com/project-miracl/miracl), [MLDR](https://huggingface.co/datasets/Shitao/MLDR), [MKQA](https://github.com/apple/ml-mkqa), [AIR-Bench](https://github.com/AIR-Bench/AIR-Bench), and custom datasets. Below is an example of evaluating MSMARCO passages. For more details, please refer to the [evaluation examples](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/evaluation).
+We support evaluations on [MTEB](https://github.com/embeddings-benchmark/mteb), [BEIR](https://github.com/beir-cellar/beir), [MSMARCO](https://microsoft.github.io/msmarco/), [MIRACL](https://github.com/project-miracl/miracl), [MLDR](https://huggingface.co/datasets/Shitao/MLDR), [MKQA](https://github.com/apple/ml-mkqa), [AIR-Bench](https://github.com/AIR-Bench/AIR-Bench), and custom datasets. Below is an example of evaluating MSMARCO passages. For more details, please refer to the [evaluation examples](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/evaluation).
 
 ```shell
 pip install pytrec_eval
 pip install https://github.com/kyamagu/faiss-wheels/releases/download/v1.7.3/faiss_gpu-1.7.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-python -m FlagEmbedding.evaluation.msmarco \
+python -m FlagEmbedding_Aizip.evaluation.msmarco \
     --eval_name msmarco \
     --dataset_dir ./data/msmarco \
     --dataset_names passage \

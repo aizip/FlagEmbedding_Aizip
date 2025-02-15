@@ -1,4 +1,4 @@
 Evaluator
 =========
 
-.. autoclass:: FlagEmbedding.abc.evaluation.AbsEvaluator
+.. autoclass:: FlagEmbedding_Aizip.abc.evaluation.AbsEvaluator

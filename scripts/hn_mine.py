@@ -7,8 +7,8 @@ from dataclasses import dataclass, field
 
 import faiss
 from transformers import HfArgumentParser
-from FlagEmbedding import FlagAutoModel
-from FlagEmbedding.abc.inference import AbsEmbedder
+from FlagEmbedding_Aizip import FlagAutoModel
+from FlagEmbedding_Aizip.abc.inference import AbsEmbedder
 
 
 @dataclass

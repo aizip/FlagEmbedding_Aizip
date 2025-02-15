@@ -1,4 +1,4 @@
 arguments
 =========
 
-.. autoclass:: FlagEmbedding.evaluation.air_bench.AIRBenchEvalModelArgs
+.. autoclass:: FlagEmbedding_Aizip.evaluation.air_bench.AIRBenchEvalModelArgs

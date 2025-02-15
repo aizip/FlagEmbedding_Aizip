@@ -1,5 +1,5 @@
 Trainer
 =======
 
-.. autoclass:: FlagEmbedding.finetune.reranker.decoder_only.base.DecoderOnlyRerankerTrainer
+.. autoclass:: FlagEmbedding_Aizip.finetune.reranker.decoder_only.base.DecoderOnlyRerankerTrainer
     :members:

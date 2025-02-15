@@ -55,7 +55,7 @@ To use BGE v1 or v1.5 model for inference, load model through
 
 .. code:: python
 
-    from FlagEmbedding import FlagModel
+    from FlagEmbedding_Aizip import FlagModel
 
     model = FlagModel('BAAI/bge-base-en-v1.5')
 
@@ -94,6 +94,6 @@ Useful Links:
 
 `API <../API/inference/embedder/encoder_only/BaseEmbedder>`_
 
-`Tutorial <https://github.com/FlagOpen/FlagEmbedding/blob/master/Tutorials/1_Embedding/1.2.3_BGE_v1%261.5.ipynb>`_
+`Tutorial <https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/Tutorials/1_Embedding/1.2.3_BGE_v1%261.5.ipynb>`_
 
-`Example <https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/embedder/encoder_only>`_
+`Example <https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/embedder/encoder_only>`_

@@ -1,5 +1,5 @@
 import os
-from FlagEmbedding import FlagAutoModel
+from FlagEmbedding_Aizip import FlagAutoModel
 
 
 def test_base_multi_devices():

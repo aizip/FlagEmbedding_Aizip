@@ -1,4 +1,4 @@
 Arguments
 =========
 
-.. autoclass:: FlagEmbedding.finetune.reranker.decoder_only.base.RerankerModelArguments
+.. autoclass:: FlagEmbedding_Aizip.finetune.reranker.decoder_only.base.RerankerModelArguments

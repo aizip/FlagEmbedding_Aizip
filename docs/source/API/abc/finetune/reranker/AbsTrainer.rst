@@ -5,9 +5,9 @@ AbsTrainer
 AbsRerankerTrainer
 ==================
 
-.. autoclass:: FlagEmbedding.abc.finetune.reranker.AbsRerankerTrainer
+.. autoclass:: FlagEmbedding_Aizip.abc.finetune.reranker.AbsRerankerTrainer
 
 Methods
 -------
 
-.. automethod:: FlagEmbedding.abc.finetune.reranker.AbsRerankerTrainer.compute_loss
+.. automethod:: FlagEmbedding_Aizip.abc.finetune.reranker.AbsRerankerTrainer.compute_loss

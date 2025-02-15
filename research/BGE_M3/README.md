@@ -1,4 +1,4 @@
-# BGE-M3 ([paper](https://arxiv.org/pdf/2402.03216.pdf), [code](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/BGE_M3))
+# BGE-M3 ([paper](https://arxiv.org/pdf/2402.03216.pdf), [code](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/BGE_M3))
 
 In this project, we introduce BGE-M3, which is distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity. 
 - Multi-Functionality: It can simultaneously perform the three common retrieval functionalities of embedding model: dense retrieval, multi-vector retrieval, and sparse retrieval. 
@@ -18,7 +18,7 @@ To use hybrid retrieval, you can refer to [Vespa](https://github.com/vespa-engin
 ) and [Milvus](https://github.com/milvus-io/pymilvus/blob/master/examples/hello_hybrid_sparse_dense.py).
 
 - As cross-encoder models, re-ranker demonstrates higher accuracy than bi-encoder embedding model. 
-Utilizing the re-ranking model (e.g., [bge-reranker](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/reranker#2-normal-reranker), [bge-reranker-v2](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/reranker#3-llm-based-reranker)) after retrieval can further filter the selected text.
+Utilizing the re-ranking model (e.g., [bge-reranker](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/reranker#2-normal-reranker), [bge-reranker-v2](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/reranker#3-llm-based-reranker)) after retrieval can further filter the selected text.
 
 
 ## News:
@@ -34,8 +34,8 @@ Utilizing the re-ranking model (e.g., [bge-reranker](https://github.com/FlagOpen
 - 2024/3/20: **Thanks Milvus team!** Now you can use hybrid retrieval of bge-m3 in Milvus: [pymilvus/examples
 /hello_hybrid_sparse_dense.py](https://github.com/milvus-io/pymilvus/blob/master/examples/hello_hybrid_sparse_dense.py).
 - 2024/3/8: **Thanks for the [experimental results](https://towardsdatascience.com/openai-vs-open-source-multilingual-embedding-models-e5ccb7c90f05) from @[Yannael](https://huggingface.co/Yannael). In this benchmark, BGE-M3 achieves top performance in both English and other languages, surpassing models such as OpenAI.**
-- 2024/3/2: Release unified fine-tuning [example](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder#2-bge-m3) and [data](https://huggingface.co/datasets/Shitao/bge-m3-data) 
-- 2024/2/6: We release the [MLDR](https://huggingface.co/datasets/Shitao/MLDR) (a long document retrieval dataset covering 13 languages) and [evaluation pipeline](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/C_MTEB/MLDR). 
+- 2024/3/2: Release unified fine-tuning [example](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/embedder#2-bge-m3) and [data](https://huggingface.co/datasets/Shitao/bge-m3-data) 
+- 2024/2/6: We release the [MLDR](https://huggingface.co/datasets/Shitao/MLDR) (a long document retrieval dataset covering 13 languages) and [evaluation pipeline](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/research/C_MTEB/MLDR). 
 - 2024/2/1: **Thanks for the excellent tool from Vespa.** You can easily use multiple modes of BGE-M3 following this [notebook](https://github.com/vespa-engine/pyvespa/blob/master/docs/sphinx/source/examples/mother-of-all-embedding-models-cloud.ipynb)
 
 
@@ -65,7 +65,7 @@ Utilizing the re-ranking model (e.g., [bge-reranker](https://github.com/FlagOpen
 
 **1. Introduction for different retrieval methods**
 
-- Dense retrieval: map the text into a single embedding, e.g., [DPR](https://arxiv.org/abs/2004.04906), [BGE-v1.5](https://github.com/FlagOpen/FlagEmbedding)
+- Dense retrieval: map the text into a single embedding, e.g., [DPR](https://arxiv.org/abs/2004.04906), [BGE-v1.5](https://github.com/FlagOpen/FlagEmbedding_Aizip)
 - Sparse retrieval (lexical matching): a vector of size equal to the vocabulary, with the majority of positions set to zero, calculating a weight only for tokens present in the text. e.g., BM25, [unicoil](https://arxiv.org/pdf/2106.14807.pdf), and [splade](https://arxiv.org/abs/2107.05720)
 - Multi-vector retrieval: use multiple vectors to represent a text, e.g., [ColBERT](https://arxiv.org/abs/2004.12832).
 
@@ -81,10 +81,10 @@ For hybrid retrieval, you can use [Vespa](https://github.com/vespa-engine/pyvesp
 
 **3. How to fine-tune bge-M3 model?**
 
-You can follow the common in this [example](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder#1-standard-model) 
+You can follow the common in this [example](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/embedder#1-standard-model) 
 to fine-tune the dense embedding.
 
-If you want to fine-tune all embedding function of m3 (dense, sparse and colbert), you can refer to the [unified_fine-tuning example](https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune/embedder#2-bge-m3)
+If you want to fine-tune all embedding function of m3 (dense, sparse and colbert), you can refer to the [unified_fine-tuning example](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/finetune/embedder#2-bge-m3)
 
 
 
@@ -95,13 +95,13 @@ If you want to fine-tune all embedding function of m3 (dense, sparse and colbert
 
 Install: 
 ```
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip
 pip install -e .
 ```
 or: 
 ```
-pip install -U FlagEmbedding
+pip install -U FlagEmbedding_Aizip
 ```
 
 
@@ -110,7 +110,7 @@ pip install -U FlagEmbedding
 
 - Dense Embedding
 ```python
-from FlagEmbedding import BGEM3FlagModel
+from FlagEmbedding_Aizip import BGEM3FlagModel
 
 model = BGEM3FlagModel('BAAI/bge-m3',  
                        use_fp16=True,
@@ -130,12 +130,12 @@ print(similarity)
 # [[0.6265, 0.3477], [0.3499, 0.678 ]]
 ```
 You also can use sentence-transformers and huggingface transformers to generate dense embeddings.
-Refer to [baai_general_embedding](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/baai_general_embedding#usage) for details.
+Refer to [baai_general_embedding](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/FlagEmbedding_Aizip/baai_general_embedding#usage) for details.
 
 
 - Sparse Embedding (Lexical Weight)
 ```python
-from FlagEmbedding import BGEM3FlagModel
+from FlagEmbedding_Aizip import BGEM3FlagModel
 
 model = BGEM3FlagModel('BAAI/bge-m3',  use_fp16=True) # Setting use_fp16 to True speeds up computation with a slight performance degradation
 
@@ -163,7 +163,7 @@ print(model.compute_lexical_matching_score(output_1['lexical_weights'][0], outpu
 
 - Multi-Vector (ColBERT)
 ```python
-from FlagEmbedding import BGEM3FlagModel
+from FlagEmbedding_Aizip import BGEM3FlagModel
 
 model = BGEM3FlagModel('BAAI/bge-m3',  use_fp16=True) 
 
@@ -184,7 +184,7 @@ print(model.colbert_score(output_1['colbert_vecs'][0], output_2['colbert_vecs'][
 ### Compute score for text pairs
 Input a list of text pairs, you can get the scores computed by different methods.
 ```python
-from FlagEmbedding import BGEM3FlagModel
+from FlagEmbedding_Aizip import BGEM3FlagModel
 
 model = BGEM3FlagModel('BAAI/bge-m3',  use_fp16=True) 
 
@@ -212,7 +212,7 @@ print(model.compute_score(sentence_pairs,
 
 ## Evaluation  
 
-We provide the evaluation script for [MKQA](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB/MKQA) and [MLDR](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB/MLDR)
+We provide the evaluation script for [MKQA](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/C_MTEB/MKQA) and [MLDR](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/C_MTEB/MLDR)
 
 
 ### Benchmarks from the open-source community
@@ -245,7 +245,7 @@ We provide the evaluation script for [MKQA](https://github.com/FlagOpen/FlagEmbe
 
 - Comparison with BM25  
 
-We utilized Pyserini to implement BM25, and the test results can be reproduced by this [script](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB/MLDR#bm25-baseline).
+We utilized Pyserini to implement BM25, and the test results can be reproduced by this [script](https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/C_MTEB/MLDR#bm25-baseline).
 We tested BM25 using two different tokenizers: 
 one using Lucene Analyzer and the other using the same tokenizer as M3 (i.e., the tokenizer of xlm-roberta). 
 The results indicate that BM25 remains a competitive baseline, 

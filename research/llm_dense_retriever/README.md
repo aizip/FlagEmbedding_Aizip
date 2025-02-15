@@ -44,15 +44,15 @@ pip install flash-attn --no-build-isolation
 
 ## Usage 
 
-### Using FlagEmbedding
+### Using FlagEmbedding_Aizip
 ```
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip
 pip install -e .
 ```
 
 ```python
-from FlagEmbedding import FlagICLModel
+from FlagEmbedding_Aizip import FlagICLModel
 queries = ["how much protein should a female eat", "summit define"]
 documents = [
     "As a general guideline, the CDC's average requirement of protein for women ages 19 to 70 is 46 grams per day. But, as you can see from this chart, you'll need to increase that if you're expecting or training for a marathon. Check out the chart below to see how much protein you should be eating each day.",

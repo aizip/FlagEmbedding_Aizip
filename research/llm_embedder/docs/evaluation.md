@@ -17,7 +17,7 @@ LLM-Embedder supports 6 retrieval-augmentation tasks tailored for modern LLMs, i
 ## Environment
 It is recommended that you create a new environment:
 ```
-cd FlagEmbedding/llm_embedder
+cd FlagEmbedding_Aizip/llm_embedder
 
 conda env create -f environment.yaml --name llm-embedder
 conda activate llm-embedder
@@ -66,7 +66,7 @@ Below are commands to run evaluation for different retrieval models. You can rep
 *Note that you can modify the default value of `data_root` in `src/retrieval/args.py`, so that you don't need to type it for each command.*
 
 ```bash
-cd FlagEmbedding/llm_embedder
+cd FlagEmbedding_Aizip/llm_embedder
 
 # No retrieval
 torchrun --nproc_per_node 8 -m evaluation.eval_popqa --retrieval_method no --data_root /data/llm-embedder

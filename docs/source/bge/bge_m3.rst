@@ -33,7 +33,7 @@ Multi-Functionality
 
 .. code:: python
 
-    from FlagEmbedding import BGEM3FlagModel
+    from FlagEmbedding_Aizip import BGEM3FlagModel
 
     model = BGEM3FlagModel('BAAI/bge-m3')
     sentences_1 = ["What is BGE M3?", "Defination of BM25"]
@@ -108,7 +108,7 @@ Usage
 
 .. code:: python
 
-    from FlagEmbedding import BGEM3FlagModel
+    from FlagEmbedding_Aizip import BGEM3FlagModel
 
     model = BGEM3FlagModel('BAAI/bge-m3')
 
@@ -120,5 +120,5 @@ Usage
 Useful Links:
 
 `API <../API/inference/embedder/encoder_only/M3Embedder>`_
-`Tutorial <https://github.com/FlagOpen/FlagEmbedding/blob/master/Tutorials/1_Embedding/1.2.4_BGE-M3.ipynb>`_
-`Example <https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/inference/embedder/encoder_only>`_
+`Tutorial <https://github.com/FlagOpen/FlagEmbedding_Aizip/blob/master/Tutorials/1_Embedding/1.2.4_BGE-M3.ipynb>`_
+`Example <https://github.com/FlagOpen/FlagEmbedding_Aizip/tree/master/examples/inference/embedder/encoder_only>`_

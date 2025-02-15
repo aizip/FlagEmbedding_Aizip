@@ -1,7 +1,7 @@
 Arguments
 =========
 
-.. autoclass:: FlagEmbedding.abc.evaluation.AbsEvalArgs
+.. autoclass:: FlagEmbedding_Aizip.abc.evaluation.AbsEvalArgs
 
 
-.. autoclass:: FlagEmbedding.abc.evaluation.AbsEvalModelArgs
+.. autoclass:: FlagEmbedding_Aizip.abc.evaluation.AbsEvalModelArgs

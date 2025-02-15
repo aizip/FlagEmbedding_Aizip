@@ -29,8 +29,8 @@ pip install -U C_MTEB
 ```
 Or clone this repo and install as editable
 ```
-git clone https://github.com/FlagOpen/FlagEmbedding.git
-cd FlagEmbedding/research/C_MTEB
+git clone https://github.com/FlagOpen/FlagEmbedding_Aizip.git
+cd FlagEmbedding_Aizip/research/C_MTEB
 pip install -e .
 ```
 

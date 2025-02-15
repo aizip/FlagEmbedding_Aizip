@@ -5,7 +5,7 @@ import numpy as np
 import faiss
 from tqdm import tqdm
 
-from FlagEmbedding import FlagModel
+from FlagEmbedding_Aizip import FlagModel
 
 
 def get_args():

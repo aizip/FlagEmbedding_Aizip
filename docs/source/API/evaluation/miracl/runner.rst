@@ -1,5 +1,5 @@
 runner
 ======
 
-.. autoclass:: FlagEmbedding.evaluation.miracl.MIRACLEvalRunner
+.. autoclass:: FlagEmbedding_Aizip.evaluation.miracl.MIRACLEvalRunner
     :members:
