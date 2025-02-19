@@ -23,7 +23,7 @@ class BEIREvalDataLoader(AbsEvalDataLoader):
         Returns:
             List[str]: All the available dataset names.
         """
-        return ['aizip_tesla', 'arguana', 'climate-fever', 'cqadupstack', 'dbpedia-entity', 'fever', 'fiqa', 'hotpotqa', 'msmarco', 'nfcorpus', 'nq', 'quora', 'scidocs', 'scifact', 'trec-covid', 'webis-touche2020']
+        return ['sb_qna_split_b','sb_qna_split_a', 'sb_qna', 'tesla_manual', 'aizip_tesla', 'arguana', 'climate-fever', 'cqadupstack', 'dbpedia-entity', 'fever', 'fiqa', 'hotpotqa', 'msmarco', 'nfcorpus', 'nq', 'quora', 'scidocs', 'scifact', 'trec-covid', 'webis-touche2020']
 
     def available_sub_dataset_names(self, dataset_name: Optional[str] = None) -> List[str]:
         """

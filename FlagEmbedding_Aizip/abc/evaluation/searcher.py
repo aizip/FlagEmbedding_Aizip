@@ -8,6 +8,7 @@ import torch
 import numpy as np
 from typing import Any, Dict, Optional
 from abc import ABC, abstractmethod
+from mteb.models import overview
 
 from FlagEmbedding_Aizip.abc.inference import AbsEmbedder, AbsReranker
 from FlagEmbedding_Aizip.abc.evaluation.utils import index, search
@@ -66,7 +67,6 @@ class EvalRetriever(ABC):
             Structure: {qid: {docid: score}}. The higher is the score, the more relevant is the document.
             Example: {"q-0": {"doc-0": 0.9}}
         """
-
 
 class EvalDenseRetriever(EvalRetriever):
     """
@@ -155,6 +155,73 @@ class EvalDenseRetriever(EvalRetriever):
                     results[queries_ids[idx]][corpus_ids[indice]] = float(score)
 
         return results
+
+
+class EvalHybridRetriever(EvalDenseRetriever):
+    def __init__(self, embedder: AbsEmbedder, search_top_k: int = 1000, overwrite: bool = False, alpha: float = 1):
+        self.embedder = embedder
+        self.search_top_k = search_top_k
+        self.overwrite = overwrite
+        self.alpha = alpha  
+    def __call__(
+        self,
+        corpus: Dict[str, Dict[str, Any]],
+        queries: Dict[str, str],
+        corpus_embd_save_dir: Optional[str] = None,
+        ignore_identical_ids: bool = False,
+        **kwargs,
+    ) -> Dict[str, Dict[str, float]]:
+        top_k = self.search_top_k
+        self.search_top_k = len(corpus)
+        dense = super().__call__(corpus, queries, corpus_embd_save_dir, ignore_identical_ids, **kwargs)
+        # if self.alpha == 1:
+        #     print("Running Dense Search. (Alpha 1)")
+        #     return dense
+        # elif self.alpha == 0:
+        #     print("Runnnig BM25 Search. (Alpha 0)")
+        # else:
+        #     print("Running Hybrid Search with Alpha:", self.alpha)
+        model = overview.get_model("bm25s", "0_1_10", skip_stemming=True)
+        sparse = model.search(
+            corpus,
+            queries,
+            len(corpus),
+            # self.top_k,
+            score_function="bm25",
+            task_name="aizip_test"
+        )
+        dense_vals = []
+        for d in dense:
+            dense_vals += list(dense[d].values())
+        vals = []
+        for s in sparse:
+            vals += list(sparse[s].values())
+
+        sparse_vals = [np.log1p(s) for s in vals]
+
+        sparse_min = min(sparse_vals)
+        sparse_max = max(sparse_vals)
+        keys = list(dense.keys())
+        sub_keys = list(dense[keys[0]].keys())
+
+        hybrid = {}
+        for key in keys:
+            hybrid[key] = {}
+        for i in range(len(keys)):
+            key = keys[i]
+            for j in range(len(sub_keys)):
+                sub_key = sub_keys[j]
+                # new_dic[key][sub_key] = dense[key][sub_key]
+                d = dense[key][sub_key] 
+                s = ((np.log1p(sparse[key][sub_key]) - sparse_min) / (sparse_max - sparse_min)) 
+                hybrid[key][sub_key] = d * self.alpha + s * (1-self.alpha)
+
+        for outer_key, inner_dict in hybrid.items():
+            # Sort inner dictionary by value and keep top k
+            sorted_inner = dict(sorted(inner_dict.items(), key=lambda item: item[1], reverse=True)[:top_k])
+            hybrid[outer_key] = sorted_inner
+
+        return hybrid
 
 
 class EvalReranker:

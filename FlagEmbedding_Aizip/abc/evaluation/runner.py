@@ -7,7 +7,7 @@ from FlagEmbedding_Aizip import FlagAutoModel, FlagAutoReranker
 
 from .arguments import AbsEvalArgs, AbsEvalModelArgs
 from .evaluator import AbsEvaluator
-from .searcher import EvalDenseRetriever, EvalReranker
+from .searcher import EvalDenseRetriever, EvalReranker, EvalHybridRetriever
 from .data_loader import AbsEvalDataLoader
 
 logger = logging.getLogger(__name__)
@@ -89,7 +89,7 @@ class AbsEvalRunner:
             reranker.model.config._name_or_path = model_args.reranker_name_or_path
         return embedder, reranker
 
-    def load_retriever_and_reranker(self) -> Tuple[EvalDenseRetriever, Union[EvalReranker, None]]:
+    def load_retriever_and_reranker(self) -> Tuple[EvalHybridRetriever, Union[EvalReranker, None]]:
         """Load retriever and reranker for evaluation
 
         Returns:
@@ -97,10 +97,16 @@ class AbsEvalRunner:
                 :class:EvalReranker object if reranker provided.
         """
         embedder, reranker = self.get_models(self.model_args)
-        retriever = EvalDenseRetriever(
+        # retriever = EvalDenseRetriever(
+        #     embedder,
+        #     search_top_k=self.eval_args.search_top_k,
+        #     overwrite=self.eval_args.overwrite
+        # )
+        retriever = EvalHybridRetriever(
             embedder,
             search_top_k=self.eval_args.search_top_k,
-            overwrite=self.eval_args.overwrite
+            overwrite=self.eval_args.overwrite,
+            alpha=self.eval_args.alpha
         )
         if reranker is not None:
             reranker = EvalReranker(reranker, rerank_top_k=self.eval_args.rerank_top_k)

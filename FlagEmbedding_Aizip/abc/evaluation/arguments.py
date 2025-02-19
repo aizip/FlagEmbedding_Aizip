@@ -60,6 +60,9 @@ class AbsEvalArgs:
     ignore_identical_ids: bool = field(
         default=False, metadata={"help": "whether to ignore identical ids in search results"}
     )
+    alpha: float = field(
+        default=1, metadata={"help": "Ratio between dense retrieval and sparse retrieval. 1 is dense and 0 is sparse."}
+    )
     # ================ for evaluation ===============
     k_values: int = field(
         default_factory=lambda: [1, 3, 5, 10, 100, 1000],
