@@ -12,6 +12,8 @@ from .data_loader import AbsEvalDataLoader
 from .searcher import EvalRetriever, EvalReranker
 from .utils import evaluate_metrics, evaluate_mrr
 
+import csv
+
 logger = logging.getLogger(__name__)
 
 
@@ -28,11 +30,17 @@ class AbsEvaluator:
         self,
         eval_name: str,
         data_loader: AbsEvalDataLoader,
+        sparse_data_loader: AbsEvalDataLoader,
         overwrite: bool = False,
+        alpha: float = 1.0,
+        rank_depth: int = 3,
     ):
         self.eval_name = eval_name
         self.data_loader = data_loader
+        self.sparse_data_loader = sparse_data_loader
         self.overwrite = overwrite
+        self.alpha = alpha
+        self.rank_depth = rank_depth
 
     def check_data_info(
         self,
@@ -262,6 +270,7 @@ class AbsEvaluator:
             if not os.path.exists(eval_results_save_path) or self.overwrite or flag:
                 reranker_eval_results = self.evaluate_results(reranker_search_results_save_dir, k_values=k_values)
                 self.output_eval_results_to_json(reranker_eval_results, eval_results_save_path)
+
 
     @staticmethod
     def save_search_results(

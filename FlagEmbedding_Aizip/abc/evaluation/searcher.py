@@ -167,6 +167,8 @@ class EvalHybridRetriever(EvalDenseRetriever):
         self,
         corpus: Dict[str, Dict[str, Any]],
         queries: Dict[str, str],
+        sparse_corpus: Dict[str, Dict[str, Any]] = None,
+        sparse_queries: Dict[str, str] = None,
         corpus_embd_save_dir: Optional[str] = None,
         ignore_identical_ids: bool = False,
         **kwargs,
@@ -182,14 +184,24 @@ class EvalHybridRetriever(EvalDenseRetriever):
         # else:
         #     print("Running Hybrid Search with Alpha:", self.alpha)
         model = overview.get_model("bm25s", "0_1_10", skip_stemming=True)
-        sparse = model.search(
-            corpus,
-            queries,
-            len(corpus),
-            # self.top_k,
-            score_function="bm25",
-            task_name="aizip_test"
-        )
+        if not sparse_corpus:
+            sparse = model.search(
+                corpus,
+                queries,
+                len(corpus),
+                # self.top_k,
+                score_function="bm25",
+                task_name="aizip_test"
+            )
+        else:
+            sparse = model.search(
+                sparse_corpus,
+                sparse_queries,
+                len(sparse_corpus),
+                # self.top_k,
+                score_function="bm25",
+                task_name="aizip_test"
+            )
         dense_vals = []
         for d in dense:
             dense_vals += list(dense[d].values())

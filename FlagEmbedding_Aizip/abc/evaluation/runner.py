@@ -31,6 +31,7 @@ class AbsEvalRunner:
 
         self.retriever, self.reranker = self.load_retriever_and_reranker()
         self.data_loader = self.load_data_loader()
+        self.sparse_data_loader = self.load_sparse_data_loader()
         self.evaluator = self.load_evaluator()
 
     @staticmethod
@@ -127,6 +128,24 @@ class AbsEvalRunner:
         )
         return data_loader
 
+    
+    def load_sparse_data_loader(self) -> AbsEvalDataLoader:
+        """Load the data loader
+
+        Returns:
+            AbsEvalDataLoader: Data loader object for that specific task.
+        """
+        if not self.eval_args.sparse_dataset_dir:
+            return None
+        data_loader = AbsEvalDataLoader(
+            eval_name=self.eval_args.eval_name,
+            dataset_dir=self.eval_args.sparse_dataset_dir,
+            cache_dir=self.eval_args.cache_path,
+            token=self.eval_args.token,
+            force_redownload=self.eval_args.force_redownload,
+        )
+        return data_loader
+
     def load_evaluator(self) -> AbsEvaluator:
         """Load the evaluator for evaluation
 
@@ -136,7 +155,10 @@ class AbsEvalRunner:
         evaluator = AbsEvaluator(
             eval_name=self.eval_args.eval_name,
             data_loader=self.data_loader,
+            sparse_data_loader=self.sparse_data_loader,
             overwrite=self.eval_args.overwrite,
+            alpha=self.eval_args.alpha,
+            rank_depth=self.eval_args.rerank_top_k,
         )
         return evaluator
 

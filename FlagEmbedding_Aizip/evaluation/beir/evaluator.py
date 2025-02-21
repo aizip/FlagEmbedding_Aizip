@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import json
+import csv
 from typing import Dict, Optional, List, Union
 
 from FlagEmbedding_Aizip.abc.evaluation import AbsEvaluator, EvalRetriever, EvalReranker
@@ -119,14 +120,37 @@ class BEIREvaluator(AbsEvaluator):
                 all_queries = {}
                 for _, split_queries in queries_dict.items():
                     all_queries.update(split_queries)
+                
+                if self.sparse_data_loader:
+                    sparse_corpus = self.sparse_data_loader.load_corpus(dataset_name=dataset_name)
 
-                all_no_reranker_search_results = retriever(
-                    corpus=corpus,
-                    queries=all_queries,
-                    corpus_embd_save_dir=corpus_embd_save_dir,
-                    ignore_identical_ids=ignore_identical_ids,
-                    **kwargs,
-                )
+                    sparse_queries_dict = {
+                        split: self.sparse_data_loader.load_queries(dataset_name=dataset_name, split=split)
+                        for split in splits
+                    }
+
+                    sparse_all_queries = {}
+                    for _, split_queries in sparse_queries_dict.items():
+                        sparse_all_queries.update(split_queries)
+
+                    all_no_reranker_search_results = retriever(
+                        corpus=corpus,
+                        queries=all_queries,
+                        sparse_corpus=sparse_corpus,
+                        sparse_queries=sparse_all_queries,
+                        corpus_embd_save_dir=corpus_embd_save_dir,
+                        ignore_identical_ids=ignore_identical_ids,
+                        **kwargs,
+                    )
+                    
+                else:
+                    all_no_reranker_search_results = retriever(
+                        corpus=corpus,
+                        queries=all_queries,
+                        corpus_embd_save_dir=corpus_embd_save_dir,
+                        ignore_identical_ids=ignore_identical_ids,
+                        **kwargs,
+                    )
 
                 for split in splits:
                     split_queries = queries_dict[split]
@@ -214,6 +238,24 @@ class BEIREvaluator(AbsEvaluator):
                 if not os.path.exists(eval_results_save_path) or self.overwrite or flag:
                     reranker_eval_results = self.evaluate_results(reranker_search_results_save_dir, k_values=k_values)
                     self.output_eval_results_to_json(reranker_eval_results, eval_results_save_path)
+
+                    # Append to csv
+                    results = reranker_eval_results[list(reranker_eval_results.keys())[0]]
+
+                    recall_3 = results["recall_at_3"]
+                    recall_4 = results["recall_at_4"]
+                    recall_5 = results["recall_at_5"]
+                    data = [
+                        # ["dataset_name", "embed_model", "rerank_model", "alpha", "rerank_depth", "recall@3", "recall@4", "recall@5", "Notes"],\
+                        [dataset_name, str(retriever), str(reranker), self.alpha, self.rank_depth, recall_3, recall_4, recall_5]
+                    ]
+                    results_fpath = "/home/jinho/FlagEmbedding_Aizip/beir/aizip/master_results.csv"
+
+                    with open(results_fpath, mode='a', newline='') as file:
+                        writer = csv.writer(file)
+                        writer.writerows(data)  # Write the dummy data
+                    
+                    print("Appended results to", results_fpath)
         else:
             for sub_dataset_name in sub_dataset_names:
                 if dataset_name is not None:
@@ -251,13 +293,36 @@ class BEIREvaluator(AbsEvaluator):
                     for _, split_queries in queries_dict.items():
                         all_queries.update(split_queries)
 
-                    all_no_reranker_search_results = retriever(
-                        corpus=corpus,
-                        queries=all_queries,
-                        corpus_embd_save_dir=corpus_embd_save_dir,
-                        ignore_identical_ids=ignore_identical_ids,
-                        **kwargs,
-                    )
+                    if self.sparse_data_loader:
+                        sparse_corpus = self.sparse_data_loader.load_corpus(dataset_name=dataset_name)
+
+                        sparse_queries_dict = {
+                            split: self.sparse_data_loader.load_queries(dataset_name=dataset_name, split=split)
+                            for split in splits
+                        }
+
+                        sparse_all_queries = {}
+                        for _, split_queries in sparse_queries_dict.items():
+                            sparse_all_queries.update(split_queries)
+
+                        all_no_reranker_search_results = retriever(
+                            corpus=corpus,
+                            queries=all_queries,
+                            sparse_corpus=sparse_corpus,
+                            sparse_queries=sparse_all_queries,
+                            corpus_embd_save_dir=corpus_embd_save_dir,
+                            ignore_identical_ids=ignore_identical_ids,
+                            **kwargs,
+                        )
+                        
+                    else:
+                        all_no_reranker_search_results = retriever(
+                            corpus=corpus,
+                            queries=all_queries,
+                            corpus_embd_save_dir=corpus_embd_save_dir,
+                            ignore_identical_ids=ignore_identical_ids,
+                            **kwargs,
+                        )
 
                     for split in splits:
                         split_queries = queries_dict[split]
@@ -298,6 +363,25 @@ class BEIREvaluator(AbsEvaluator):
                 if not os.path.exists(eval_results_save_path) or self.overwrite or flag:
                     retriever_eval_results = self.evaluate_results(no_reranker_search_results_save_dir, k_values=k_values)
                     self.output_eval_results_to_json(retriever_eval_results, eval_results_save_path)
+
+                    # Append to csv
+
+                    results = retriever_eval_results[list(retriever_eval_results.keys())[0]]
+
+                    recall_3 = results["recall_at_3"]
+                    recall_4 = results["recall_at_4"]
+                    recall_5 = results["recall_at_5"]
+                    data = [
+                        # ["dataset_name", "embed_model", "rerank_model", "alpha", "rerank_depth", "recall@3", "recall@4", "recall@5", "Notes"],\
+                        [dataset_name, str(retriever), "NoReranker", self.alpha, self.rank_depth, recall_3, recall_4, recall_5]
+                    ]
+                    results_fpath = "/home/jinho/FlagEmbedding_Aizip/beir/aizip/master_results.csv"
+
+                    with open(results_fpath, mode='a', newline='') as file:
+                        writer = csv.writer(file)
+                        writer.writerows(data)  # Write the dummy data
+                    
+                    print("Appended results to", results_fpath)
 
                 # Reranking Stage
                 if reranker is not None:

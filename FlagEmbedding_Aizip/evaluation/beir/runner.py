@@ -75,6 +75,23 @@ class BEIREvalRunner(AbsEvalRunner):
         )
         return data_loader
 
+    def load_sparse_data_loader(self) -> BEIREvalDataLoader:
+        """Load the data loader
+
+        Returns:
+            AbsEvalDataLoader: Data loader object for that specific task.
+        """
+        if not self.eval_args.sparse_dataset_dir:
+            return None
+        data_loader = BEIREvalDataLoader(
+            eval_name=self.eval_args.eval_name,
+            dataset_dir=self.eval_args.sparse_dataset_dir,
+            cache_dir=self.eval_args.cache_path,
+            token=self.eval_args.token,
+            force_redownload=self.eval_args.force_redownload,
+        )
+        return data_loader
+
     def load_evaluator(self) -> BEIREvaluator:
         """Load the evaluator for evaluation
 
@@ -84,6 +101,9 @@ class BEIREvalRunner(AbsEvalRunner):
         evaluator = BEIREvaluator(
             eval_name=self.eval_args.eval_name,
             data_loader=self.data_loader,
+            sparse_data_loader=self.sparse_data_loader,
+            alpha=self.eval_args.alpha,
+            rank_depth=self.eval_args.rerank_top_k,
             overwrite=self.eval_args.overwrite,
         )
         return evaluator
