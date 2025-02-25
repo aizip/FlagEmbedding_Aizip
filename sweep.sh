@@ -8,7 +8,7 @@ timestamp=$(date +"%Y%m%d_%H%M")
 # timestamp="20250215_0116"
 
 dataset_name="sb_qna"  # Add more dataset names as needed
-OUTPUT_DIR="/home/jinho/FlagEmbedding_Aizip/beir/aizip/results_hybrid/$dataset_name/${timestamp}"
+OUTPUT_DIR="/home/jinho/FlagEmbedding_Aizip/beir/aizip/sweep_results/$dataset_name/${timestamp}"
 
 metadata_file="${OUTPUT_DIR}/metadata.txt"
 
@@ -17,8 +17,8 @@ mkdir -p "$OUTPUT_DIR"
 mkdir -p "$OUTPUT_DIR/results"
 
 # Rank depths and alpha values
-rank_depths=(3 4 5 6 7)
-alpha_values=(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0)
+rank_depths=(3)
+alpha_values=(0.1)
 
 # embedder_name_or_path="BAAI/bge-m3"   # Define embedder name/path
 embedder_name_or_path="intfloat/multilingual-e5-large"
@@ -67,7 +67,7 @@ for alpha in "${alpha_values[@]}"; do
         # Run the evaluation command with all parameters
         python -m FlagEmbedding_Aizip.evaluation.beir \
             --eval_name beir \
-            --dataset_dir /home/jinho/FlagEmbedding_Aizip/beir/data \
+            --dataset_dir /home/jinho/FlagEmbedding_Aizip/dataset \
             --dataset_names $dataset_name \
             --splits test \
             --corpus_embd_save_dir /home/jinho/FlagEmbedding_Aizip/beir/aizip/corpus_embd \
@@ -88,7 +88,7 @@ for alpha in "${alpha_values[@]}"; do
             --reranker_batch_size 1024 \
             --devices cuda:0 \
             --alpha $alpha \
-            --sparse_dataset_dir /home/jinho/FlagEmbedding_Aizip/beir/data/split_b
+            --sparse_dataset_dir /home/jinho/FlagEmbedding_Aizip/dataset/sudachi_split_b
 
     done
 done
