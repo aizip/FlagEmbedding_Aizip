@@ -125,6 +125,7 @@ E5_MAPPING = OrderedDict([
     (
         "multilingual-e5-large",
         EmbedderConfig(FlagModel, PoolingMethod.MEAN)
+        # EmbedderConfig(FlagModel, PoolingMethod.CLS)
     ),
     (
         "multilingual-e5-base",

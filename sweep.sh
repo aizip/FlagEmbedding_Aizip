@@ -20,7 +20,8 @@ mkdir -p "$OUTPUT_DIR/results"
 rank_depths=(3 4 5 6 7)
 alpha_values=(0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0)
 
-embedder_name_or_path="intfloat/multilingual-e5-large"   # Define embedder name/path
+# embedder_name_or_path="BAAI/bge-m3"   # Define embedder name/path
+embedder_name_or_path="intfloat/multilingual-e5-large"
 reranker_name_or_path="BAAI/bge-reranker-v2-m3"  # Define reranker name/path
 
 # Write metadata
@@ -70,11 +71,12 @@ for alpha in "${alpha_values[@]}"; do
             --dataset_names $dataset_name \
             --splits test \
             --corpus_embd_save_dir /home/jinho/FlagEmbedding_Aizip/beir/aizip/corpus_embd \
-            --output_dir /home/jinho/FlagEmbedding_Aizip/beir/aizip/search_result/${timestamp} \
+            --output_dir /home/jinho/FlagEmbedding_Aizip/beir/aizip/search_result/$dataset_name/${timestamp}/alpha_${alpha}_rank_${rank_depth} \
             --search_top_k $rank_depth \
             --rerank_top_k $rank_depth \
             --cache_path /home/jinho/.cache/huggingface/hub \
             --overwrite True \
+            --pooling_method mean \
             --k_values 3 4 5 \
             --eval_output_method json \
             --eval_output_path "$OUTPUT_PATH" \
