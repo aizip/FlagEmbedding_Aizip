@@ -175,7 +175,8 @@ class EvalHybridRetriever(EvalDenseRetriever):
     ) -> Dict[str, Dict[str, float]]:
         top_k = self.search_top_k
         self.search_top_k = len(corpus)
-        dense = super().__call__(corpus, queries, corpus_embd_save_dir, ignore_identical_ids, **kwargs)
+        # Get the vector similarity scores.
+        dense = super().__call__(corpus, queries, corpus_embd_save_dir, ignore_identical_ids, **kwargs) 
         # if self.alpha == 1:
         #     print("Running Dense Search. (Alpha 1)")
         #     return dense
@@ -185,6 +186,7 @@ class EvalHybridRetriever(EvalDenseRetriever):
         #     print("Running Hybrid Search with Alpha:", self.alpha)
         model = overview.get_model("bm25s", "0_1_10", skip_stemming=True)
         if not sparse_corpus:
+            # You can ignore this part for now.
             sparse = model.search(
                 corpus,
                 queries,
@@ -194,6 +196,7 @@ class EvalHybridRetriever(EvalDenseRetriever):
                 task_name="aizip_test"
             )
         else:
+            # Running BM25 over documents parsed by Suachi.
             sparse = model.search(
                 sparse_corpus,
                 sparse_queries,
@@ -214,22 +217,26 @@ class EvalHybridRetriever(EvalDenseRetriever):
         sparse_min = min(sparse_vals)
         sparse_max = max(sparse_vals)
         keys = list(dense.keys())
-        sub_keys = list(dense[keys[0]].keys())
+        # sub_keys = list(dense[keys[0]].keys())
 
+        # Calculate the hybrid scores.
         hybrid = {}
         for key in keys:
             hybrid[key] = {}
         for i in range(len(keys)):
             key = keys[i]
+            sub_keys = list(dense[key].keys())
             for j in range(len(sub_keys)):
                 sub_key = sub_keys[j]
                 # new_dic[key][sub_key] = dense[key][sub_key]
-                d = dense[key][sub_key] 
+                # print(key, sub_key, keys, sub_keys)
+                l = dense[key]
+                d = l[sub_key] 
                 s = ((np.log1p(sparse[key][sub_key]) - sparse_min) / (sparse_max - sparse_min)) 
                 hybrid[key][sub_key] = d * self.alpha + s * (1-self.alpha)
 
+        # Get the top_k results from hybrid search.
         for outer_key, inner_dict in hybrid.items():
-            # Sort inner dictionary by value and keep top k
             sorted_inner = dict(sorted(inner_dict.items(), key=lambda item: item[1], reverse=True)[:top_k])
             hybrid[outer_key] = sorted_inner
 
